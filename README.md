@@ -1,2 +1,2 @@
 # lysts.github.io
-for lysts.xyz/
+for https://lysts.xyz/
