@@ -7,10 +7,11 @@
     font-family: "Lucida Console", "Courier New", monospace;
     --pane-padding: 0px;
     text-align: left;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-bottom: 100px;
-    max-width: 1500px
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    max-width: 1000px;
 }
 
 hr {
@@ -24,8 +25,8 @@ li {
 }
 
 ::selection {
-    background: #8787ff;
-    color: #E06011;
+    background: #E06011
+    color: #8787ff;
 }
 
 body {
