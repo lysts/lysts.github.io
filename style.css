@@ -10,7 +10,7 @@
     margin-top: 7px;
     margin-left: 10px;
     margin-bottom: 30px;
-    margin-right: 100px;
+    margin-right: 10px;
     max-width: 1000px;
 }
 
@@ -25,19 +25,16 @@ li {
 }
 
 ::selection {
-    background: #E06011
+    background: #E06011;
     color: #8787ff;
 }
 
 body {
-    background-color: snow;
     font-size: 12px;
-    text-align: left;
-    margin: 10px
 }
 
 h1 {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #E06011;
     text-align: left;
 }
