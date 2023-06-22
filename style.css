@@ -14,6 +14,24 @@
     max-width: 1000px;
     --header-height: 30px;
     --footer-height: 30px;
+
+    /*---links--*/
+    a:link {
+        color:#716c83;
+        text-decoration: underline;
+        cursor: auto;
+    }
+
+    a:visited {
+        color:#5751ab;
+        text-decoration: underline;
+        cursor: auto;
+    }
+
+    a:link:active, a:visited:active {
+        color:#E06011;
+    }
+
 }
 
 
@@ -32,7 +50,7 @@ ul.breadcrumb ul {
 }
     
 ul.breadcrumb li:not(:last-child)::after {
-    display: inline-block;
+    display: flex;
     margin: 0 .25rem;
     content: "/";
 }
@@ -41,24 +59,6 @@ ul.breadcrumb li a:hover {
     color: #E06011;
     text-decoration: underline;
 }
-
-/*---links--*/
-a:link {
-    color:#716c83;
-    text-decoration: underline;
-    cursor: auto;
-}
-
-a:visited {
-    color:#5751ab;
-    text-decoration: underline;
-    cursor: auto;
-}
-
-a:link:active, a:visited:active {
-    color:#E06011;
-}
-
 
 hr {
     border: 0;
@@ -71,7 +71,7 @@ li {
 }
 
 ::selection {
-    background: #E0601100;
+    background: #E06011;
     color: #e6e6fa;
 }
 
@@ -79,6 +79,7 @@ body {
     font-size: 12px;
     padding-top: 60px;
     padding-bottom: 40px;
+    text-decoration: none;
 }
 
 h1 {
