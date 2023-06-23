@@ -12,7 +12,6 @@
     margin-bottom: 30px;
     margin-right: 10px;
     max-width: 1000px;
-    --header-height: 30px;
     --footer-height: 30px;
 
     /*---links--*/
@@ -68,7 +67,7 @@ nav.breadcrumb li + li:before {
 }
 
 nav.breadcrumb [aria-current="page"] {
-    color: #e6e6fa
+    color: #e6e6fa;
 }
 
 /*---separators---*/
