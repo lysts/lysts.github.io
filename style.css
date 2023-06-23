@@ -45,7 +45,7 @@
 }
 
 nav.breadcrumb {
-    padding: 0 .5rem;
+    padding: 0 0;
 }
 
 nav.breadcrumb ul {
@@ -95,7 +95,7 @@ body {
     text-decoration: none;
 }
 
-li {
+body.li {
     list-style-type: circle;
 }
 
