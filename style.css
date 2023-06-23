@@ -40,6 +40,11 @@
 
 
 /*---breadcrumb nav---*/
+.logo-wrap {
+  padding: 0 20px;
+  width: var(--sidebar-width);
+}
+
 nav.breadcrumb {
     padding: 0 .5rem;
 }
@@ -57,10 +62,9 @@ nav.breadcrumb li {
     display: inline;
 }
     
-nav.breadcrumb li + li::after {
-    display: inline-block;
+nav.breadcrumb li + li:before {
     margin: 0 0.25rem;
-    content: "/";
+    content: "/\00a0";
 }
 
 nav.breadcrumb [aria-current="page"] {
@@ -80,19 +84,19 @@ hr {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #E06011;
     text-align: left;
 }
 
 body {
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 60px;
     padding-bottom: 40px;
     text-decoration: none;
 }
 
-body.li {
+li {
     list-style-type: circle;
 }
 
