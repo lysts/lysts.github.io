@@ -13,7 +13,7 @@
     margin-right: 10px;
     max-width: 1000px;
     --footer-height: 30px;
-
+    line-height: 2;
 }
     /*---links--*/
     a:link {
@@ -33,7 +33,7 @@
     }
 
     a:hover {
-        font-weight:bold;
+        /*--font-weight:bold;--*/
         text-decoration:underline;
         color: #E06011;
     }
@@ -86,13 +86,13 @@ hr {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #E06011;
     text-align: left;
 }
 
 body {
-    font-size: 1em;
+    font-size: 11px;
     padding-top: 60px;
     padding-bottom: 40px;
     text-decoration: none;
