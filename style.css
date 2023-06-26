@@ -86,13 +86,13 @@ hr {
 }
 
 h1 {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #E06011;
     text-align: left;
 }
 
 body {
-    font-size: 10px;
+    font-size: 1em;
     padding-top: 60px;
     padding-bottom: 40px;
     text-decoration: none;
