@@ -14,6 +14,7 @@
     max-width: 1000px;
     --footer-height: 30px;
 
+}
     /*---links--*/
     a:link {
         color:#716c83;
@@ -35,14 +36,16 @@
         font-weight:bold;
         text-decoration:underline;
         color: #E06011;
-}
+    }
 
+
+#logo{ 
+    position:fixed; 
+    top:0; 
+    left:0; 
+}
 
 /*---breadcrumb nav---*/
-.logo-wrap {
-  padding: 0 20px;
-  width: var(--sidebar-width);
-}
 
 nav.breadcrumb {
     padding: 0 0;
@@ -83,7 +86,7 @@ hr {
 }
 
 h1 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #E06011;
     text-align: left;
 }
