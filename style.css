@@ -87,17 +87,17 @@ hr {
 }
 
 h1 {
-    font-size: 14px;
+    font-size: 13px;
     color: #E06011;
     text-align: left;
 }
 
 body {
-    font-size: 13px;
+    font-size: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-decoration: none;
-    line-height: 1.5; 
+    line-height: 1.2; 
 }
 
 body.li {
