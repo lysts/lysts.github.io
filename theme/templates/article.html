@@ -34,16 +34,19 @@
     <time class="published" datetime="{{ article.date.isoformat() }}">
       {{ article.locale_date }}
     </time>
+   
     {% if article.modified %}
     <time class="modified" datetime="{{ article.modified.isoformat() }}">
       {{ article.locale_modified }}
     </time>
     {% endif %}
+
     {% if article.category %}
     <div class="category">
         Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
     </div>
     {% endif %}
+
     {% if article.tags %}
     <div class="tags">
         Tags:
@@ -52,6 +55,7 @@
         {% endfor %}
     </div>
     {% endif %}
+
   </footer><!-- /.post-info -->
   <div class="entry-content">
     {{ article.content }}

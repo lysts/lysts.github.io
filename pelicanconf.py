@@ -22,6 +22,9 @@ MENUITEMS = (
     ('cv', '"https://drive.google.com/file/d/1qM2QVLAN3qGenRw3dmDLyhvCo    Lo2h06N/view?usp=sharing')
     )
 
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
