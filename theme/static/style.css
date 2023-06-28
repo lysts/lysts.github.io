@@ -62,16 +62,12 @@ body.h1 {
     text-align: left;
 }
 
-body.li {
-    list-style-type: circle;
-}
-
 body::selection {
     background: #E06011;
     color: #e6e6fa;
 }
 
-#menu {
+body#menu {
     /*---breadcrumb nav---*/
 
     nav.breadcrumb {

@@ -18,9 +18,10 @@ TRANSLATION_FEED_ATOM = None
 MENUITEMS = (
     ('about', '/pages/about.html'),
     ('posts', '/posts.html'),
-    ('github', 'https://github.com/lysts'),
-    ('cv', '"https://drive.google.com/file/d/1qM2QVLAN3qGenRw3dmDLyhvCo    Lo2h06N/view?usp=sharing')
     )
+
+MENUXTRA
+    ('github', 'https://github.com/lysts'),
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
