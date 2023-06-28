@@ -15,6 +15,12 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+MENUITEMS = (
+    ('about', '/pages/about.html'),
+    ('posts', '/posts.html'),
+    ('github', 'https://github.com/lysts'),
+    ('cv', '"https://drive.google.com/file/d/1qM2QVLAN3qGenRw3dmDLyhvCo    Lo2h06N/view?usp=sharing')
+    )
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
