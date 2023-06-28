@@ -67,7 +67,11 @@ body::selection {
     color: #e6e6fa;
 }
 
-body#menu {
+#menu {
+    nav.li {
+        display: inline-block;
+    }
+
     /*---breadcrumb nav---*/
 
     nav.breadcrumb {
@@ -81,7 +85,7 @@ body#menu {
         list-style: none;
         margin: 0;
         padding: 0;
-    }
+    } 
 
     nav.breadcrumb li {
         display: inline;
