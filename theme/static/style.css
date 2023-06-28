@@ -16,56 +16,29 @@
     line-height: 2;
 }
 
-    /*---links--*/
-    a:link {
-        color:#716c83;
-        text-decoration: underline;
-        cursor: auto;
-    }
-
-    a:visited {
-        color:#5751ab;
-        text-decoration: underline;
-        cursor: auto;
-    }
-
-    a:link:active, a:visited:active {
-        color:#E06011;
-    }
-
-    a:hover {
-        /*--font-weight:bold;--*/
-        text-decoration:underline;
-        color: #E06011;
-    }
-
-/*---breadcrumb nav---*/
-
-nav.breadcrumb {
-    padding: 0 0;
+/*---links--*/
+:link {
+    color:#716c83;
+    text-decoration: underline;
+    cursor: auto;
 }
 
-nav.breadcrumb ul {
-    display: inline-block;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+:visited {
+    color:#5751ab;
+    text-decoration: underline;
+    cursor: auto;
 }
 
-nav.breadcrumb li {
-    display: inline;
-}
-    
-nav.breadcrumb li + li:before {
-    margin: 0 0.25rem;
-    content: "/\00a0";
+:link:active, :visited:active {
+    color:#E06011;
 }
 
-nav.breadcrumb [aria-current="page"] {
-    color: #e6e6fa;
+:hover {
+    /*--font-weight:bold;--*/
+    text-decoration:underline;
+    color: #E06011;
 }
+
 
 /*---separators---*/
 hr {
@@ -74,16 +47,6 @@ hr {
     height: 1px;
 }
 
-::selection {
-    background: #E06011;
-    color: #e6e6fa;
-}
-
-h1 {
-    font-size: 15px;
-    color: #E06011;
-    text-align: left;
-}
 
 body {
     font-size: 13px;
@@ -93,9 +56,52 @@ body {
     line-height: 1.2; 
 }
 
+body.h1 {
+    font-size: 15px;
+    color: #E06011;
+    text-align: left;
+}
+
 body.li {
     list-style-type: circle;
 }
+
+body::selection {
+    background: #E06011;
+    color: #e6e6fa;
+}
+
+#menu {
+    /*---breadcrumb nav---*/
+
+    nav.breadcrumb {
+        padding: 0 0;
+    }
+
+    nav.breadcrumb ul {
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav.breadcrumb li {
+        display: inline;
+    }
+        
+    nav.breadcrumb li + li:before {
+        margin: 0 0.25rem;
+        content: "/\00a0";
+    }
+
+    nav.breadcrumb [aria-current="page"] {
+        color: #e6e6fa;
+    }
+}
+
+
 
 
 
