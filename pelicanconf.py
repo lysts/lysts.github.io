@@ -20,8 +20,9 @@ MENUITEMS = (
     ('posts', '/posts.html'),
     )
 
-MENUXTRA
+MENUXTRA = (
     ('github', 'https://github.com/lysts'),
+    )
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
