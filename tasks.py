@@ -30,6 +30,8 @@ CONFIG = {
     'port': 8000,
 }
 
+time.strftime("%Y-%m-%d")
+
 @task
 def clean(c):
     """Remove generated files"""

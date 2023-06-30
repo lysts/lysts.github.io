@@ -4,63 +4,55 @@
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
-        <link rel="stylesheets" type="text/css" ref="{{ SITEURL }}/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/style.css" />
         <meta http-equiv="x-ua-compatible" content="ie=edge"; charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/lysts.png"/> 
+        <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/lysts.png" />  
         {% endblock head %}
 </head>
 
-<body>
+<body> 
     <table>
         <thead>
             <tr> 
-                <td a href="https://lysts.xyz/"/><img src="/theme/lysts.png" width="32" height="32" />
-                <td><h1 style="font-size: 1.3rem; padding-left: 5px;"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1></td>
+                <td a href="https://lysts.xyz/"/><img src="/theme/lysts.png"
+                    width="30" height="30"/>
+                <td><h1 style="padding-left: 5px;"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1></td>
             </tr>
         </thead>
     </table>
     <table>
         <tbody>
             <tr>
-                <td><span title="take a look around!">welcome to my humble abode.</span>
+                <td><span title="take a look around!">welcome, friend.</span>
                 </td>
             </tr>
             <tr>
-                <td>
-                    <nav id="menu">
-        
+                <td style="display: inline-flex;">
                     {% for title, link in MENUITEMS %}
-                    / <a href="{{ link }}">{{ title }}</a> 
+                    <nav id="menu" style="padding: 0 1em 0 0;">
+                        <a href="{{ link }}">{{ title }}</a></nav>
                     {% endfor %}
                     {% for title, link in MENUXTRA %}
-                    / <a href="{{ link }}" align = "right">{{ title }}</a> 
+                    <nav id="menu">
+                        <a href="{{ link }}">{{ title }}</a></nav> 
                     {% endfor %}
-                    </nav>
                 </td>
             </tr>
         </tbody>
     </table>
         
             {#% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %} <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li> {% endfor %}{% endif %}
-           
             {% if DISPLAY_CATEGORIES_ON_MENU %}{% for cat, null in categories
             %} <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li> {% endfor %}{% endif %#}
        
-<hr/> 
-    <div id="content"> 
-        <table id="log">
-            <thead>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+<hr>
         {% block content %}
         {% endblock %}
-    </div>
-        <footer id="contentinfo" class="body">
-<hr/>
-            yours truly, lysts
-        </footer><!-- /#contentinfo -->
+
+<footer>
+<hr>
+<p>© 2023 L, yours truly {{ SITEURL }}</p>
+</footer><!-- /#bottom page -->
 </body>
 </html>
