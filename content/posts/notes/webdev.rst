@@ -8,6 +8,8 @@ building this website — a series of firsts
 :slug: building-this-website
 :summary: web-building with pelican, css, and html
 :lang: en
+
+
 .. |gh| replace:: GitHub
 .. |cr| unicode:: 0xA9 .. copyright sign
 
@@ -48,7 +50,7 @@ I'm currently working on automatically deploying my Pelican-based webdev project
 
 .. contents:: Table of Contents
    :depth: 2
-   :backlinks: "entry"
+   :backlinks: entry
    
 
 

@@ -37,6 +37,99 @@ ol, p {
   color: #e0e0ff;
 }
 
+.button {
+  position: absolute;
+  display: block;
+  left: 750px;
+  top: 2px;
+  text-align: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  height: 30px;
+  width: 100%;
+  max-width: 150px;
+  line-height: 30px;
+  font-family: monospace;
+  font-size: 1em;
+  color: #000;
+  cursor: pointer;
+  border-left: 1px solid #e06011;
+}
+.button span {
+  position: absolute;
+  transition: all 200ms ease-in-out;
+  /* horizontal */
+  /* horizontal - small */
+}
+.button span.line-1 {
+  top: 0;
+  left: 0;
+  width: 158px;
+  height: 1px;
+  background: #e06011;
+  transform: translateX(-48px);
+}
+.button span.line-2 {
+  bottom: 0;
+  right: 0;
+  width: 130px;
+  height: 1px;
+  background: #e06011;
+  transform: translateX(-25px);
+}
+.button span.line-3 {
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 1px;
+  background: #e06011;
+  transform: translateX(20px);
+}
+.button span.line-4 {
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 1px;
+  background: #e06011;
+  transform: translateX(95px);
+}
+.button span.line-5 {
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  height: 50px;
+  background: #e06011;
+  transform: translateY(0px);
+}
+.button span.line-6 {
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 8px;
+  background:#e06011;
+  transform: translateY(-48px);
+}
+.button:hover .line-1 {
+  transform: translateX(0px);
+}
+.button:hover .line-2 {
+  transform: translateX(-65px);
+}
+.button:hover .line-3 {
+  transform: translateX(60px);
+}
+.button:hover .line-4 {
+  transform: translateX(55px);
+}
+.button:hover .line-5 {
+  transform: translateY(44px);
+}
+.button:hover .line-6 {
+  transform: translateY(-2px);
+}
+/****/
+
 nav.a {
   display: inline-block;
   padding: 0 0.4em;
@@ -44,6 +137,7 @@ nav.a {
   flex-wrap: nowrap;
   align-items: center;
   list-style: none;
+  font-size: 1.3em;
 }
 
 nav::before { 

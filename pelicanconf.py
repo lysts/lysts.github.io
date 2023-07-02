@@ -17,7 +17,6 @@ TRANSLATION_FEED_ATOM = None
 
 MENUITEMS = (
     ('about', '/pages/about.html'),
-    ('posts', '/posts.html'),
     )
 
 MENUXTRA = (

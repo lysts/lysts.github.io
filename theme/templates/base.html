@@ -11,35 +11,29 @@
         {% endblock head %}
 </head>
 
-<body> 
-    <table>
-        <thead>
-            <tr> 
-                <td a href="https://lysts.xyz/"/><img src="/theme/lysts.png"
-                    width="30" height="30"/>
-                <td><h1 style="padding-left: 5px;"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1></td>
-            </tr>
-        </thead>
-    </table>
-    <table>
-        <tbody>
-            <tr>
-                <td><span title="take a look around!">welcome, friend.</span>
-                </td>
-            </tr>
-            <tr>
-                <td style="display: inline-flex;">
-                    {% for title, link in MENUITEMS %}
-                    <nav id="menu" style="padding: 0 1em 0 0;">
-                        <a href="{{ link }}">{{ title }}</a></nav>
-                    {% endfor %}
-                    {% for title, link in MENUXTRA %}
-                    <nav id="menu">
-                        <a href="{{ link }}">{{ title }}</a></nav> 
-                    {% endfor %}
-                </td>
-            </tr>
-        </tbody>
+<body><!--header--> 
+            <!--animated welcome sign, button code LycanOne-->
+        <div class="button">
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+          <span class="line-3"></span>
+          <span class="line-4"></span>
+          <span class="line-5"></span>
+          <span class="line-6"></span>
+          <p title="take a look around!">welcome, friend.</p>
+        </div>
+<table><thead><tr><td a href="https://lysts.xyz/"/><img src="/theme/lysts.png" width="30" height="30"/>
+                <td><h1 style="padding-left: 5px;"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1></td>
+                <td><p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="{{ SITEURL }}">posts</a></p></td></tr></thead></table>
+<table><tbody>
+        <tr><td style="padding: 1em 0;">blog, fueled by one too many chai lattes.<br>for play and life-long learning.</td></tr>
+
+    <tr><td style="display: inline-flex;">
+    <!--nav bar-->
+    {% for title, link in MENUITEMS %}
+    <nav id="menu" style="padding: 0 1em 0 0;"><a href="{{ link }}">{{ title }}</a></nav>{% endfor %}
+    {% for title, link in MENUXTRA %}<nav id="menu"><a href="{{ link }}">{{ title }}</a></nav>{% endfor %}
+            </td></tr></tbody>
     </table>
         
             {#% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %} <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li> {% endfor %}{% endif %}
@@ -47,12 +41,10 @@
             %} <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li> {% endfor %}{% endif %#}
        
 <hr>
-        {% block content %}
-        {% endblock %}
 
-<footer>
-<hr>
-<p>© 2023 L, yours truly {{ SITEURL }}</p>
-</footer><!-- /#bottom page -->
+    {% block content %}{% endblock %}<!--post list-->
+
+<footer><hr><p>© 2023 L, yours truly {{ SITEURL }}</p></footer>
+
 </body>
 </html>
