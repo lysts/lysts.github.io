@@ -20,7 +20,3 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         GH_PAGES_CNAME: ${{secrets.CNAME}}
 
-PELICAN_CONFIG_FILE: /pelicanconf.py
-PELICAN_CONTENT_FOLDER: /content
-PYTHON_VERSION: 3.11.1
-
