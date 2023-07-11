@@ -28,6 +28,7 @@ CONFIG = {
     # Host and port for `serve`
     'host': 'localhost',
     'port': 8000,
+    'github_pages_branch': 'gh-pages',
 }
 
 time.strftime("%Y-%m-%d")
@@ -125,7 +126,8 @@ def livereload(c):
 
 @task
 def publish(c):
-    """Publish to production via rsync"""
+    """Publish to GitHub Pages"""
+    preview(c)
     pelican_run('-s {settings_publish}'.format(**CONFIG))
     c.run(
         'rsync --delete --exclude ".DS_Store" -pthrvz -c '
@@ -133,7 +135,6 @@ def publish(c):
         '{} {ssh_user}@{ssh_host}:{ssh_path}'.format(
             CONFIG['deploy_path'].rstrip('/') + '/',
             **CONFIG))
-
 
 def pelican_run(cmd):
     cmd += ' ' + program.core.remainder  # allows to pass-through args to pelican
