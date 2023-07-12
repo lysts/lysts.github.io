@@ -1,7 +1,11 @@
+========
 About me
 ========
 
 :status: published
+:lang: en
 
-hey ho
-lysts
+.. |gh| replace:: GitHub
+.. |cr| unicode:: 0x49 .. copyright sign
+
+
