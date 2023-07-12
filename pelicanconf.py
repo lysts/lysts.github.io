@@ -3,10 +3,6 @@ SITENAME = 'lysts'
 SITEURL = 'https://lysts.xyz'
 
 PATH = 'content'
-STATIC_PATHS = ['posts']
-ARTICLE_PATHS = ['posts'] 
-ARTICLE_SAVE_AS = '{slug}.html'
-ARTICLE_URL = '{slug}.html'
 THEME = 'theme'
 
 TIMEZONE = 'Europe/London'
