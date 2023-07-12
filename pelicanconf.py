@@ -1,6 +1,6 @@
 AUTHOR = 'lysts'
 SITENAME = 'lysts'
-SITEURL = ''
+SITEURL = 'https://lysts.xyz'
 
 PATH = 'content'
 STATIC_PATHS = ['posts']
