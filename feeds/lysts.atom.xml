@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-11T18:02:00+01:00</updated><entry><title>my current set-up</title><link href="https://lysts.xyz/my-current-set-up.html" rel="alternate"></link><published>2023-07-11T18:02:00+01:00</published><updated>2023-07-11T18:02:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up.html</id><content type="html">&lt;p&gt;iterm2, vim, tmux, ranger, - how i use these tools and how i've configured them
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-12T19:15:00+01:00</updated><entry><title>neat crumbs</title><link href="https://lysts.xyz/neat-crumbs.html" rel="alternate"></link><published>2023-07-12T19:15:00+01:00</published><updated>2023-07-12T19:15:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-12:/neat-crumbs.html</id><summary type="html">&lt;p class="first last"&gt;random knick-knacks, phrases&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="text-to-art-generators"&gt;
+&lt;h2&gt;text to art generators&lt;/h2&gt;
+&lt;p&gt;figlet, brew install and throw in&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="referring-to-the-general-public-genderless-ver"&gt;
+&lt;h2&gt;referring to the general public (genderless ver.)&lt;/h2&gt;
+&lt;p&gt;ladles and jellyspoons&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="notes"></category><category term="arbitrary"></category><category term="fun"></category></entry><entry><title>my current set-up</title><link href="https://lysts.xyz/my-current-set-up.html" rel="alternate"></link><published>2023-07-11T18:02:00+01:00</published><updated>2023-07-11T18:02:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up.html</id><content type="html">&lt;p&gt;iterm2, vim, tmux, ranger, - how i use these tools and how i've configured them
 for simplicity and easy use&lt;/p&gt;
 </content><category term="code"></category></entry><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/pelican-github-actions.html" rel="alternate"></link><published>2023-07-08T00:00:00+01:00</published><updated>2023-07-08T00:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/pelican-github-actions.html</id><summary type="html">&lt;p class="first last"&gt;pelican deploy github action set-up for webdev&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;The first attempt was to try and make a yml file to do github actions.&lt;/p&gt;
