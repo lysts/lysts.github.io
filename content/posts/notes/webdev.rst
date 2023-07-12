@@ -8,7 +8,7 @@ building this website — a series of firsts
 :slug: building-this-website
 :summary: web-building with pelican, css, and html
 :lang: en
-
+:status: published
 
 .. |gh| replace:: GitHub
 .. |cr| unicode:: 0xA9 .. copyright sign
