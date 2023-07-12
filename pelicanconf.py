@@ -8,9 +8,6 @@ ARTICLE_PATHS = ['posts']
 ARTICLE_SAVE_AS = '{slug}.html'
 ARTICLE_URL = '{slug}.html'
 THEME = 'theme'
-DEFAULT_METADATA = {
-        'status': 'draft',
-        }
 
 TIMEZONE = 'Europe/London'
 
