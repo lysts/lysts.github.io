@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - code</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/code.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-11T18:02:00+01:00</updated><entry><title>my current set-up</title><link href="https://lysts.xyz/my-current-set-up.html" rel="alternate"></link><published>2023-07-11T18:02:00+01:00</published><updated>2023-07-11T18:02:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up.html</id><content type="html">&lt;p&gt;iterm2, vim, tmux, ranger, - how i use these tools and how i've configured them
+for simplicity and easy use&lt;/p&gt;
+</content><category term="code"></category></entry></feed>

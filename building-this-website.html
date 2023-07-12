@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>lysts / building this website — a series of firsts</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="https://lysts.xyz/theme/style.css" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge"; charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="https://lysts.xyz/theme/lysts.png" />  
+
+
+
+
+    <meta name="tags" content="css" />
+    <meta name="tags" content="html" />
+    <meta name="tags" content="github" />
+
+</head>
+
+<body><!--header--> 
+            <!--animated welcome sign, button code LycanOne-->
+        <div class="button">
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+          <span class="line-3"></span>
+          <span class="line-4"></span>
+          <span class="line-5"></span>
+          <span class="line-6"></span>
+          <p title="take a look around!">welcome, friend.</p>
+        </div>
+<table><thead><tr><td a href="https://lysts.xyz/"/><img src="/theme/lysts.png" width="30" height="30"/>
+                <td><h1 style="padding-left: 5px;"><a href="https://lysts.xyz">lysts</a></h1></td>
+                <td><p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="https://lysts.xyz">posts</a></p></td></tr></thead></table>
+<table><tbody>
+        <tr><td style="padding: 1em 0;">blog (fueled by one too many chai
+                lattes).<br>for play and life-long learning.</td></tr>
+
+    <tr><td style="display: inline-flex;">
+    <!--nav bar-->
+    <nav id="menu" style="padding: 0 0.5em 0 0;"><a style="padding: 0 0.4em 0 0.3em;" href="/pages/about.html">about</a></nav><nav id="menu"><a style="padding: 0 0.4em 0
+                                              0.3em;" href="https://github.com/lysts">github</a></nav>            </td></tr></tbody>
+    </table>
+        
+       
+<hr>
+
+<section id="content" class="body">
+    <thead>
+    <h2 class="entry-title">
+      <a href="https://lysts.xyz/building-this-website.html" rel="bookmark"
+         title="hop on to building this website — a series of firsts">building this website — a series of firsts</a></h2>
+ 
+    </thead>
+    <tbody>
+    <p class="post-info">
+    <time class="published" datetime="2023-06-30T04:58:00+01:00">
+      Fri 30 June 2023
+    </time>
+   
+
+    <div class="category">
+        category: <a href="https://lysts.xyz/category/webdev.html">webdev</a>
+    </div>
+
+    <div class="tags">
+        tags:
+            <a href="https://lysts.xyz/tag/css.html">css</a>
+            <a href="https://lysts.xyz/tag/html.html">html</a>
+            <a href="https://lysts.xyz/tag/github.html">github</a>
+    </div>
+
+  </tbody><!-- /.post-info -->
+  <div class="entry-content">
+    <p>This is my first webdev project.</p>
+<div class="section" id="birthing-this-love-child">
+<h2><a class="toc-backref" href="#toc-entry-1">birthing this love child</a></h2>
+<p>After galavanting across webrings, bookmarked websites, and premade jekyll themes, I decided to prioritise the following in regards to the creation of this website:</p>
+<ol class="arabic simple">
+<li>incredibly minimal, but not devoid of life.</li>
+<li>create from scratch.</li>
+<li>easy content building &amp; publishing.</li>
+</ol>
+<p>In part due to my disatisfaciton with existing templates, I took inspiration from basic &quot;no-theme&quot; themes and the classic terminal-like feel, hence the backslashes, monospace font, and some format- and favicon-dependent &quot;personal-branding&quot;.</p>
+<p>But before I was able to address such goals, I was met with a number of challenges:</p>
+<ul class="simple">
+<li>beyond foetal with anything webdev (how websites work, css &amp; html syntax, etc..)</li>
+<li>a learning curve = a need for time-efficiency</li>
+</ul>
+<p>My journey kickstarted with the purchase of a domain name which I then linked to a GitHub Pages repo to set up my first foundational html and css files. Learning approrpiate syntax consisted of simultaneously relying on documentation guidlines and <tt class="docutils literal">view page source</tt> or <tt class="docutils literal">inspect</tt> browser tools to pinpoint features that intrigued me and practice tweak existing code to get a feel of what I wanted to add to my tabula rasa. These tools came in handy later down the road, on my own website, when testing different formats to achieve my desired layout or identifying any errors in css selections.</p>
+</div>
+<div class="section" id="setting-up-my-workflow">
+<h2><a class="toc-backref" href="#toc-entry-2">setting up my workflow</a></h2>
+<p>Half my time was spent understanding the workings of web-hosting and setting up a static site generator with some personal customisations. I chose to install <tt class="docutils literal">Pelican</tt>, despite the popularity of Jekyll (which GitHub Actions also uses by default). I fancied the idea of fast rebuild times and easily accessible web-hosting, being able to easily implement my original html and css attempts, and having the freedom to publish articles in other languages.</p>
+<p>Thankfully, such features were readily available with Pelican. Upon stripping default files and scripts from its working pathway, I better understood the dependencies and configuration settings required to ensure the compatibility of my original files with engine. I learned of the ease and elegance of Pelican in executing test runs of my scripts from terminal, after tediously git committing small changes via GitHub Pages and developing an addiction to the slow emergence of green ticks when repeatedly abusing GitHub Actions. reat blog-style content in a high-level file format such as <tt class="docutils literal">ReStructuredText</tt>.</p>
+<p>If you're also picking up <tt class="docutils literal">html</tt> and <tt class="docutils literal">css</tt> for the first time, setting up an open source static site generator like Pelican in your terminal will help you create a development server in your local browser to swiftly see immediate changes within seconds. This immensely accelerated my on-the-go learning.</p>
+<p>I'm currently working on automatically deploying my Pelican-based webdev project to GitHub Pages with GitHub Actions.</p>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1">birthing this love child</a></li>
+<li><a class="reference internal" href="#setting-up-my-workflow" id="toc-entry-2">setting up my workflow</a></li>
+</ul>
+</div>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+<!--post list-->
+
+<footer><hr><p>© 2023 L, yours truly https://lysts.xyz</p></footer>
+
+</body>
+</html>

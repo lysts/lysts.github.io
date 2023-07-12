@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - webdev</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/webdev.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-08T00:00:00+01:00</updated><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/pelican-github-actions.html" rel="alternate"></link><published>2023-07-08T00:00:00+01:00</published><updated>2023-07-08T00:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/pelican-github-actions.html</id><summary type="html">&lt;p class="first last"&gt;pelican deploy github action set-up for webdev&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;The first attempt was to try and make a yml file to do github actions.&lt;/p&gt;
+</content><category term="webdev"></category><category term="github"></category></entry><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website.html" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website.html</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;This is my first webdev project.&lt;/p&gt;
+&lt;div class="section" id="birthing-this-love-child"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After galavanting across webrings, bookmarked websites, and premade jekyll themes, I decided to prioritise the following in regards to the creation of this website:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;incredibly minimal, but not devoid of life.&lt;/li&gt;
+&lt;li&gt;create from scratch.&lt;/li&gt;
+&lt;li&gt;easy content building &amp;amp; publishing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In part due to my disatisfaciton with existing templates, I took inspiration from basic &amp;quot;no-theme&amp;quot; themes and the classic terminal-like feel, hence the backslashes, monospace font, and some format- and favicon-dependent &amp;quot;personal-branding&amp;quot;.&lt;/p&gt;
+&lt;p&gt;But before I was able to address such goals, I was met with a number of challenges:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;beyond foetal with anything webdev (how websites work, css &amp;amp; html syntax, etc..)&lt;/li&gt;
+&lt;li&gt;a learning curve = a need for time-efficiency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My journey kickstarted with the purchase of a domain name which I then linked to a GitHub Pages repo to set up my first foundational html and css files. Learning approrpiate syntax consisted of simultaneously relying on documentation guidlines and &lt;tt class="docutils literal"&gt;view page source&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;inspect&lt;/tt&gt; browser tools to pinpoint features that intrigued me and practice tweak existing code to get a feel of what I wanted to add to my tabula rasa. These tools came in handy later down the road, on my own website, when testing different formats to achieve my desired layout or identifying any errors in css selections.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="setting-up-my-workflow"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Half my time was spent understanding the workings of web-hosting and setting up a static site generator with some personal customisations. I chose to install &lt;tt class="docutils literal"&gt;Pelican&lt;/tt&gt;, despite the popularity of Jekyll (which GitHub Actions also uses by default). I fancied the idea of fast rebuild times and easily accessible web-hosting, being able to easily implement my original html and css attempts, and having the freedom to publish articles in other languages.&lt;/p&gt;
+&lt;p&gt;Thankfully, such features were readily available with Pelican. Upon stripping default files and scripts from its working pathway, I better understood the dependencies and configuration settings required to ensure the compatibility of my original files with engine. I learned of the ease and elegance of Pelican in executing test runs of my scripts from terminal, after tediously git committing small changes via GitHub Pages and developing an addiction to the slow emergence of green ticks when repeatedly abusing GitHub Actions. reat blog-style content in a high-level file format such as &lt;tt class="docutils literal"&gt;ReStructuredText&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;If you're also picking up &lt;tt class="docutils literal"&gt;html&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;css&lt;/tt&gt; for the first time, setting up an open source static site generator like Pelican in your terminal will help you create a development server in your local browser to swiftly see immediate changes within seconds. This immensely accelerated my on-the-go learning.&lt;/p&gt;
+&lt;p&gt;I'm currently working on automatically deploying my Pelican-based webdev project to GitHub Pages with GitHub Actions.&lt;/p&gt;
+&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-workflow" id="toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="webdev"></category><category term="css"></category><category term="html"></category><category term="github"></category></entry></feed>
