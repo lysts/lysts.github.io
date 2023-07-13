@@ -16,6 +16,7 @@ body {
   margin-left: 1em;
   margin-bottom; 1em;
   margin-right; 1em;
+  flex-grow: 1;
 }
 
 /*--background-color: linear-gradient(135deg, #ededed, #e59167);}--*/
