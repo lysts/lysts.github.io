@@ -39,7 +39,7 @@ ol, p {
 }
 
 .button {
-  position: absolute;
+  position: relative;
   display: block;
   left: 750px;
   top: 2px;
