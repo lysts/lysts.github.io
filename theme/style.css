@@ -50,7 +50,6 @@ ol, p {
 
 .button {
   position: relative;
-  display: inline-flex;
   left: 740px;
   text-align: center;
   margin-right: 1em;
