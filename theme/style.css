@@ -47,7 +47,8 @@ ol, p {
 }
 
 .button {
-  display: flex;
+  position: relative;
+  display: inline-flex;
   left: 740px;
   text-align: center;
   margin-right: 1em;
