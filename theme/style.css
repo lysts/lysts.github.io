@@ -11,12 +11,9 @@ html * {
   font-size: 1em;
 }
 
-#header {
+div.headers {
   display: flex;
 }
-
-.main {
-  
 
 td.push {
   margin-left: auto;
@@ -27,6 +24,7 @@ body {
   margin-left: 1em;
   margin-bottom; 1em;
   margin-right; 1em;
+  flex-grow: 1;
 }
 
 /*--background-color: linear-gradient(135deg, #ededed, #e59167);}--*/
@@ -49,7 +47,7 @@ ol, p {
 }
 
 .button {
-  position: relative;
+  display: flex;
   left: 740px;
   text-align: center;
   margin-right: 1em;
