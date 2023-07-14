@@ -11,7 +11,7 @@ html * {
   font-size: 1em;
 }
 
-div.headers {
+.header {
   display: flex;
 }
 
