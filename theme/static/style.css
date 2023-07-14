@@ -11,11 +11,11 @@ html * {
   font-size: 1em;
 }
 
-.headers {
+div.headers {
   display: flex;
 }
 
-.push {
+td.push {
   margin-left: auto;
 }
 
