@@ -11,7 +11,10 @@ Introduction to Algorithms
 :status: published
 
 |
-
+.. contents:: Table of Contents
+    :depth: 2
+    :backlinks: entry
+|
 L1: Algorithms & Computation
 ============================
 communicating computational problem solving, its efficiency and correctness
