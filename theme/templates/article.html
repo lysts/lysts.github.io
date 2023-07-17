@@ -22,7 +22,7 @@
 {% endblock %}
 
 {% block content %}
-<section id="content" class="body">
+<section id="content" class="body" style="padding: 10px 0px 10px 25px">
     <thead>
     <h2 class="entry-title">
       <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
@@ -31,7 +31,7 @@
  {% import 'translations.html' as translations with context %}
  {{ translations.translations_for(article) }}
     </thead>
-    <tbody style="padding-right: 20px; padding-left: 20px;">
+    <tbody>
     <p class="post-info">
     <time class="published" datetime="{{ article.date.isoformat() }}">
       {{ article.locale_date }}
