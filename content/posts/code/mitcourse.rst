@@ -37,7 +37,7 @@ f:I—›O (functional programming definition)
 
 |
 
-birthday problem:
+birthday problem!:
 - maintain record
 - check if birthday in record: - if so return pair, - add new student to record, 
 - return none
