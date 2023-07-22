@@ -22,19 +22,31 @@ td.push {
 body {
   margin-top: 1em;
   margin-left: 1em;
-  margin-bottom; 1em;
+  margin-bottom; 2em;
   margin-right; 1em;
   flex-grow: 1;
 }
 
 /*--background-color: linear-gradient(135deg, #ededed, #e59167);}--*/
 
-img, h1, h2 {
+img, h1 {
   font-size: 1.3em;
   vertical-align: baseline;
   display: inline-block;
   color: #e06011;
   margin: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 1.0em;
 }
 
 ol, p {
@@ -203,7 +215,7 @@ hr {
 footer {
   position: fixed;
   bottom: 0;
-  height: 10%;
+  height: 7%;
   width: 100%;
   font-size: 0.9em !important;
 } 
