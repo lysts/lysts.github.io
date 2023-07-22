@@ -9,14 +9,17 @@ Introduction to Algorithms
 :lang: en
 :status: published
 
-.. sidebar:: Table of Contents
-    :subtitle: notes nav!
-    .. contents:: 
-        :depth: 2
-        :backlinks: entry
 
 L1: Algorithms & Computation
 ============================
+
+
+.. sidebar:: sidebar challenge
+.. contents:: Table of Contents
+        :depth: 2
+        :backlinks: entry
+
+
 communicating computational problem solving, its efficiency and correctness
 ***************************************************************************
 
