@@ -57,7 +57,7 @@ asymptotic analysis***
 
 
 common algorithms that relate algorithm running time to input size: linear time algorithm efficiency from top to bottom:
-'''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 (theta)1 = constant time
 ()lg n= logarithmic time
 ()n = linear
