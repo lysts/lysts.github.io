@@ -1,6 +1,7 @@
 AUTHOR = 'lysts'
 SITENAME = 'lysts'
-SITEURL = 'https://lysts.xyz'
+sITEURL = 'http://localhost:8000'
+RELATIVE_URLS = True
 
 PATH = 'content'
 THEME = 'theme'
@@ -36,6 +37,3 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
