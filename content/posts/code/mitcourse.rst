@@ -9,11 +9,11 @@ Introduction to Algorithms
 :lang: en
 :status: published
 
-
-.. contents:: Table of Contents
-   :depth: 2
-   :backlinks: entry
-
+.. sidebar:: Table of Contents
+    :subtitle: notes nav!
+    .. contents:: 
+        :depth: 2
+        :backlinks: entry
 
 L1: Algorithms & Computation
 ============================
