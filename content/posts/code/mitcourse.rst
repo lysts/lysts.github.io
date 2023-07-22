@@ -2,8 +2,6 @@
 Introduction to Algorithms
 ##########################
 
-|
-
 :date: 2023-07-14 17:24
 :tags: algorithms, compsci
 :slugs: intro-to-algorithms
