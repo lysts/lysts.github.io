@@ -1,6 +1,6 @@
 AUTHOR = 'lysts'
 SITENAME = 'lysts'
-sITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8000'
 RELATIVE_URLS = True
 
 PATH = 'content'
