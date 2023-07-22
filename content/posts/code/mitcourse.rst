@@ -9,11 +9,14 @@ Introduction to Algorithms
 :lang: en
 :status: published
 
+
 .. |ex| replace:: example:
+
 
 .. contents:: Table of Contents
     :depth: 2
     :backlinks: entry
+
 
 L1: Algorithms & Computation
 ============================
@@ -35,7 +38,7 @@ given.
 |
 f:I—›O
 ..
-    functional programming definition
+functional programming definition
 |
 |ex| birthday problem!::
 - maintain record
@@ -63,13 +66,13 @@ asymptotic analysis***
 common algorithms that relate algorithm running time to input size: linear time algorithm efficiency from top to bottom:
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ::
-    (theta)1 = constant time
-    ()lg n= logarithmic time
-    ()n = linear
-    ()n lg n= log n
-    ()n^2 = quadratic
-    ()n^c = polynomial (c for constant)
-    2^(theta)n = exponential time, bad bc if plotted as function of n
+(theta)1 = constant time
+()lg n= logarithmic time
+()n = linear
+()n lg n= log n
+()n^2 = quadratic
+()n^c = polynomial (c for constant)
+2^(theta)n = exponential time, bad bc if plotted as function of n
 
 —> dnt want shit to go too high. exponential crap!
 
