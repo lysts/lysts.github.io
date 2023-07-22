@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>lysts / Introduction to Algorithms</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="https://lysts.xyz/theme/style.css" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge"; charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="https://lysts.xyz/theme/lysts.png" />  
+
+
+
+
+    <meta name="tags" content="algorithms" />
+    <meta name="tags" content="compsci" />
+
+</head>
+
+<body><!--header--> 
+<table id="header"><thead><tr>
+            <div class="headers">
+            <td a href="https://lysts.xyz/"/><img src="/theme/lysts.png" width="30" height="30"/>
+            <td><h1 style="padding-left: 5px;"><a href="https://lysts.xyz">lysts</a></h1></td>
+            <td><p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="https://lysts.xyz">posts</a></p></td>
+            <td class="push">&nbsp;</td>
+            <td><!--animated welcome sign, button code LycanOne-->
+            <div class="button">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+              <span class="line-3"></span>
+              <span class="line-4"></span>
+              <span class="line-5"></span>
+              <span class="line-6"></span>
+              <p title="take a look around!">welcome, friend.</p>
+            </div></td>
+        </tr></div></thead></table>
+<table><tbody>
+        <tr><td style="padding: 1em 0;">blog (fueled by one too many chai
+                lattes).<br>for play and life-long learning.</td></tr>
+    
+    <tr><td style="display: inline-flex;">
+    <!--nav bar-->
+    <nav id="menu" style="padding: 0 0.5em 0 0;"><a style="padding: 0 0.4em 0 0.3em;" href="/pages/about.html">about</a></nav><nav id="menu"><a style="padding: 0 0.4em 0 0.3em;" href="https://github.com/lysts">github</a></nav>    </td></tr></tbody>
+    </table>
+        
+       
+<hr>
+
+<section id="content" class="body" style="padding: 10px 0px 10px 25px">
+    <thead>
+    <h2 class="entry-title">
+      <a href="https://lysts.xyz/introduction-to-algorithms.html" rel="bookmark"
+         title="hop on to Introduction to Algorithms">Introduction to Algorithms</a></h2>
+ 
+    </thead>
+    <tbody>
+    <p class="post-info">
+    <time class="published" datetime="2023-07-14T17:24:00+01:00">
+      Fri 14 July 2023
+    </time>
+   
+
+    <div class="category">
+        category: <a href="https://lysts.xyz/category/code.html">code</a>
+    </div>
+
+    <div class="tags">
+        tags:
+            <a href="https://lysts.xyz/tag/algorithms.html">algorithms</a>
+            <a href="https://lysts.xyz/tag/compsci.html">compsci</a>
+    </div>
+
+  </tbody><!-- /.post-info -->
+  <div class="entry-content">
+    <div class="contents topic" id="table-of-contents">
+<p class="topic-title">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#l1-algorithms-computation" id="toc-entry-1">L1: Algorithms &amp; Computation</a><ul>
+<li><a class="reference internal" href="#communicating-computational-problem-solving-its-efficiency-and-correctness" id="toc-entry-2">communicating computational problem solving, its efficiency and correctness</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="l1-algorithms-computation">
+<h2><a class="toc-backref" href="#toc-entry-1">L1: Algorithms &amp; Computation</a></h2>
+<div class="section" id="communicating-computational-problem-solving-its-efficiency-and-correctness">
+<h3><a class="toc-backref" href="#toc-entry-2">communicating computational problem solving, its efficiency and correctness</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>computational problem?
+can have multiple correct outputs to an input — define a problem by specifying a predicate, observe output. graph (binary)</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>provide a deterministic algorithm to determine an answer...
+algorithms that are general: can accept an arbitrarily sized input ex students for a class.
+&gt; general problems w arbitrarily sized inputs), algorithm
+can't map what problem does, correct algorithm if output is correctly given
+f:I—›O (functional programming definition)</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>birthday problem!:
+- maintain record
+- check if birthday in record: - if so return pair, - add new student to record,
+- return none</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>use induction, recursion to prove correctness of algorithm...
+inductive hypothesis: &quot;if first k students contain match, algorithm returns
+match before interviewing student k+1&quot; = predicate
+k increases up to n
+base case: k=0 (case holds!)
+assume IH true for k=k'{- if k' contains match —› alreated returned by
+induction, - else if k'+1 contains match, alg k'+1 against all students}</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>prove efficiency...
+dont measure time, instead count fundamental operations (ops), expect performance to depend on (with respect to) size of our input (n) = how well algorithm performs, not how well it's implemented
+O(.) upper bound, omega (.) lower bounds (theta) corresponds to both
+asymptotic analysis***</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>common algorithms that relate algorithm running time to input size: linear time algorithm
+efficiency from top to bottom:
+(theta)1 = constant time
+()lg n= logarithmic time
+()n = linear
+()n lg n= log n
+()n^2 = quadratic
+()n^c = polynomial (c for constant)
+2^(theta)n = exponential time, bad bc if plotted as function of n
+&gt; dnt want shit to go high. exponential crap.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>define model of computation...
+word-RAM (RAM = random access memory, in constant time)
+memory (string of bits), CPU where byte (chunk of bits = word) ex 64 bit
+machine, to operate on to spit back, addressable memory 20 exabytes!! (data grabbed, registered separately, output also then registered then spat out)
+ex can do integer arithmetic, logical ops (boolean etc), bitewise ops, on CPU memory</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>if you want to operate on non-constant n, linear amount of data, how long will it take?
+concerns data structures, store large amount of data and operate on that</p>
+</div>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+<!--post list-->
+
+<footer><hr><p>© 2023 L, yours truly https://lysts.xyz</p></footer>
+
+</body>
+</html>
