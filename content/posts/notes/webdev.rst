@@ -20,7 +20,7 @@ birthing this love child
 
 After galavanting across webrings, bookmarked websites, and premade jekyll themes, I decided to prioritise the following in regards to the creation of this website:
 
-1. incredibly minimal, but not devoid of life.
+1. incredibly minimal, but not devoid of life or personality.
 2. create from scratch.
 3. easy content building & publishing.
 
