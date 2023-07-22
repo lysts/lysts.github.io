@@ -9,6 +9,7 @@ Introduction to Algorithms
 :lang: en
 :status: published
 
+.. |ex| replace:: example:
 
 .. contents:: Table of Contents
     :depth: 2
@@ -16,38 +17,40 @@ Introduction to Algorithms
 
 L1: Algorithms & Computation
 ============================
-
 communicating computational problem solving, its efficiency and correctness
-***************************************************************************
 
 
-computational problem?
-''''''''''''''''''''''
-can have multiple correct outputs to an input — define a problem by specifying a predicate, observe output. graph (binary)
+what is a computational problem?
+''''''''''''''''''''''''''''''''
+computational problems can have multiple correct outputs to an input
+—› define a problem by specifying a predicate and observe output (binary)
+—› can graph/map out
 
 
-provide a deterministic algorithm to determine an answer...
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-algorithms that are general: can accept an arbitrarily sized input ex students for a class. 
-> general problems w arbitrarily sized inputs), algorithm
-can't map what problem does, correct algorithm if output is correctly given 
-f:I—›O (functional programming definition)
-
-
-birthday problem!::
+provide deterministic algorithm to find answer...
+'''''''''''''''''''''''''''''''''''''''''''''''''
+for general problems, algorithms can accept arbitrarily sized input, doesn't
+map what a problem does. "Correctness" defined by whether output is correctly
+given.
+|
+f:I—›O
+..
+    functional programming definition
+|
+|ex| birthday problem!::
 - maintain record
 - check if birthday in record: - if so return pair, - add new student to record, 
 - return none
 
 
-use induction, recursion to prove correctness of algorithm...
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-inductive hypothesis = "if first k students contain match, algorithm returns
-match before interviewing student k+1" = predicate
-k increases up to n
-base case: k=0 (case holds!)
-assume IH true for k=k'{- if k' contains match —› alreated returned by
-induction, - else if k'+1 contains match, alg k'+1 against all students}
+use induction & recursion to prove correctness of algorithm...
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+inductive hypothesis = "if first ''k'' students contain match, algorithm returns
+match before interviewing student ''k+1''" = predicate
+''k'' increases up to ''n''
+base case: ''k=0'' (case holds!)
+assume IH true for ''k=k'''{- if k' contains match —› alreated returned by
+induction, - else if ''k'+1'' contains match, alg ''k'+1'' against all students}
 
 
 prove efficiency...
@@ -59,14 +62,16 @@ asymptotic analysis***
 
 common algorithms that relate algorithm running time to input size: linear time algorithm efficiency from top to bottom:
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-(theta)1 = constant time
-()lg n= logarithmic time
-()n = linear
-()n lg n= log n
-()n^2 = quadratic
-()n^c = polynomial (c for constant)
-2^(theta)n = exponential time, bad bc if plotted as function of n
-> dnt want shit to go high. exponential crap.
+::
+    (theta)1 = constant time
+    ()lg n= logarithmic time
+    ()n = linear
+    ()n lg n= log n
+    ()n^2 = quadratic
+    ()n^c = polynomial (c for constant)
+    2^(theta)n = exponential time, bad bc if plotted as function of n
+
+—> dnt want shit to go too high. exponential crap!
 
 
 define model of computation...
