@@ -22,7 +22,7 @@ td.push {
 body {
   margin-top: 1em;
   margin-left: 1em;
-  margin-bottom; 2em;
+  margin-bottom; 3em;
   margin-right; 1em;
   flex-grow: 1;
 }
@@ -229,5 +229,5 @@ ol td {
 }
 
 #content {
-  padding-bottom: 10%;
+  padding-bottom: 20%;
 }
