@@ -61,6 +61,7 @@ linear time algorithm efficiency from top to bottom:
 &lt;li&gt;()n^c = polynomial (c for constant)&lt;/li&gt;
 &lt;li&gt;2^(theta)n = exponential time, bad bc if plotted as function of n&lt;/li&gt;
 &lt;/ul&gt;
+&lt;img alt="" src="images/processingtime.png" style="width: 600px;" /&gt;
 &lt;p&gt;—&amp;gt; dnt want shit to go too high. exponential crap!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="define-model-of-computation"&gt;
@@ -71,6 +72,7 @@ machine, to operate on to spit back, addressable memory 20 exabytes!! (data grab
 ex can do integer arithmetic, logical ops (boolean etc), bitewise ops, on CPU memory&lt;/p&gt;
 &lt;p&gt;if you want to operate on non-constant n, linear amount of data, how long will it take?
 concerns data structures, store large amount of data and operate on that&lt;/p&gt;
+&lt;img alt="" src="images/summaryL1.png" style="width: 600px;" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>my current set-up</title><link href="https://lysts.xyz/my-current-set-up.html" rel="alternate"></link><published>2023-07-11T18:02:00+01:00</published><updated>2023-07-11T18:02:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up.html</id><content type="html">&lt;p&gt;iterm2, vim, tmux, ranger, - how i use these tools and how i've configured them
