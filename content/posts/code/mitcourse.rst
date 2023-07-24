@@ -75,6 +75,9 @@ linear time algorithm efficiency from top to bottom:
 - ()n^c = polynomial (c for constant)
 - 2^(theta)n = exponential time, bad bc if plotted as function of n
 
+.. image:: images/processingtime.png
+   :width: 600
+
 —> dnt want shit to go too high. exponential crap!
 
 
@@ -89,3 +92,5 @@ ex can do integer arithmetic, logical ops (boolean etc), bitewise ops, on CPU me
 if you want to operate on non-constant n, linear amount of data, how long will it take?
 concerns data structures, store large amount of data and operate on that
 
+.. image:: images/summaryL1.png
+   :width: 600
