@@ -77,6 +77,7 @@ linear time algorithm efficiency from top to bottom:
 
 .. image:: images/processingtime.png
    :width: 600
+   :alt: processing time vs input size
 
 —> dnt want shit to go too high. exponential crap!
 
@@ -94,3 +95,4 @@ concerns data structures, store large amount of data and operate on that
 
 .. image:: images/summaryL1.png
    :width: 600
+   :alt: algorithm list for solving computational problems
