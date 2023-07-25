@@ -1,6 +1,6 @@
-##########################
-Introduction to Algorithms
-##########################
+###############################
+Introduction to Algorithms (L1)
+###############################
 
 :date: 2023-07-14 17:24
 :tags: algorithms, compsci
@@ -11,6 +11,7 @@ Introduction to Algorithms
 
 
 .. |ex| replace:: example:
+
 
 
 .. contents:: Table of Contents
