@@ -1,5 +1,5 @@
 ###############################
-Introduction to Algorithms (L1)
+Introduction to Algorithms (L2)
 ###############################
 
 :date: 2023-07-25 11:11
