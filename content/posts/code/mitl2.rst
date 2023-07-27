@@ -69,20 +69,15 @@ o = object()
 o.attr = 1 - setter
 attr = o.attr - getter
 
-Natural solution for this problem —› static array (only dynamic arrays in
-python) with optimal running times:
-..
-    key: word RAM model of computation
-    - memory = array of w-bit words [----|!----|----|!----]
-    - "array" = consecutive chunk of memory (starts at ! to !, includes two
-      words, 0, 1)
-    —› array[i] = memory[address(array)+i] = can access memory in constant
-    time (assumed), get_at & set_at
-    —› array access is O(I)??????? = constant time
-    side effect of this assumption^ —› must assume w is at least lgn (currently w = 64, 256, must grow at least as fast as n, log n to account for n words in RAM, 
-    *we care about scalability for v large n in algorithms, want to know what
-    growth function is and ignore lead constant factor, asymptotic notation! -
-    hashing, in next chapter)
+Natural solution for this problem: static array (only dynamic arrays in python) with optimal running times
+key = word RAM model of computation
+- memory = array of w-bit words [----|!----|----|!----]
+- "array" = consecutive chunk of memory (starts at ! to !, includes two words, 0, 1)
+—› array[i] = memory[address(array)+i] = can access memory in constant
+time (assumed), get_at & set_at
+—› array access is O(I)??????? = constant time
+side effect of this assumption^ —› must assume w is at least lgn (currently w = 64, 256, must grow at least as fast as n, log n to account for n words in RAM, 
+*we care about scalability for v large n in algorithms, want to know what growth function is and ignore lead constant factor, asymptotic notation! - hashing, in next chapter)*
 O(I) per get_at/set_at/len
 O(n) per build/iter_seq - linear time
 memory allocation model: allocate array of size n in theta(n) time 
@@ -95,9 +90,11 @@ Dynamic Sequence Interface:
 static sequence PLUS:
 insert_at(i,x): make x the new xi, shifting xi —› xi+1 —› xi+2 —›...—›xn-1 —›
 xn'-1 (n'=n+1)
+
 .. image:: images/insert_atstatic.png
    :width: 600
    :alt: insert_at(i,x) op
+
 delete_at(i): shift xi<-xi+1<—...<—xn'-1 (n'=n-1) <—xn-1
 insert/delete_first/last(x)/() - adding in front, or to tail of array [][-----][]
 
