@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - webdev</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/webdev.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-08T00:00:00+01:00</updated><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/pelican-github-actions.html" rel="alternate"></link><published>2023-07-08T00:00:00+01:00</published><updated>2023-07-08T00:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/pelican-github-actions.html</id><summary type="html">&lt;p class="first last"&gt;pelican deploy github action set-up for webdev&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;The first attempt was to try and make a yml file to do github actions.&lt;/p&gt;
-</content><category term="webdev"></category><category term="github"></category></entry><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website.html" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website.html</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - webdev</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/webdev.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-06-30T04:58:00+01:00</updated><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website.html" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website.html</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;This is my first webdev project.&lt;/p&gt;
+&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-workflow" id="toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div class="section" id="birthing-this-love-child"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;After galavanting across webrings, bookmarked websites, and premade jekyll themes, I decided to prioritise the following in regards to the creation of this website:&lt;/p&gt;
@@ -25,12 +30,5 @@
 &lt;p&gt;Thankfully, such features were readily available with Pelican. Upon stripping default files and scripts from its working pathway, I better understood the dependencies and configuration settings required to ensure the compatibility of my original files with engine. I learned of the ease and elegance of Pelican in executing test runs of my scripts from terminal, after tediously git committing small changes via GitHub Pages and developing an addiction to the slow emergence of green ticks when repeatedly abusing GitHub Actions. reat blog-style content in a high-level file format such as &lt;tt class="docutils literal"&gt;ReStructuredText&lt;/tt&gt;.&lt;/p&gt;
 &lt;p&gt;If you're also picking up &lt;tt class="docutils literal"&gt;html&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;css&lt;/tt&gt; for the first time, setting up an open source static site generator like Pelican in your terminal will help you create a development server in your local browser to swiftly see immediate changes within seconds. This immensely accelerated my on-the-go learning.&lt;/p&gt;
 &lt;p&gt;I'm currently working on automatically deploying my Pelican-based webdev project to GitHub Pages with GitHub Actions.&lt;/p&gt;
-&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-workflow" id="toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 </content><category term="webdev"></category><category term="css"></category><category term="html"></category><category term="github"></category></entry></feed>

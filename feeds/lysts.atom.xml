@@ -1,5 +1,285 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-14T17:24:00+01:00</updated><entry><title>Introduction to Algorithms (L1)</title><link href="https://lysts.xyz/introduction-to-algorithms-l1.html" rel="alternate"></link><published>2023-07-14T17:24:00+01:00</published><updated>2023-07-14T17:24:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-14:/introduction-to-algorithms-l1.html</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures available at MIT OpenCourseWare&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-30T19:01:00+01:00</updated><entry><title>Newb to Code, Newb to Climbing</title><link href="https://lysts.xyz/newb-to-code-newb-to-climbing.html" rel="alternate"></link><published>2023-07-30T19:01:00+01:00</published><updated>2023-07-30T19:01:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-30:/newb-to-code-newb-to-climbing.html</id><summary type="html">&lt;p class="first last"&gt;keeping active, challenging a new sport, how it plays into my journey
+with programming&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#to-be-spent-and-to-be-protected" id="toc-entry-1"&gt;To be spent and to be protected&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#mobility-habits-of-choice" id="toc-entry-2"&gt;Mobility habits of choice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#the-recent-addition" id="toc-entry-3"&gt;The recent addition!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#mobility-habits-code" id="toc-entry-4"&gt;Mobility Habits &amp;amp; Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="to-be-spent-and-to-be-protected"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;To be spent and to be protected&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Health. It's pretty easy to fall into the habit of taking our health for granted
+(guilty as charged)... Getting into healthy habits takes time and we
+often put it off pointing out that single piece of pizza, losing heat at the
+intersection of four relatively hungry friends.&lt;/p&gt;
+&lt;p&gt;Though blatantly obvious, it's sometimes difficult to remind ourselves of how
+that beautifully refreshing and invigorating exercise euphoria feels. Not only
+that, but improved physical and mental strength, like when you climb up a
+flight of stairs and realise that that core strengthening exercise really paid
+off.&lt;/p&gt;
+&lt;p&gt;Albeit this blog serving as a reminder laundry bag to myself, take or leave as many tokens as
+you'd like; here are some of my mobility habits:&lt;/p&gt;
+&lt;div class="section" id="mobility-habits-of-choice"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;Mobility habits of choice&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;1. Yoga
+This has been a constant hell yes in my repertoire. What I love about it:
+- requires just a mat, some space, and you of course
+- take it outdoors or indoors
+- make it solo or social
+- plethora of moves, flows, variations
+- decompresses, twists, challenges and relaxes the body
+Thus, you can identify your needs, chop up a sequence, stich em up together by choice
+and there you go, your perfect regimen.&lt;/p&gt;
+&lt;p&gt;Ease into building mind-to-muscle connections with intention. A simple flow can
+help you stretch and awaken muscles throughout your entire body in your
+mornings. A more intense session can make you sweat, really engage your
+core, build muscle anywhere you desire, and improve your flexiibility,
+simultaneously.&lt;/p&gt;
+&lt;p&gt;2. Pilates
+I see this as an extension of yoga, where you...
+- take those muscles and really target them
+- core building. yes, it can burn (good burns)
+- evokes a good sweat
+- again, you only really need a mat, some space, and you&lt;/p&gt;
+&lt;!-- FORM is crucial in both practices so practice attentiveness to where
+your limbs are placed, movements, and your posture --&gt;
+&lt;p&gt;3. Running
+This is perhaps more commercial so I won't delve but I suppose I'll touch on
+some struggles I've had to leave some pointers:
+- not pacing myself properly —› start small, even if it feels easy
+- long-term consistency —› timeblock in your schedule, find a friend to run with
+- post-exercise coughing —› keep walking outside whilst you cool down (avoid sitting straight down in a badly ventilated indoor space)&lt;/p&gt;
+&lt;p&gt;4. Tennis &amp;amp; Football
+- stress relieving
+- satisfying to smash/kick a ball
+- game element, strategy
+- involves both running and staying still, mix of stillness and running
+I've oftentimes enjoyed such sport after a long day of work, or at the end
+of the week on weekends. It can be rewarding to practice precision, the types of ways you can serve or return the ball to achieve a
+pre-determined trajectory or tactic. It really works your arms and legs and
+reflexiveness.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-recent-addition"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;The recent addition!&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;5. Climbing (bouldering)
+So far, each time I've climbed, I've gone with an experienced climber. Each time,
+I have noticed that they move with smoothness and reduced inefficient movement
+and tension. It's mesmerising to watch, and I've come to appreciate the sport
+as an art form.&lt;/p&gt;
+&lt;p&gt;It may be one of the most challenging sports I've ever done. Don't be
+deceived by the height of the walls that only seem to last a few meters...
+There are varying levels of difficulty for every climber. Quick overview:
+* bouldering walls have colour coded grips that belong to different paths of
+distinguished levels. Start hands are often labelled for you
+* once you reach the top and final grip, both hands must meet the grip together
+* you can use any grip from any path on the way down, or jump from a reasonable
+height (don't worry, the floor is well cushioned...)&lt;/p&gt;
+&lt;p&gt;The sport gets you out of your comfort zone, testing your grip, toes, agility,
+back and arms — practically everything. It requires a lot of planning and
+strategy, and at times trial and error to figure out different paths.&lt;/p&gt;
+&lt;p&gt;With it, your mental strength and stamina are put to the test.&lt;/p&gt;
+&lt;p&gt;It can be discouraging when you can't make it to the top in one go (a &amp;quot;flash&amp;quot;).
+You may feel vulnerable, &amp;quot;failing&amp;quot; in front of other observing climbers.
+Whilst you're climbing, you may panic due to the sheer height, tense up, or feel like your arms are giving out.&lt;/p&gt;
+&lt;p&gt;But learning that...
+1. there's no time limit. Take your time solving a path, or move on to others
+2. it's okay to turn back and fall, you can always try again, today or another day
+3. other climbers are always friendly, non-judgemental, and willing to help
+4. this becomes good practice of failure, challenging and believing in yourself
+5. perseverance becomes resilience — you become less fear-ridden with time
+has honestly led to immense self-growth in a short amount of time:)&lt;/p&gt;
+&lt;!-- Just yesterday, I went climbing, and felt proud of myself when I managed to clear
+a path I thought I wouldn't manage. I felt stuck 80% of the way up and had to rest
+about 3-4 meters above ground due to muscle fatigue.
+But after giving myself a moment, I pushed myself up to the last grip. And boy,
+was it undeniably satisfying. --&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mobility-habits-code"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;Mobility Habits &amp;amp; Code&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;With programming, you always meet a multitude of debugging issues. Just like a grip that may
+have been out of sight, you may have missed something so blatantly obvious.&lt;/p&gt;
+&lt;p&gt;It may be frustrating (in my case, I end up hysterically laughing). It's
+discouraging when things don't quite work. But similarly to yoga and climbing,
+you make attempts, you see improvement, you reach higher and you push yourself
+incrementally. The way you address problem solving may become more precise and
+efficient as you unlock thought processes and improve the quality of your code.&lt;/p&gt;
+&lt;p&gt;Sometimes, simple code is the best code. You don't want to overcomplicate or
+overwork your muscle movements, you want them to support your objectives.
+Similarly, your code should be there to help you accomplish your goals, not
+diminish them.&lt;/p&gt;
+&lt;p&gt;These habits have and hopefully will continue to feed in to my journey with
+programming in a symbiotic manner. Timeblocking periods of exercise into my
+schedule has improved my concentration and sleep quality, and diminished that
+mental block to simply do things and get things done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="notes"></category><category term="health"></category><category term="mind"></category><category term="sport"></category></entry><entry><title>Introduction to Algorithms (L2)</title><link href="https://lysts.xyz/introduction-to-algorithms-l2.html" rel="alternate"></link><published>2023-07-25T11:11:00+01:00</published><updated>2023-07-25T11:11:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-25:/introduction-to-algorithms-l2.html</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures available at MIT OpenCourseWare&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#l2-data-structures-dynamic-arrays" id="toc-entry-1"&gt;L2: Data Structures &amp;amp; Dynamic Arrays&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#difference-between-interface-api-adt-vs-data-structure" id="toc-entry-2"&gt;Difference between Interface (API/ADT) vs Data Structure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#interfaces-2-main-ones-for-set-sequence-data" id="toc-entry-3"&gt;interfaces (2 main ones for set &amp;amp; sequence data)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#ds-approaches-2-main" id="toc-entry-4"&gt;DS approaches, 2 main&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#static-sequence-interface" id="toc-entry-5"&gt;static sequence interface:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#dynamic-sequence-interface" id="toc-entry-6"&gt;Dynamic Sequence Interface:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#linked-lists" id="toc-entry-7"&gt;linked lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#dynamic-sequence-ops" id="toc-entry-8"&gt;Dynamic Sequence Ops&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#dynamic-arrays-python-lists" id="toc-entry-9"&gt;Dynamic arrays (python lists)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#amoritisation" id="toc-entry-10"&gt;Amoritisation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="l2-data-structures-dynamic-arrays"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;L2: Data Structures &amp;amp; Dynamic Arrays&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;sequence interface &amp;amp; data structures&lt;/li&gt;
+&lt;li&gt;linked lists, dynamic arrays, amortication&lt;/li&gt;
+&lt;li&gt;set interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="difference-between-interface-api-adt-vs-data-structure"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;Difference between Interface (API/ADT) vs Data Structure&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;specification, what data you can store [problem] vs representation, how to store data [algorithmic solution]
+interface where you specify what operations are supported, what they mean vs
+data structure defines algorithms to support operations&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="interfaces-2-main-ones-for-set-sequence-data"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;interfaces (2 main ones for set &amp;amp; sequence data)&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;set&lt;/li&gt;
+&lt;li&gt;sequence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ds-approaches-2-main"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;DS approaches, 2 main&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;arrays&lt;/li&gt;
+&lt;li&gt;pointer based&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="defining-sequence-interfaces"&gt;
+&lt;h4&gt;[defining sequence interfaces]&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="static-sequence-interface"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;static sequence interface:&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;items x0, x1, ... xn-1
+build(x): make new ds for items in x (x being an iterable in py, in this seq)
+len(): return n (length, OO)
+iter_seq(): output x0, x1...,xn-1 in seq order
+get_at(i): return xi (index i)
+set_at(i,x): return xi to x
+get_first/last()
+set_first/last()&lt;/p&gt;
+&lt;p&gt;array/list
+x1 = array.get_at(1) - method
+get_at(array, 1) - function&lt;/p&gt;
+&lt;p&gt;array.set_at(1, x1) (mutating set inside array)&lt;/p&gt;
+&lt;p&gt;not so great (breaks api purpose):
+o = object()
+o.attr = 1 - setter
+attr = o.attr - getter&lt;/p&gt;
+&lt;p&gt;Natural solution for this problem: static array (only dynamic arrays in python) with optimal running times
+key = word RAM model of computation
+- memory = array of w-bit words [....|!....|....|!....]
+- &amp;quot;array&amp;quot; = consecutive chunk of memory (starts at ! to !, includes two words, 0, 1)
+—› array[i] = memory[address(array)+i] = can access memory in constant
+time (assumed), get_at &amp;amp; set_at
+—› array access is O(I)??????? = constant time
+side effect of this assumption^ —› must assume w is at least lgn (currently w = 64, 256, must grow at least as fast as n, log n to account for n words in RAM,
+&lt;em&gt;we care about scalability for v large n in algorithms, want to know what growth function is and ignore lead constant factor, asymptotic notation! - hashing, in next chapter)&lt;/em&gt;
+O(I) per get_at/set_at/len
+O(n) per build/iter_seq - linear time
+memory allocation model: allocate array of size n in theta(n) time
+.. can imagine this being constant time but doesn't matter?, if you allocate some chunk of memory you hv no idea if it's initialised, initialising that array to 0s will cost linear time (?)
+—› side effect of this model; space used = time used (space=O(time)), assumed
+it costs allocate memory&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dynamic-sequence-interface"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;Dynamic Sequence Interface:&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;static sequence PLUS:
+insert_at(i,x): make x the new xi, shifting xi —› xi+1 —› xi+2 —›...—›xn-1 —›
+xn'-1 (n'=n+1)&lt;/p&gt;
+&lt;img alt="insert_at(i,x) op" src="images/insert_atstatic.png" style="width: 600px;" /&gt;
+&lt;p&gt;delete_at(i): shift xi&amp;lt;-xi+1&amp;lt;—...&amp;lt;—xn'-1 (n'=n-1) &amp;lt;—xn-1
+insert/delete_first/last(x)/() - adding in front, or to tail of array [][-----][]&lt;/p&gt;
+&lt;div class="section" id="solving-sequence-interfaces"&gt;
+&lt;h4&gt;[solving sequence interfaces]&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="linked-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-7"&gt;linked lists&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;= store items in nodes, each node has an item in it (actual values, x0 --- xn-1) and a next field, next pointers link items all together, in this order. data structure represented by head of list, and len.
+relying on pointers being stored as single word (can dereference and see what
+value is at end of each pointer (pointers are indices in giant array, address
+of array, tells us where in memory pointed value is) in constant time in word RAM model) - here we
+have arrays of size 2, possibly in arbitrary order in RAM model&lt;/p&gt;
+&lt;img alt="insert op in linked list" src="images/insertfirstonlinked.png" style="width: 600px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dynamic-sequence-ops"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-8"&gt;Dynamic Sequence Ops&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;on a static array:&lt;/em&gt;
+if you insert/delete = at() costs theta(n) time (first, all items must shift, to maintain A[i] = xi - must copy
+over) costs bc
+1. shifting (not part of delete in array, but shifting in MEMORY n, size is constant! therefore new array would not be continguous to new one)
+2. allocate new array (not allows to change size of static array) - must copy
+over to new array to throw away old one, thus bad for dynamic ops - that's why bad&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;on a linked list:&lt;/em&gt;
+can efficiently insert_first(x), where you create node, get it to point to 0
+node, get head to point to new first node.
+insert/delete_first(): O(O) time
+BUT everything else slow:
+to get/set_at need theta(i) time (in worst case, theta(n)) = must walk to that
+position by following every pointer (even w insert/delete_at(i) tho better at being dynamic
+easier way to get last item, is to have tail pointer to last list (= data pointer
+augmentation BUT must keep this up to date all the time)&lt;/p&gt;
+&lt;p&gt;—› arrays good if random access and nothing dynamic
+—› linked list great if working on ends even dynamically&lt;/p&gt;
+&lt;p&gt;NEXT
+Try to get good running times of static arrays and linked lists...
+.. how is python implemented relates to overall message of L1/2, automatically creates dynamic arrays, called lists&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dynamic-arrays-python-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-9"&gt;Dynamic arrays (python lists)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;in py interpreter...
+- relax constraint that size(array) = n —› # items in seq, &amp;quot;roughly n&amp;quot; in
+algorithm context, &amp;quot;can mean you throw away constant factors&amp;quot; ???
+- enforce size = theta(n) (at least n and at most some constant times n &amp;amp; &amp;gt;= n
+- maintain that A[i] = ni (that ith item of array represents xi)
+—› array with some empty nodes at end
+what do you do if insert_last(x)?
+1. A[len] = x
+2. increment length (len+=1)
+.. how do you know you have enough room? you don't, incorrect algorithm if len = size = n
+—› track length &amp;amp; size, size = full len array, len = just the portion that has designated values
+3. insert_last(x): add to end unless n = size (representation size)&lt;/p&gt;
+&lt;p&gt;with flexibility of not having to allocate/copy every single time,
+if n = size:
+- allocate new array of constant factor larger ex 1.1, 2, 5 etc * size OR ex
+size + 5 (trolling answer, the latter is bad bc you have to resize
+frequently, 5 steps later - linear step)
+n insert_last() from empty array
+- resize at n=1, 2, 4, 8, 16...
+—› resize cost = theta(1+2+4+8+16+...+n) = theta((logn)sum(i=n) of 2^i) = geometric series (ith bit = 1) = theta(2^lgn) = theta(n), takes linear time
+geometric series dominated by last term (grows exponentially)&lt;/p&gt;
+&lt;img alt="resize cost summation" src="images/resizecostdynamic.png" style="width: 600px;" /&gt;
+&lt;p&gt;—› constant O(i) amortised&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="amoritisation"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-10"&gt;Amoritisation&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;operation takes T(n) amortised time
+if any k ops take =&amp;lt; k*T(n) time
+(averaging over ops sequence)&lt;/p&gt;
+&lt;img alt="summary table of seq interface &amp;amp; data structure time costs" src="images/summaryL2.png" style="width: 600px;" /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>Introduction to Algorithms (L1)</title><link href="https://lysts.xyz/introduction-to-algorithms-l1.html" rel="alternate"></link><published>2023-07-14T17:24:00+01:00</published><updated>2023-07-14T17:24:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-14:/introduction-to-algorithms-l1.html</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures available at MIT OpenCourseWare&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -86,10 +366,17 @@ concerns data structures, store large amount of data and operate on that&lt;/p&g
 &lt;/div&gt;
 </content><category term="notes"></category><category term="arbitrary"></category><category term="fun"></category></entry><entry><title>my current set-up</title><link href="https://lysts.xyz/my-current-set-up.html" rel="alternate"></link><published>2023-07-11T18:02:00+01:00</published><updated>2023-07-11T18:02:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up.html</id><content type="html">&lt;p&gt;iterm2, vim, tmux, ranger, - how i use these tools and how i've configured them
 for simplicity and easy use&lt;/p&gt;
-</content><category term="code"></category></entry><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/pelican-github-actions.html" rel="alternate"></link><published>2023-07-08T00:00:00+01:00</published><updated>2023-07-08T00:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/pelican-github-actions.html</id><summary type="html">&lt;p class="first last"&gt;pelican deploy github action set-up for webdev&lt;/p&gt;
+</content><category term="code"></category></entry><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/setting-up-github-actions-for-pelican.html" rel="alternate"></link><published>2023-07-08T11:00:00+01:00</published><updated>2023-07-08T11:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/setting-up-github-actions-for-pelican.html</id><summary type="html">&lt;p class="first last"&gt;web-building with github actions and pelican&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;The first attempt was to try and make a yml file to do github actions.&lt;/p&gt;
-</content><category term="webdev"></category><category term="github"></category></entry><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website.html" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website.html</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
+</content><category term="notes"></category><category term="github"></category></entry><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website.html" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website.html</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;This is my first webdev project.&lt;/p&gt;
+&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-workflow" id="toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div class="section" id="birthing-this-love-child"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;After galavanting across webrings, bookmarked websites, and premade jekyll themes, I decided to prioritise the following in regards to the creation of this website:&lt;/p&gt;
@@ -112,12 +399,5 @@ for simplicity and easy use&lt;/p&gt;
 &lt;p&gt;Thankfully, such features were readily available with Pelican. Upon stripping default files and scripts from its working pathway, I better understood the dependencies and configuration settings required to ensure the compatibility of my original files with engine. I learned of the ease and elegance of Pelican in executing test runs of my scripts from terminal, after tediously git committing small changes via GitHub Pages and developing an addiction to the slow emergence of green ticks when repeatedly abusing GitHub Actions. reat blog-style content in a high-level file format such as &lt;tt class="docutils literal"&gt;ReStructuredText&lt;/tt&gt;.&lt;/p&gt;
 &lt;p&gt;If you're also picking up &lt;tt class="docutils literal"&gt;html&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;css&lt;/tt&gt; for the first time, setting up an open source static site generator like Pelican in your terminal will help you create a development server in your local browser to swiftly see immediate changes within seconds. This immensely accelerated my on-the-go learning.&lt;/p&gt;
 &lt;p&gt;I'm currently working on automatically deploying my Pelican-based webdev project to GitHub Pages with GitHub Actions.&lt;/p&gt;
-&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-workflow" id="toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 </content><category term="webdev"></category><category term="css"></category><category term="html"></category><category term="github"></category></entry></feed>
