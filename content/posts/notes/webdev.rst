@@ -16,7 +16,11 @@ building this website — a series of firsts
 
 This is my first webdev project. 
 
-
+.. contents:: Table of Contents
+   :depth: 2
+   :backlinks: entry
+  
+    
 birthing this love child
 ========================
 
@@ -53,10 +57,7 @@ If you're also picking up ``html`` and ``css`` for the first time, setting up an
 
 I'm currently working on automatically deploying my Pelican-based webdev project to |gh| Pages with |gh| Actions.
 
-.. contents:: Table of Contents
-   :depth: 2
-   :backlinks: entry
-   
+
 
 
 

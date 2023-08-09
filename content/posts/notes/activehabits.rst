@@ -70,8 +70,7 @@ This is perhaps more commercial so I won't delve but I suppose I'll touch on
 some struggles I've had to leave some pointers: 
 - not pacing myself properly —› start small, even if it feels easy
 - long-term consistency —› timeblock in your schedule, find a friend to run with
-- post-exercise coughing —› keep walking outside whilst you cool down (avoid
-  sitting straight down in a badly ventilated indoor space)
+- post-exercise coughing —› keep walking outside whilst you cool down (avoid sitting straight down in a badly ventilated indoor space)
 
 4. Tennis & Football
 - stress relieving
@@ -95,10 +94,10 @@ It may be one of the most challenging sports I've ever done. Don't be
 deceived by the height of the walls that only seem to last a few meters...
 There are varying levels of difficulty for every climber. Quick overview:
 * bouldering walls have colour coded grips that belong to different paths of
-  distinguished levels. Start hands are often labelled for you
+distinguished levels. Start hands are often labelled for you
 * once you reach the top and final grip, both hands must meet the grip together
 * you can use any grip from any path on the way down, or jump from a reasonable
-  height (don't worry, the floor is well cushioned...)
+height (don't worry, the floor is well cushioned...)
 
 The sport gets you out of your comfort zone, testing your grip, toes, agility,
 back and arms — practically everything. It requires a lot of planning and

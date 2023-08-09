@@ -4,7 +4,7 @@ Introduction to Algorithms (L2)
 
 :date: 2023-07-25 11:11
 :tags: algorithms, compsci
-:slugs: intro-to-algorithms-1
+:slugs: intro-to-algorithms-2
 :summary: notes on recorded introductory compsci lectures available at MIT OpenCourseWare
 :lang: en
 :status: published
@@ -71,7 +71,7 @@ attr = o.attr - getter
 
 Natural solution for this problem: static array (only dynamic arrays in python) with optimal running times
 key = word RAM model of computation
-- memory = array of w-bit words [----|!----|----|!----]
+- memory = array of w-bit words [....|!....|....|!....]
 - "array" = consecutive chunk of memory (starts at ! to !, includes two words, 0, 1)
 —› array[i] = memory[address(array)+i] = can access memory in constant
 time (assumed), get_at & set_at
@@ -118,17 +118,14 @@ have arrays of size 2, possibly in arbitrary order in RAM model
 
 Dynamic Sequence Ops
 ''''''''''''''''''''
-on a static array
------------------
+*on a static array:*
 if you insert/delete = at() costs theta(n) time (first, all items must shift, to maintain A[i] = xi - must copy
 over) costs bc 
 1. shifting (not part of delete in array, but shifting in MEMORY n, size is constant! therefore new array would not be continguous to new one)
 2. allocate new array (not allows to change size of static array) - must copy
-   over to new array to throw away old one, thus bad for dynamic ops - that's
-   why bad
+over to new array to throw away old one, thus bad for dynamic ops - that's why bad
 
-on a linked list
-----------------
+*on a linked list:*
 can efficiently insert_first(x), where you create node, get it to point to 0
 node, get head to point to new first node.
 insert/delete_first(): O(O) time
@@ -150,7 +147,7 @@ Dynamic arrays (python lists)
 '''''''''''''''''''''''''''''
 in py interpreter...
 - relax constraint that size(array) = n —› # items in seq, "roughly n" in
-  algorithm context, "can mean you throw away constant factors" ???
+algorithm context, "can mean you throw away constant factors" ???
 - enforce size = theta(n) (at least n and at most some constant times n & >= n
 - maintain that A[i] = ni (that ith item of array represents xi)
 —› array with some empty nodes at end
@@ -163,16 +160,18 @@ what do you do if insert_last(x)?
 
 with flexibility of not having to allocate/copy every single time, 
 if n = size:
-    allocate new array of constant factor larger ex 1.1, 2, 5 etc * size OR ex
-    size + 5 (trolling answer, the latter is bad bc you have to resize
-    frequently, 5 steps later - linear step)
+- allocate new array of constant factor larger ex 1.1, 2, 5 etc * size OR ex
+size + 5 (trolling answer, the latter is bad bc you have to resize
+frequently, 5 steps later - linear step)
 n insert_last() from empty array
-    resize at n=1, 2, 4, 8, 16...
+- resize at n=1, 2, 4, 8, 16...
 —› resize cost = theta(1+2+4+8+16+...+n) = theta((logn)sum(i=n) of 2^i) = geometric series (ith bit = 1) = theta(2^lgn) = theta(n), takes linear time
 geometric series dominated by last term (grows exponentially)
+
 .. image:: images/resizecostdynamic.png
    :width: 600
    :alt: resize cost summation
+
 —› constant O(i) amortised 
 
 Amoritisation
