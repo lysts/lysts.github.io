@@ -40,11 +40,13 @@ Mobility habits of choice
 '''''''''''''''''''''''''
 1. Yoga
 This has been a constant hell yes in my repertoire. What I love about it:
+
 - requires just a mat, some space, and you of course
 - take it outdoors or indoors
 - make it solo or social
 - plethora of moves, flows, variations
 - decompresses, twists, challenges and relaxes the body
+
 Thus, you can identify your needs, chop up a sequence, stich em up together by choice 
 and there you go, your perfect regimen.
 
@@ -55,7 +57,8 @@ core, build muscle anywhere you desire, and improve your flexiibility,
 simultaneously. 
 
 2. Pilates
-I see this as an extension of yoga, where you...
+I see this as an extension of yoga, where you...:
+
 - take those muscles and really target them
 - core building. yes, it can burn (good burns)
 - evokes a good sweat
@@ -68,15 +71,19 @@ I see this as an extension of yoga, where you...
 3. Running
 This is perhaps more commercial so I won't delve but I suppose I'll touch on
 some struggles I've had to leave some pointers: 
+
 - not pacing myself properly —› start small, even if it feels easy
 - long-term consistency —› timeblock in your schedule, find a friend to run with
 - post-exercise coughing —› keep walking outside whilst you cool down (avoid sitting straight down in a badly ventilated indoor space)
 
-4. Tennis & Football
+
+4. Tennis & Football:
+
 - stress relieving
 - satisfying to smash/kick a ball
 - game element, strategy
 - involves both running and staying still, mix of stillness and running
+
 I've oftentimes enjoyed such sport after a long day of work, or at the end
 of the week on weekends. It can be rewarding to practice precision, the types of ways you can serve or return the ball to achieve a
 pre-determined trajectory or tactic. It really works your arms and legs and
@@ -93,11 +100,12 @@ as an art form.
 It may be one of the most challenging sports I've ever done. Don't be
 deceived by the height of the walls that only seem to last a few meters...
 There are varying levels of difficulty for every climber. Quick overview:
-* bouldering walls have colour coded grips that belong to different paths of
-distinguished levels. Start hands are often labelled for you
+
+* bouldering walls have colour coded grips that belong to different paths of distinguished levels. Start hands are often labelled for you
 * once you reach the top and final grip, both hands must meet the grip together
-* you can use any grip from any path on the way down, or jump from a reasonable
-height (don't worry, the floor is well cushioned...)
+* you can use any grip from any path on the way down, or jump from a reasonable 
+  height (don't worry, the floor is well cushioned...)
+
 
 The sport gets you out of your comfort zone, testing your grip, toes, agility,
 back and arms — practically everything. It requires a lot of planning and
@@ -109,15 +117,16 @@ It can be discouraging when you can't make it to the top in one go (a "flash").
 You may feel vulnerable, "failing" in front of other observing climbers. 
 Whilst you're climbing, you may panic due to the sheer height, tense up, or feel like your arms are giving out.
 
-But learning that...
+But learning that...:
+
 1. there's no time limit. Take your time solving a path, or move on to others
 2. it's okay to turn back and fall, you can always try again, today or another day
 3. other climbers are always friendly, non-judgemental, and willing to help
 4. this becomes good practice of failure, challenging and believing in yourself
 5. perseverance becomes resilience — you become less fear-ridden with time
-has honestly led to immense self-growth in a short amount of time:)
 
-..
+has honestly led to immense self-growth in a short amount of time:)::
+
     Just yesterday, I went climbing, and felt proud of myself when I managed to clear 
     a path I thought I wouldn't manage. I felt stuck 80% of the way up and had to rest 
     about 3-4 meters above ground due to muscle fatigue. 
