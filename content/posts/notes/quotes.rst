@@ -16,3 +16,7 @@ referring to the general public (genderless ver.)
 =================================================
 ladles and jellyspoons
 
+
+english is a weird language
+===========================
+cursory look
