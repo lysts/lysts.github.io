@@ -379,6 +379,10 @@ concerns data structures, store large amount of data and operate on that&lt;/p&g
 &lt;h2&gt;referring to the general public (genderless ver.)&lt;/h2&gt;
 &lt;p&gt;ladles and jellyspoons&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class="section" id="english-is-a-weird-language"&gt;
+&lt;h2&gt;english is a weird language&lt;/h2&gt;
+&lt;p&gt;cursory look&lt;/p&gt;
+&lt;/div&gt;
 </content><category term="notes"></category><category term="arbitrary"></category><category term="fun"></category></entry><entry><title>my current set-up</title><link href="https://lysts.xyz/my-current-set-up.html" rel="alternate"></link><published>2023-07-11T18:02:00+01:00</published><updated>2023-07-11T18:02:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up.html</id><content type="html">&lt;p&gt;iterm2, vim, tmux, ranger, - how i use these tools and how i've configured them
 for simplicity and easy use&lt;/p&gt;
 </content><category term="code"></category></entry><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/setting-up-github-actions-for-pelican.html" rel="alternate"></link><published>2023-07-08T11:00:00+01:00</published><updated>2023-07-08T11:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/setting-up-github-actions-for-pelican.html</id><summary type="html">&lt;p class="first last"&gt;web-building with github actions and pelican&lt;/p&gt;
