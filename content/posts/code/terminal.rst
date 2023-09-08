@@ -2,7 +2,7 @@
 my current set-up, for a reductive workflow
 ===========================================
 
-:date: 2023-07-11
+:date: 2023-07-11 18:06
 :tags: compsci, terminal, vim, ranger
 :category: compsci, workflow
 :slugs: terminal-centric-setup
