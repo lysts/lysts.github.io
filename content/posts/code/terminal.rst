@@ -1,9 +1,8 @@
-=================
-my current set-up
-=================
-for Reductive Workflow
+===========================================
+my current set-up, for a reductive workflow
+===========================================
 
-:date: 2023-07-11 18:02
+:date: 2023-07-11
 :tags: compsci, terminal, vim, ranger
 :category: compsci, workflow
 :slugs: terminal-centric-setup
@@ -37,16 +36,16 @@ helpful features became a hindrance — there was just zero flow. I had to utili
 an open-source terminal multiplexer that allows you to acces multiple sessions in a single window. 
 
 I then stumbled across ``iTerm2``, a terminal emulator for macOS, and *oh boy*!
-* It is highly customisable, beyond themes and formatting. I personally enjoy
-  the *Zenbones Dark* theme:)
+* It is highly customisable, beyond themes and formatting. I personally enjoy 
+the *Zenbones Dark* theme:)
 * Robust support for a multitude of third-party plugins and extensions, which I will detail later.
 * Even without plugins, it allows you to divide the windows horizontally or
-  vertically with ``^+cmd+D`` and ``cmd+D``, and can toggle any pane to full screen and
-  back with ``^+cmd+enter``. To move between panes, ``alt+cmd`` and arrowkeys.
-  Moving between tabs require ``cmd`` and 1, 2, or 9. Similarly, moving through
-  windows require ``atl+cmd`` and the same numbers. A
+vertically with ``^+cmd+D`` and ``cmd+D``, and can toggle any pane to full screen and
+back with ``^+cmd+enter``. To move between panes, ``alt+cmd`` and arrowkeys.
+Moving between tabs require ``cmd`` and 1, 2, or 9. Similarly, moving through
+windows require ``atl+cmd`` and the same numbers. 
 * As such, there are a multitude of useful key bindings such as ``cmd+F`` like
-  on browser! They are easily accessed via *Preferences > Keys > Key Bindings*.
+on browser! They are easily accessed via *Preferences > Keys > Key Bindings*.
 
 I use ``zsh`` (Z shell) and ``Bash`` (Bourne Again Shell) as my command-line shells.
 I, however, avoid ``Oh My Zsh``, a popular framework used with ``zsh`` for a number of reasons:
