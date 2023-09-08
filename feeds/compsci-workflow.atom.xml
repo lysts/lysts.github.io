@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - compsci, workflow</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/compsci-workflow.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-11T00:00:00+01:00</updated><entry><title>my current set-up, for a reductive workflow</title><link href="https://lysts.xyz/my-current-set-up-for-a-reductive-workflow.html" rel="alternate"></link><published>2023-07-11T00:00:00+01:00</published><updated>2023-07-11T00:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up-for-a-reductive-workflow.html</id><summary type="html">&lt;p class="first last"&gt;tools revolving around terminal for reductive workflow&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#iterm2-my-cli-command-line-interface" id="toc-entry-1"&gt;iTerm2, my CLI (command-line interface)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#more-key-software" id="toc-entry-2"&gt;More Key Software&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#vim-vi-improved-my-text-editor" id="toc-entry-3"&gt;vim (Vi IMproved), my text-editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#ranger-my-file-navigator" id="toc-entry-4"&gt;ranger, my file navigator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#extra-tip" id="toc-entry-5"&gt;extra tip!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Tools I use and how I've configured them to provide simplicity to my reductive
+workflow.&lt;/p&gt;
+&lt;div class="section" id="iterm2-my-cli-command-line-interface"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;iTerm2, my CLI (command-line interface)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CLIs&lt;/strong&gt; allow users to give text-based inputs (command lines) to interact with a computer's
+operating system and perform operations or automate processes.&lt;/p&gt;
+&lt;p&gt;With a simple command such as &lt;tt class="docutils literal"&gt;mkdir (filename)&lt;/tt&gt;, you're able to create
+files (example: &lt;tt class="docutils literal"&gt;mkdir&lt;/tt&gt;), rather than clicking through folders
+with your cursor with a &lt;strong&gt;GUI&lt;/strong&gt; (graphical user interface).&lt;/p&gt;
+&lt;p&gt;As a macOS user, I constantly search for tools that can bring me more
+customisability (Apple is famous for being stubbornly unsupportive that kind of self-autonomy).&lt;/p&gt;
+&lt;p&gt;Inevitably, I tried the pre-installed &lt;tt class="docutils literal"&gt;Mac Terminal&lt;/tt&gt;. To no surprise, the lackness of
+helpful features became a hindrance — there was just zero flow. I had to utilise &lt;tt class="docutils literal"&gt;tmux&lt;/tt&gt;,
+an open-source terminal multiplexer that allows you to acces multiple sessions in a single window.&lt;/p&gt;
+&lt;p&gt;I then stumbled across &lt;tt class="docutils literal"&gt;iTerm2&lt;/tt&gt;, a terminal emulator for macOS, and &lt;em&gt;oh boy&lt;/em&gt;!
+* It is highly customisable, beyond themes and formatting. I personally enjoy
+the &lt;em&gt;Zenbones Dark&lt;/em&gt; theme:)
+* Robust support for a multitude of third-party plugins and extensions, which I will detail later.
+* Even without plugins, it allows you to divide the windows horizontally or
+vertically with &lt;tt class="docutils literal"&gt;^+cmd+D&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;cmd+D&lt;/tt&gt;, and can toggle any pane to full screen and
+back with &lt;tt class="docutils literal"&gt;^+cmd+enter&lt;/tt&gt;. To move between panes, &lt;tt class="docutils literal"&gt;alt+cmd&lt;/tt&gt; and arrowkeys.
+Moving between tabs require &lt;tt class="docutils literal"&gt;cmd&lt;/tt&gt; and 1, 2, or 9. Similarly, moving through
+windows require &lt;tt class="docutils literal"&gt;atl+cmd&lt;/tt&gt; and the same numbers.
+* As such, there are a multitude of useful key bindings such as &lt;tt class="docutils literal"&gt;cmd+F&lt;/tt&gt; like
+on browser! They are easily accessed via &lt;em&gt;Preferences &amp;gt; Keys &amp;gt; Key Bindings&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I use &lt;tt class="docutils literal"&gt;zsh&lt;/tt&gt; (Z shell) and &lt;tt class="docutils literal"&gt;Bash&lt;/tt&gt; (Bourne Again Shell) as my command-line shells.
+I, however, avoid &lt;tt class="docutils literal"&gt;Oh My Zsh&lt;/tt&gt;, a popular framework used with &lt;tt class="docutils literal"&gt;zsh&lt;/tt&gt; for a number of reasons:
+1. my philosophy is to figure out what I need and to use it
+well vs installing things that I need to understand when I may or may not use it
+2. it takes up a LOT of space.
+Which brings me to the next section, where I detail how I manage my additional software, plugins, and text-editors...&lt;/p&gt;
+&lt;div class="section" id="more-key-software"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;More Key Software&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="vim-vi-improved-my-text-editor"&gt;
+&lt;span id="vim"&gt;&lt;/span&gt;&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;vim (Vi IMproved), my text-editor&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;Vim&lt;/tt&gt; is a lifesaving screen-based text editor program —&amp;nbsp;free and open-source as
+usual. Built-in tutorial, &lt;tt class="docutils literal"&gt;vimtutor&lt;/tt&gt; helps you pick up all the key bindings
+and shortcuts that allow you to edit code at lightning speed. It goes beyond
+editing, it also allows navigation between different files, and &lt;tt class="docutils literal"&gt;:help&lt;/tt&gt; is
+always available for when you forget. See vim modes for more usage deets!&lt;/p&gt;
+&lt;p&gt;For example, to copy/paste in different instances of vim, &lt;tt class="docutils literal"&gt;&amp;quot;+y&lt;/tt&gt; yanks to the
+system clipboard rather than the vim clipboard, which is done simply by &lt;tt class="docutils literal"&gt;y&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;There is a native third-party package loading system that has been implemented
+with vim, which I prefer rather than using &lt;tt class="docutils literal"&gt;Pathogen&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;vundle&lt;/tt&gt; or other popular Vim
+plugin managers. Packages are recognised under &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;~/.vim/pack&lt;/span&gt;&lt;/tt&gt; and can be downloaded separately
+and unpacked in its own directory, making package/plugin additions, removals, and updates easy.&lt;/p&gt;
+&lt;p&gt;Plugins under &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;~/.vim/pack/*/start/{name}&lt;/span&gt;&lt;/tt&gt; are autoloaded on startup, and
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;~/.vim/pack/*/opt/{name}&lt;/span&gt;&lt;/tt&gt; are loaded manuanlly with &lt;tt class="docutils literal"&gt;:packadd {name}&lt;/tt&gt;. I
+use the &lt;tt class="docutils literal"&gt;start&lt;/tt&gt; folder only, and separate my plugins into &lt;strong&gt;ftplugin&lt;/strong&gt; for plugins specific
+to programming languages and &lt;strong&gt;plugin&lt;/strong&gt; for &lt;tt class="docutils literal"&gt;.vimrc&lt;/tt&gt; configuration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ranger-my-file-navigator"&gt;
+&lt;span id="ranger"&gt;&lt;/span&gt;&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;ranger, my file navigator&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Sometimes, you miss being able to see all of your files at a glance, and the
+hierarchy they reside in. This is where &lt;tt class="docutils literal"&gt;Ranger&lt;/tt&gt; comes in, a terminal-based
+file manager application that allows users to browse and navigate with a dual-pane layout for
+file management, with a directory tree view, allowing file previews, operations (copy, move, delete).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="extra-tip"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;extra tip!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;type &lt;tt class="docutils literal"&gt;tree&lt;/tt&gt; and see what you get;)&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="compsci, workflow"></category><category term="compsci"></category><category term="terminal"></category><category term="vim"></category><category term="ranger"></category></entry></feed>
