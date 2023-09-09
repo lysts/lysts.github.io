@@ -13,7 +13,6 @@ Introduction to Algorithms (L1)
 .. |ex| replace:: example:
 
 
-
 .. contents:: Table of Contents
     :depth: 2
     :backlinks: entry
@@ -65,8 +64,8 @@ asymptotic analysis***
 
 
 common algorithms that relate algorithm running time to input size
-linear time algorithm efficiency from top to bottom:
-''''''''''''''''''''''''''''''''''''''''''''''''''''
+linear time algorithm efficiency from top to bottom
+'''''''''''''''''''''''''''''''''''''''''''''''''''
 
 - (theta)1 = constant time
 - ()lg n= logarithmic time
