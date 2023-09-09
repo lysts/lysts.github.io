@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-30T19:01:00+01:00</updated><entry><title>Newb to Code, Newb to Climbing</title><link href="https://lysts.xyz/newb-to-code-newb-to-climbing.html" rel="alternate"></link><published>2023-07-30T19:01:00+01:00</published><updated>2023-07-30T19:01:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-30:/newb-to-code-newb-to-climbing.html</id><summary type="html">&lt;p class="first last"&gt;keeping active, challenging a new sport, how it plays into my journey
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-09-08T16:49:00+01:00</updated><entry><title>Learning Python</title><link href="https://lysts.xyz/learning-python.html" rel="alternate"></link><published>2023-09-08T16:49:00+01:00</published><updated>2023-09-08T16:49:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-08:/learning-python.html</id><summary type="html">&lt;p class="first last"&gt;notes on python from the python cookbook and other resources&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#ch-1-data-structures-algorithms" id="toc-entry-1"&gt;Ch 1 - Data Structures &amp;amp; Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ch-1-data-structures-algorithms"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;Ch 1 - Data Structures &amp;amp; Algorithms&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+</content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>Newb to Code, Newb to Climbing</title><link href="https://lysts.xyz/newb-to-code-newb-to-climbing.html" rel="alternate"></link><published>2023-07-30T19:01:00+01:00</published><updated>2023-07-30T19:01:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-30:/newb-to-code-newb-to-climbing.html</id><summary type="html">&lt;p class="first last"&gt;keeping active, challenging a new sport, how it plays into my journey
 with programming&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
@@ -345,8 +355,8 @@ induction, - else if &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;
 O(.) upper bound, omega (.) lower bounds (theta) corresponds to both
 asymptotic analysis***&lt;/p&gt;
 &lt;p&gt;common algorithms that relate algorithm running time to input size
-linear time algorithm efficiency from top to bottom:
-''''''''''''''''''''''''''''''''''''''''''''''''''''&lt;/p&gt;
+linear time algorithm efficiency from top to bottom
+'''''''''''''''''''''''''''''''''''''''''''''''''''&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;(theta)1 = constant time&lt;/li&gt;
 &lt;li&gt;()lg n= logarithmic time&lt;/li&gt;
