@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/all.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-09-08T16:49:00+01:00</updated><entry><title>Learning Python</title><link href="https://lysts.xyz/learning-python.html" rel="alternate"></link><published>2023-09-08T16:49:00+01:00</published><updated>2023-09-08T16:49:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-08:/learning-python.html</id><summary type="html">&lt;p class="first last"&gt;notes on python from the python cookbook and other resources&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/all.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-09-09T23:08:00+01:00</updated><entry><title>Existing problems with this website that should be addressed now.</title><link href="https://lysts.xyz/problems-with-this-site.html" rel="alternate"></link><published>2023-09-09T23:08:00+01:00</published><updated>2023-09-09T23:08:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-09:/problems-with-this-site.html</id><summary type="html">&lt;p class="first last"&gt;this website is not perfect&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;1. content is scrollable, rather than fitting within the width of a mobile
+device.
+2. Weirdly, the footer is further away from left edge than the content itself
+3. There is still an overlap issue with the footer and content at the bottom
+4. The text size of the content is humongous when you click on a post from the
+home page.
+5. Speaking of which, the home page lacking a front cover, hopefully eventually
+animated, or something incredibly minimalistic and a bit game-like.
+6. I know, this page needs an about page.&lt;/p&gt;
+&lt;p&gt;Working on it!&lt;/p&gt;
+</content><category term="webdev"></category><category term="css"></category><category term="html"></category><category term="github"></category></entry><entry><title>Learning Python</title><link href="https://lysts.xyz/learning-python.html" rel="alternate"></link><published>2023-09-08T16:49:00+01:00</published><updated>2023-09-08T16:49:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-08:/learning-python.html</id><summary type="html">&lt;p class="first last"&gt;notes on python from the python cookbook and other resources&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -478,7 +489,7 @@ file management, with a directory tree view, allowing file previews, operations 
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-workflow" id="toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-reductive-workflow" id="toc-entry-2"&gt;setting up my reductive workflow&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="birthing-this-love-child"&gt;
@@ -497,8 +508,8 @@ file management, with a directory tree view, allowing file previews, operations 
 &lt;/ul&gt;
 &lt;p&gt;My journey kickstarted with the purchase of a domain name which I then linked to a GitHub Pages repo to set up my first foundational html and css files. Learning approrpiate syntax consisted of simultaneously relying on documentation guidlines and &lt;tt class="docutils literal"&gt;view page source&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;inspect&lt;/tt&gt; browser tools to pinpoint features that intrigued me and practice tweak existing code to get a feel of what I wanted to add to my tabula rasa. These tools came in handy later down the road, on my own website, when testing different formats to achieve my desired layout or identifying any errors in css selections.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="setting-up-my-workflow"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;setting up my workflow&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="setting-up-my-reductive-workflow"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;setting up my reductive workflow&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Half my time was spent understanding the workings of web-hosting and setting up a static site generator with some personal customisations. I chose to install &lt;tt class="docutils literal"&gt;Pelican&lt;/tt&gt;, despite the popularity of Jekyll (which GitHub Actions also uses by default). I fancied the idea of fast rebuild times and easily accessible web-hosting, being able to easily implement my original html and css attempts, and having the freedom to publish articles in other languages.&lt;/p&gt;
 &lt;p&gt;Thankfully, such features were readily available with Pelican. Upon stripping default files and scripts from its working pathway, I better understood the dependencies and configuration settings required to ensure the compatibility of my original files with engine. I learned of the ease and elegance of Pelican in executing test runs of my scripts from terminal, after tediously git committing small changes via GitHub Pages and developing an addiction to the slow emergence of green ticks when repeatedly abusing GitHub Actions. reat blog-style content in a high-level file format such as &lt;tt class="docutils literal"&gt;ReStructuredText&lt;/tt&gt;.&lt;/p&gt;
 &lt;p&gt;If you're also picking up &lt;tt class="docutils literal"&gt;html&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;css&lt;/tt&gt; for the first time, setting up an open source static site generator like Pelican in your terminal will help you create a development server in your local browser to swiftly see immediate changes within seconds. This immensely accelerated my on-the-go learning.&lt;/p&gt;
