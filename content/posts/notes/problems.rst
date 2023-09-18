@@ -30,4 +30,9 @@ Many things to fix...:
 
 Working on it!
 
+It could be interesting to explore ``elm`` by Matthew Griffiths for more
+intuitive css-specific design. Caveat.. Javascript - would bulk page:(
+
+Would also be worth running rough and black on code!
+
 
