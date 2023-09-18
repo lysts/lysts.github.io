@@ -9,6 +9,236 @@
 &lt;div class="section" id="ch-1-data-structures-algorithms"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;Ch 1 - Data Structures &amp;amp; Algorithms&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
+</content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>Introduction to Algorithms</title><link href="https://lysts.xyz/introduction-to-algorithms.html" rel="alternate"></link><published>2023-07-25T11:11:00+01:00</published><updated>2023-07-25T11:11:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-25:/introduction-to-algorithms.html</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures (1/2) available at MIT OpenCourseWare&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#algorithms-computation" id="toc-entry-1"&gt;Algorithms &amp;amp; Computation&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#what-is-a-computational-problem" id="toc-entry-2"&gt;what is a computational problem?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#provide-deterministic-algorithm-to-find-answer" id="toc-entry-3"&gt;provide deterministic algorithm to find answer...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#use-induction-recursion-to-prove-correctness-of-algorithm" id="toc-entry-4"&gt;use induction &amp;amp; recursion to prove correctness of algorithm...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#prove-efficiency" id="toc-entry-5"&gt;prove efficiency...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#define-model-of-computation" id="toc-entry-6"&gt;define model of computation...&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#data-structures-dynamic-arrays" id="toc-entry-7"&gt;Data Structures &amp;amp; Dynamic Arrays&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#difference-between-interface-api-adt-vs-data-structure" id="toc-entry-8"&gt;Difference between Interface (API/ADT) vs Data Structure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#interfaces-2-main-ones-for-set-sequence-data" id="toc-entry-9"&gt;interfaces (2 main ones for set &amp;amp; sequence data)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#ds-approaches-2-main" id="toc-entry-10"&gt;DS approaches, 2 main&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#static-sequence-interface" id="toc-entry-11"&gt;static sequence interface:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#dynamic-sequence-interface" id="toc-entry-12"&gt;Dynamic Sequence Interface:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#linked-lists" id="toc-entry-13"&gt;linked lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#dynamic-sequence-ops" id="toc-entry-14"&gt;Dynamic Sequence Ops&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#dynamic-arrays-python-lists" id="toc-entry-15"&gt;Dynamic arrays (python lists)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#amoritisation" id="toc-entry-16"&gt;Amoritisation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="algorithms-computation"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;Algorithms &amp;amp; Computation&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;communicating computational problem solving, its efficiency and correctness&lt;/p&gt;
+&lt;div class="section" id="what-is-a-computational-problem"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;what is a computational problem?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;computational problems can have multiple correct outputs to an input
+—› define a problem by specifying a predicate and observe output (binary)
+—› can graph/map out&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="provide-deterministic-algorithm-to-find-answer"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;provide deterministic algorithm to find answer...&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;for general problems, algorithms can accept arbitrarily sized input, doesn't
+map what a problem does. &amp;quot;Correctness&amp;quot; defined by whether output is correctly
+given.&lt;/p&gt;
+&lt;p&gt;f:I—›O
+..
+functional programming definition&lt;/p&gt;
+&lt;p&gt;example: birthday problem!::
+- maintain record
+- check if birthday in record: - if so return pair, - add new student to record,
+- return none&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="use-induction-recursion-to-prove-correctness-of-algorithm"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;use induction &amp;amp; recursion to prove correctness of algorithm...&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;inductive hypothesis = &amp;quot;if first &lt;tt class="docutils literal"&gt;k&lt;/tt&gt; students contain match, algorithm returns
+match before interviewing student &lt;tt class="docutils literal"&gt;k+1&lt;/tt&gt;&amp;quot; = predicate
+&lt;tt class="docutils literal"&gt;k&lt;/tt&gt; increases up to &lt;tt class="docutils literal"&gt;n&lt;/tt&gt;
+base case: &lt;tt class="docutils literal"&gt;k=0&lt;/tt&gt; (case holds!)
+assume IH true for &lt;tt class="docutils literal"&gt;k=k&lt;/tt&gt;'{- if k' contains match —› alreated returned by
+induction, - else if &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;k'+1&lt;/span&gt;&lt;/tt&gt; contains match, alg &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;k'+1&lt;/span&gt;&lt;/tt&gt; against all students}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="prove-efficiency"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;prove efficiency...&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;dont measure time, instead count fundamental operations (ops), expect performance to depend on (with respect to) size of our input (n) = how well algorithm performs, not how well it's implemented
+O(.) upper bound, omega (.) lower bounds (theta) corresponds to both
+asymptotic analysis***&lt;/p&gt;
+&lt;p&gt;common algorithms that relate algorithm running time to input size
+linear time algorithm efficiency from top to bottom
+'''''''''''''''''''''''''''''''''''''''''''''''''''&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;(theta)1 = constant time&lt;/li&gt;
+&lt;li&gt;()lg n= logarithmic time&lt;/li&gt;
+&lt;li&gt;()n = linear&lt;/li&gt;
+&lt;li&gt;()n lg n= log n&lt;/li&gt;
+&lt;li&gt;()n^2 = quadratic&lt;/li&gt;
+&lt;li&gt;()n^c = polynomial (c for constant)&lt;/li&gt;
+&lt;li&gt;2^(theta)n = exponential time, bad bc if plotted as function of n&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="processing time vs input size" src="images/processingtime.png" style="width: 600px;" /&gt;
+&lt;p&gt;—&amp;gt; dnt want shit to go too high. exponential crap!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="define-model-of-computation"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;define model of computation...&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;word-RAM (RAM = random access memory, in constant time)
+memory (string of bits), CPU where byte (chunk of bits = word) ex 64 bit
+machine, to operate on to spit back, addressable memory 20 exabytes!! (data grabbed, registered separately, output also then registered then spat out)
+ex can do integer arithmetic, logical ops (boolean etc), bitewise ops, on CPU memory&lt;/p&gt;
+&lt;p&gt;if you want to operate on non-constant n, linear amount of data, how long will it take?
+concerns data structures, store large amount of data and operate on that&lt;/p&gt;
+&lt;img alt="algorithm list for solving computational problems" src="images/summaryL1.png" style="width: 600px;" /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="data-structures-dynamic-arrays"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-7"&gt;Data Structures &amp;amp; Dynamic Arrays&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;sequence interface &amp;amp; data structures&lt;/li&gt;
+&lt;li&gt;linked lists, dynamic arrays, amortication&lt;/li&gt;
+&lt;li&gt;set interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="difference-between-interface-api-adt-vs-data-structure"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-8"&gt;Difference between Interface (API/ADT) vs Data Structure&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;specification, what data you can store [problem] vs representation, how to store data [algorithmic solution]
+interface where you specify what operations are supported, what they mean vs
+data structure defines algorithms to support operations&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="interfaces-2-main-ones-for-set-sequence-data"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-9"&gt;interfaces (2 main ones for set &amp;amp; sequence data)&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;set&lt;/li&gt;
+&lt;li&gt;sequence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ds-approaches-2-main"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-10"&gt;DS approaches, 2 main&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;arrays&lt;/li&gt;
+&lt;li&gt;pointer based&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="defining-sequence-interfaces"&gt;
+&lt;h4&gt;[defining sequence interfaces]&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="static-sequence-interface"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-11"&gt;static sequence interface:&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;items x0, x1, ... xn-1
+build(x): make new ds for items in x (x being an iterable in py, in this seq)
+len(): return n (length, OO)
+iter_seq(): output x0, x1...,xn-1 in seq order
+get_at(i): return xi (index i)
+set_at(i,x): return xi to x
+get_first/last()
+set_first/last()&lt;/p&gt;
+&lt;p&gt;array/list
+x1 = array.get_at(1) - method
+get_at(array, 1) - function&lt;/p&gt;
+&lt;p&gt;array.set_at(1, x1) (mutating set inside array)&lt;/p&gt;
+&lt;p&gt;not so great (breaks api purpose):
+o = object()
+o.attr = 1 - setter
+attr = o.attr - getter&lt;/p&gt;
+&lt;p&gt;Natural solution for this problem: static array (only dynamic arrays in python) with optimal running times
+key = word RAM model of computation
+- memory = array of w-bit words [....|!....|....|!....]
+- &amp;quot;array&amp;quot; = consecutive chunk of memory (starts at ! to !, includes two words, 0, 1)
+—› array[i] = memory[address(array)+i] = can access memory in constant
+time (assumed), get_at &amp;amp; set_at
+—› array access is O(I)??????? = constant time
+side effect of this assumption^ —› must assume w is at least lgn (currently w = 64, 256, must grow at least as fast as n, log n to account for n words in RAM,
+&lt;em&gt;we care about scalability for v large n in algorithms, want to know what growth function is and ignore lead constant factor, asymptotic notation! - hashing, in next chapter)&lt;/em&gt;
+O(I) per get_at/set_at/len
+O(n) per build/iter_seq - linear time
+memory allocation model: allocate array of size n in theta(n) time
+.. can imagine this being constant time but doesn't matter?, if you allocate some chunk of memory you hv no idea if it's initialised, initialising that array to 0s will cost linear time (?)
+—› side effect of this model; space used = time used (space=O(time)), assumed
+it costs allocate memory&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dynamic-sequence-interface"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;Dynamic Sequence Interface:&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;static sequence PLUS:
+insert_at(i,x): make x the new xi, shifting xi —› xi+1 —› xi+2 —›...—›xn-1 —›
+xn'-1 (n'=n+1)&lt;/p&gt;
+&lt;img alt="insert_at(i,x) op" src="images/insert_atstatic.png" style="width: 600px;" /&gt;
+&lt;p&gt;delete_at(i): shift xi&amp;lt;-xi+1&amp;lt;—...&amp;lt;—xn'-1 (n'=n-1) &amp;lt;—xn-1
+insert/delete_first/last(x)/() - adding in front, or to tail of array [][-----][]&lt;/p&gt;
+&lt;div class="section" id="solving-sequence-interfaces"&gt;
+&lt;h4&gt;[solving sequence interfaces]&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="linked-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-13"&gt;linked lists&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;= store items in nodes, each node has an item in it (actual values, x0 --- xn-1) and a next field, next pointers link items all together, in this order. data structure represented by head of list, and len.
+relying on pointers being stored as single word (can dereference and see what
+value is at end of each pointer (pointers are indices in giant array, address
+of array, tells us where in memory pointed value is) in constant time in word RAM model) - here we
+have arrays of size 2, possibly in arbitrary order in RAM model&lt;/p&gt;
+&lt;img alt="insert op in linked list" src="images/insertfirstonlinked.png" style="width: 600px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dynamic-sequence-ops"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;Dynamic Sequence Ops&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;on a static array:&lt;/em&gt;
+if you insert/delete = at() costs theta(n) time (first, all items must shift, to maintain A[i] = xi - must copy
+over) costs bc
+1. shifting (not part of delete in array, but shifting in MEMORY n, size is constant! therefore new array would not be continguous to new one)
+2. allocate new array (not allows to change size of static array) - must copy
+over to new array to throw away old one, thus bad for dynamic ops - that's why bad&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;on a linked list:&lt;/em&gt;
+can efficiently insert_first(x), where you create node, get it to point to 0
+node, get head to point to new first node.
+insert/delete_first(): O(O) time
+BUT everything else slow:
+to get/set_at need theta(i) time (in worst case, theta(n)) = must walk to that
+position by following every pointer (even w insert/delete_at(i) tho better at being dynamic
+easier way to get last item, is to have tail pointer to last list (= data pointer
+augmentation BUT must keep this up to date all the time)&lt;/p&gt;
+&lt;p&gt;—› arrays good if random access and nothing dynamic
+—› linked list great if working on ends even dynamically&lt;/p&gt;
+&lt;p&gt;NEXT
+Try to get good running times of static arrays and linked lists...
+.. how is python implemented relates to overall message of L1/2, automatically creates dynamic arrays, called lists&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dynamic-arrays-python-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-15"&gt;Dynamic arrays (python lists)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;in py interpreter...
+- relax constraint that size(array) = n —› # items in seq, &amp;quot;roughly n&amp;quot; in
+algorithm context, &amp;quot;can mean you throw away constant factors&amp;quot; ???
+- enforce size = theta(n) (at least n and at most some constant times n &amp;amp; &amp;gt;= n
+- maintain that A[i] = ni (that ith item of array represents xi)
+—› array with some empty nodes at end
+what do you do if insert_last(x)?
+1. A[len] = x
+2. increment length (len+=1)
+.. how do you know you have enough room? you don't, incorrect algorithm if len = size = n
+—› track length &amp;amp; size, size = full len array, len = just the portion that has designated values
+3. insert_last(x): add to end unless n = size (representation size)&lt;/p&gt;
+&lt;p&gt;with flexibility of not having to allocate/copy every single time,
+if n = size:
+- allocate new array of constant factor larger ex 1.1, 2, 5 etc * size OR ex
+size + 5 (trolling answer, the latter is bad bc you have to resize
+frequently, 5 steps later - linear step)
+n insert_last() from empty array
+- resize at n=1, 2, 4, 8, 16...
+—› resize cost = theta(1+2+4+8+16+...+n) = theta((logn)sum(i=n) of 2^i) = geometric series (ith bit = 1) = theta(2^lgn) = theta(n), takes linear time
+geometric series dominated by last term (grows exponentially)&lt;/p&gt;
+&lt;img alt="resize cost summation" src="images/resizecostdynamic.png" style="width: 600px;" /&gt;
+&lt;p&gt;—› constant O(i) amortised&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="amoritisation"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-16"&gt;Amoritisation&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;operation takes T(n) amortised time
+if any k ops take =&amp;lt; k*T(n) time
+(averaging over ops sequence)&lt;/p&gt;
+&lt;img alt="summary table of seq interface &amp;amp; data structure time costs" src="images/summaryL2.png" style="width: 600px;" /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>Introduction to Algorithms (L2)</title><link href="https://lysts.xyz/introduction-to-algorithms-l2.html" rel="alternate"></link><published>2023-07-25T11:11:00+01:00</published><updated>2023-07-25T11:11:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-25:/introduction-to-algorithms-l2.html</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures available at MIT OpenCourseWare&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
