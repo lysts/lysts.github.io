@@ -15,9 +15,9 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-MENUITEMS = (
-    ('about', '/pages/about.html'),
-    )
+#MENUITEMS = (
+#    ('about', '/pages/about.html'),
+#    )
 
 MENUXTRA = (
     ('github', 'https://github.com/lysts'),
