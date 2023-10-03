@@ -2,6 +2,7 @@
 About me
 ========
 
+:save_as: about.html
 :status: published
 :lang: en
 
