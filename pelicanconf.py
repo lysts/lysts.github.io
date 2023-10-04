@@ -1,30 +1,28 @@
 AUTHOR = 'lysts'
 SITENAME = 'lysts'
 SITEURL = 'https://lysts.xyz'
+
 THEME = 'theme'
 PATH = 'content'
-PAGE_PATHS = ['pages']
-ARTICLE_PATHS = ['posts']
-STATIC_PATHS = ['images']
+# PAGE_PATHS = ['pages']
+# ARTICLE_PATHS = ['posts']
+# STATIC_PATHS = ['images']
 
+ARTICLE_URL = '{slug}/'
+PAGE_URL = '/{slug}/'
 
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%b %d %Y'
 INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 
-ARTICLE_SAVE_AS = '{slug}/index.html'
-PAGE_SAVE_AS = '{slug}/index.html'
-
-DRAFT_URL = 'drafts/{slug}.html'
-DRAFT_SAVE_AS = 'drafts/{slug}.html'
-
 # SITEURL = 'http://localhost:8000'
 # RELATIVE_URLS = True
 
+
 MENUITEMS = (
-    ('about', '/pages/about.html'),
-    ('CV', '/pages/cv.html')
+     ('about', '/about.html'),
+     ('CV', '/cv.html')
     )
 
 MENUXTRA = (

@@ -31,7 +31,7 @@ CONFIG = {
     'github_pages_branch': 'gh-pages',
 }
 
-time.strftime("%Y-%m-%d")
+# time.strftime("%Y-%m-%d")
 
 @task
 def clean(c):
