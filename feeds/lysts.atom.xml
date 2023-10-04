@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-09-11T16:30:00+01:00</updated><entry><title>Exploring Minimalism</title><link href="https://lysts.xyz/exploring-minimalism.html" rel="alternate"></link><published>2023-09-11T16:30:00+01:00</published><updated>2023-09-11T16:30:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-11:/exploring-minimalism.html</id><summary type="html">&lt;p class="first last"&gt;an ex-hoarder's journey with practicing minimalism&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-09-11T16:30:00+01:00</updated><entry><title>Exploring Minimalism</title><link href="https://lysts.xyz/exploring-minimalism/" rel="alternate"></link><published>2023-09-11T16:30:00+01:00</published><updated>2023-09-11T16:30:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-11:/exploring-minimalism/</id><summary type="html">&lt;p class="first last"&gt;an ex-hoarder's journey with practicing minimalism&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -50,7 +50,7 @@
 &lt;/ol&gt;
 &lt;p&gt;—› can adjust based on your parameters&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="lifestyle"></category><category term="lifestyle"></category><category term="minimalism"></category></entry><entry><title>Existing problems with this website that should be addressed now.</title><link href="https://lysts.xyz/problems-with-this-site.html" rel="alternate"></link><published>2023-09-09T23:08:00+01:00</published><updated>2023-09-09T23:08:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-09:/problems-with-this-site.html</id><summary type="html">&lt;p class="first last"&gt;this website is not perfect&lt;/p&gt;
+</content><category term="lifestyle"></category><category term="lifestyle"></category><category term="minimalism"></category></entry><entry><title>Existing problems with this website that should be addressed now.</title><link href="https://lysts.xyz/problems-with-this-site/" rel="alternate"></link><published>2023-09-09T23:08:00+01:00</published><updated>2023-09-09T23:08:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-09:/problems-with-this-site/</id><summary type="html">&lt;p class="first last"&gt;this website is not perfect&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Many things to fix...:&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;content is scrollable, rather than fitting within the width of a mobile device.&lt;/li&gt;
@@ -65,7 +65,7 @@ hopefully eventually animated, or something incredibly minimalistic and a bit ga
 &lt;p&gt;It could be interesting to explore &lt;tt class="docutils literal"&gt;elm&lt;/tt&gt; by Matthew Griffiths for more
 intuitive css-specific design. Caveat.. Javascript - would bulk page:(&lt;/p&gt;
 &lt;p&gt;Would also be worth running rough and black on code!&lt;/p&gt;
-</content><category term="webdev"></category><category term="css"></category><category term="html"></category><category term="github"></category></entry><entry><title>Newb to Code, Newb to Climbing</title><link href="https://lysts.xyz/newb-to-code-newb-to-climbing.html" rel="alternate"></link><published>2023-07-30T19:01:00+01:00</published><updated>2023-07-30T19:01:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-30:/newb-to-code-newb-to-climbing.html</id><summary type="html">&lt;p class="first last"&gt;keeping active, challenging a new sport, how it plays into my journey
+</content><category term="webdev"></category><category term="css"></category><category term="html"></category><category term="github"></category></entry><entry><title>Newb to Code, Newb to Climbing</title><link href="https://lysts.xyz/newb-to-code-newb-to-climbing/" rel="alternate"></link><published>2023-07-30T19:01:00+01:00</published><updated>2023-07-30T19:01:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-30:/newb-to-code-newb-to-climbing/</id><summary type="html">&lt;p class="first last"&gt;keeping active, challenging a new sport, how it plays into my journey
 with programming&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
@@ -200,7 +200,7 @@ schedule has improved my concentration and sleep quality, and diminished that
 mental block to simply do things and get things done.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="notes"></category><category term="health"></category><category term="mind"></category><category term="sport"></category></entry><entry><title>Introduction to Algorithms</title><link href="https://lysts.xyz/introduction-to-algorithms.html" rel="alternate"></link><published>2023-07-25T11:11:00+01:00</published><updated>2023-07-25T11:11:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-25:/introduction-to-algorithms.html</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures (1/2) available at MIT OpenCourseWare&lt;/p&gt;
+</content><category term="notes"></category><category term="health"></category><category term="mind"></category><category term="sport"></category></entry><entry><title>Introduction to Algorithms</title><link href="https://lysts.xyz/introduction-to-algorithms/" rel="alternate"></link><published>2023-07-25T11:11:00+01:00</published><updated>2023-07-25T11:11:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-25:/introduction-to-algorithms/</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures (1/2) available at MIT OpenCourseWare&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -430,7 +430,7 @@ if any k ops take =&amp;lt; k*T(n) time
 &lt;img alt="summary table of seq interface &amp;amp; data structure time costs" src="images/summaryL2.png" style="width: 600px;" /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>neat crumbs</title><link href="https://lysts.xyz/neat-crumbs.html" rel="alternate"></link><published>2023-07-12T19:15:00+01:00</published><updated>2023-07-12T19:15:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-12:/neat-crumbs.html</id><summary type="html">&lt;p class="first last"&gt;random knick-knacks, phrases&lt;/p&gt;
+</content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>neat crumbs</title><link href="https://lysts.xyz/neat-crumbs/" rel="alternate"></link><published>2023-07-12T19:15:00+01:00</published><updated>2023-07-12T19:15:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-12:/neat-crumbs/</id><summary type="html">&lt;p class="first last"&gt;random knick-knacks, phrases&lt;/p&gt;
 </summary><content type="html">&lt;div class="section" id="text-to-art-generators"&gt;
 &lt;h2&gt;text to art generators&lt;/h2&gt;
 &lt;p&gt;figlet, brew install and throw in&lt;/p&gt;
@@ -443,7 +443,7 @@ if any k ops take =&amp;lt; k*T(n) time
 &lt;h2&gt;english is a weird language&lt;/h2&gt;
 &lt;p&gt;cursory look&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="notes"></category><category term="arbitrary"></category><category term="fun"></category></entry><entry><title>my current set-up, for a reductive workflow</title><link href="https://lysts.xyz/my-current-set-up-for-a-reductive-workflow.html" rel="alternate"></link><published>2023-07-11T18:06:00+01:00</published><updated>2023-07-11T18:06:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up-for-a-reductive-workflow.html</id><summary type="html">&lt;p class="first last"&gt;tools revolving around terminal for reductive workflow&lt;/p&gt;
+</content><category term="notes"></category><category term="arbitrary"></category><category term="fun"></category></entry><entry><title>my current set-up, for a reductive workflow</title><link href="https://lysts.xyz/my-current-set-up-for-a-reductive-workflow/" rel="alternate"></link><published>2023-07-11T18:06:00+01:00</published><updated>2023-07-11T18:06:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/my-current-set-up-for-a-reductive-workflow/</id><summary type="html">&lt;p class="first last"&gt;tools revolving around terminal for reductive workflow&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -520,9 +520,9 @@ file management, with a directory tree view, allowing file previews, operations 
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;extra tip!&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;type &lt;tt class="docutils literal"&gt;tree&lt;/tt&gt; and see what you get;)&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="compsci, workflow"></category><category term="compsci"></category><category term="terminal"></category><category term="vim"></category><category term="ranger"></category></entry><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/setting-up-github-actions-for-pelican.html" rel="alternate"></link><published>2023-07-08T11:00:00+01:00</published><updated>2023-07-08T11:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/setting-up-github-actions-for-pelican.html</id><summary type="html">&lt;p class="first last"&gt;web-building with github actions and pelican&lt;/p&gt;
+</content><category term="compsci, workflow"></category><category term="compsci"></category><category term="terminal"></category><category term="vim"></category><category term="ranger"></category></entry><entry><title>setting up github actions for pelican</title><link href="https://lysts.xyz/setting-up-github-actions-for-pelican/" rel="alternate"></link><published>2023-07-08T11:00:00+01:00</published><updated>2023-07-08T11:00:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-08:/setting-up-github-actions-for-pelican/</id><summary type="html">&lt;p class="first last"&gt;web-building with github actions and pelican&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;The first attempt was to try and make a yml file to do github actions.&lt;/p&gt;
-</content><category term="notes"></category><category term="github"></category></entry><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website.html" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website.html</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
+</content><category term="notes"></category><category term="github"></category></entry><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website/" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website/</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;This is my first webdev project.&lt;/p&gt;
 &lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
