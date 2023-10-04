@@ -1,19 +1,26 @@
 AUTHOR = 'lysts'
 SITENAME = 'lysts'
-SITEURL = 'http://localhost:8000'
-RELATIVE_URLS = True
-
-PATH = 'content'
+SITEURL = 'https://lysts.xyz'
 THEME = 'theme'
+PATH = 'content'
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['posts']
+STATIC_PATHS = ['images']
+
 
 TIMEZONE = 'Europe/London'
-
 DEFAULT_LANG = 'en'
+DEFAULT_DATE_FORMAT = '%b %d %Y'
+INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+ARTICLE_SAVE_AS = '{slug}/index.html'
+PAGE_SAVE_AS = '{slug}/index.html'
+
+DRAFT_URL = 'drafts/{slug}.html'
+DRAFT_SAVE_AS = 'drafts/{slug}.html'
+
+# SITEURL = 'http://localhost:8000'
+# RELATIVE_URLS = True
 
 MENUITEMS = (
     ('about', '/pages/about.html'),
@@ -38,3 +45,14 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+
+# # Legal
+# SITE_LICENSE = 'x'
+# HOSTED_ON = {"name": "GitHub Pages", "url": "https://www.githubpages.io/"}
+
+# # SEO
+# SITE_DESCRIPTION = ("a theme for Pelican, originally created by lysts")
