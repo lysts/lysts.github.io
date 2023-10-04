@@ -1,26 +1,14 @@
-{% extends "base.html" %}
-{% block content %}
-<section id="content">
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <a href="https://lysts.xyz/">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+    </a>
+</body>
+</html>
 
-<ol class="post-list">
-    <table>
-        <tbody>
-            <tr style="font-weight: bold; color: #373737">
-                <td><b>date</b></td>
-                <td><b>phished chips</b></td>
-                <td><b>flavour</b></td>
-            </tr>
-        {% for article in articles_page.object_list %}
-            <tr><article class="hentry">
-                    <td class="post-info"><time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></td><!-- /.post-info -->
-                    <td class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="permalink to {{ article.title|striptags }}">{{ article.title }}</a></td>
-                    <td class="category"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}<a/></td>
-                </article>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-</ol><!-- /#posts-list -->
-
-</section><!-- /#content -->
-{% endblock content %}

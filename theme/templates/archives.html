@@ -1,14 +1,26 @@
 {% extends "base.html" %}
-
-{% block title %}{{ SITENAME }} / archives{% endblock %}
-
 {% block content %}
-<h1>{{ SITENAME }} archive</h1>
+<section id="content">
 
-<dl>
-{% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-{% endfor %}
-</dl>
-{% endblock %}
+<ol class="post-list">
+    <table>
+        <tbody>
+            <tr style="font-weight: bold; color: #373737">
+                <td><b>date</b></td>
+                <td><b>phished chips</b></td>
+                <td><b>flavour</b></td>
+            </tr>
+        {% for article in articles %}
+            <tr><article class="hentry">
+                    <td class="post-info"><time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></td><!-- /.post-info -->
+                    <td class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="permalink to {{ article.title|striptags }}">{{ article.title }}</a></td>
+                    <td class="category"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}<a/></td>
+                </article>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</ol><!-- /#posts-list -->
+
+</section><!-- /#content -->
+{% endblock content %}
