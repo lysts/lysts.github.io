@@ -4,12 +4,11 @@ SITEURL = 'https://lysts.xyz'
 
 THEME = 'theme'
 PATH = 'content'
-# PAGE_PATHS = ['pages']
-# ARTICLE_PATHS = ['posts']
-# STATIC_PATHS = ['images']
 
-ARTICLE_URL = '{slug}/'
+
+ARTICLE_URL = '{slug}.html'
 PAGE_URL = '/{slug}/'
+
 
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'

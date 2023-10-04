@@ -4,7 +4,7 @@ Introduction to Algorithms
 
 :date: 2023-07-25 11:11
 :tags: algorithms, compsci
-:slugs: intro-to-algorithms
+:slug: intro-to-algorithms
 :summary: notes on recorded introductory compsci lectures (1/2) available at MIT OpenCourseWare
 :lang: en
 :status: published
