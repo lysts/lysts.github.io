@@ -20,8 +20,8 @@ INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 
 
 MENUITEMS = (
-     ('about', '/about.html'),
-     ('CV', '/cv.html')
+     ('about', 'about-me.html'),
+     ('CV', 'cv.html')
     )
 
 MENUXTRA = (
