@@ -19,9 +19,9 @@ my current set-up, for a reductive workflow
 Tools I use and how I've configured them to provide simplicity to my reductive
 workflow.
 
-iTerm2, my CLI (command-line interface)
----------------------------------------
-**CLIs** allow users to give text-based inputs (command lines) to interact with a computer's
+iTerm2, my CLI
+--------------
+**CLIs** (command-line interfaces) allow users to give text-based inputs (command lines) to interact with a computer's
 operating system and perform operations or automate processes.
 
 With a simple command such as ``mkdir (filename)``, you're able to create
@@ -59,10 +59,10 @@ More Key Software
 
 .. _vim:
 
-vim (Vi IMproved), my text-editor
----------------------------------
+vim, my text-editor
+-------------------
 
-``Vim`` is a lifesaving screen-based text editor program — free and open-source as
+``Vim`` (Vi IMproved) is a lifesaving screen-based text editor program — free and open-source as
 usual. Built-in tutorial, ``vimtutor`` helps you pick up all the key bindings
 and shortcuts that allow you to edit code at lightning speed. It goes beyond
 editing, it also allows navigation between different files, and ``:help`` is
