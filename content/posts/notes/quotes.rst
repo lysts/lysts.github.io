@@ -7,6 +7,7 @@ neat crumbs
 :tags: arbitrary, fun
 :slug: neat-crumbs
 :summary: random knick-knacks, phrases
+:status: hidden
 
 text to art generators
 ======================

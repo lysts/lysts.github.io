@@ -1,5 +1,5 @@
 ====================
-Exploring Minimalism
+exploring minimalism
 ====================
 
 :date: 2023-09-11 16:30

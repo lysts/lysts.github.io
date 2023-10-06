@@ -1,5 +1,5 @@
 ##########################
-Introduction to Algorithms
+introduction to algorithms
 ##########################
 
 :date: 2023-07-25 11:11

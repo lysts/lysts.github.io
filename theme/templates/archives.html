@@ -13,14 +13,14 @@
         {% for article in articles %}
             <tr><article class="hentry">
                     <td class="post-info"><time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></td><!-- /.post-info -->
-                    <td class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="permalink to {{ article.title|striptags }}">{{ article.title }}</a></td>
+                    <td class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="take a peak?">{{ article.title }}</a></td>
                     <td class="category"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}<a/></td>
                 </article>
             </tr>
         {% endfor %}
         </tbody>
     </table>
-</ol><!-- /#posts-list -->
+</ol><!-- /#posts-list (permalink to { { article.title|striptags }}") -->
 
 </section><!-- /#content -->
 {% endblock content %}

@@ -1,6 +1,6 @@
-#################################################################
-Existing problems with this website that should be addressed now.
-#################################################################
+##########################
+this website isn't perfect
+##########################
 
 :date: 2023-09-09 23:08
 :tags: css, html, github
