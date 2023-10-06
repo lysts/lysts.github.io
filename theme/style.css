@@ -238,14 +238,19 @@ ol td {
   padding-bottom: 20%;
 }--*/
 
-.gif-container {
-    width: 900px;
-    height: 900px;
-    overflow: hidden
-}
+
+/*-- .gif-container {
+/*--   display: flex;
+/*--   justify-content: center; /* Center horizontally */
+/*--   align-items: center; /* Center vertically */
+/*--   height: 100vh; /* Make the container cover the full viewport height */
+/*--   width: 50px;
+/*--   height: 50px;
+/*--   overflow: hidden;
+*/
 
 .gif-container:hover {
-    transform: scale(1.2); /* Increase the size on hover */
+    transform: scale(1.1); /* Increase the size on hover */
 }
 
 .gif {
