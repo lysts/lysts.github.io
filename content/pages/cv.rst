@@ -3,7 +3,7 @@ CV
 ==
 
 :slug: cv
-:status: published
+:status: hidden
 :lang: en
 
 currently updating!
