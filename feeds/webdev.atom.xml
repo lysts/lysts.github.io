@@ -2,13 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - webdev</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/webdev.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-09-09T23:08:00+01:00</updated><entry><title>this website isn't perfect</title><link href="https://lysts.xyz/problems-with-this-site.html" rel="alternate"></link><published>2023-09-09T23:08:00+01:00</published><updated>2023-09-09T23:08:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-09:/problems-with-this-site.html</id><summary type="html">&lt;p class="first last"&gt;this website is not perfect&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Many things to fix...:&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
-&lt;li&gt;content is scrollable, rather than fitting within the width of a mobile device.&lt;/li&gt;
+&lt;li&gt;content is ultra-scrollable horizontally (yeek), rather than fitting within the width of a mobile device.&lt;/li&gt;
 &lt;li&gt;Weirdly, the footer is further away from left edge than the content itself&lt;/li&gt;
 &lt;li&gt;There is still an overlap issue with the footer and content at the bottom&lt;/li&gt;
-&lt;li&gt;The text size of the content is humongous when you click on a post from the home page.&lt;/li&gt;
-&lt;li&gt;Speaking of which, the home page lacking a front cover,
-hopefully eventually animated, or something incredibly minimalistic and a bit game-like.&lt;/li&gt;
-&lt;li&gt;I know, this page needs an about page.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Working on it!&lt;/p&gt;
 &lt;p&gt;It could be interesting to explore &lt;tt class="docutils literal"&gt;elm&lt;/tt&gt; by Matthew Griffiths for more
