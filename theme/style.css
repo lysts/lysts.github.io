@@ -53,11 +53,12 @@ h4 {
   font-size: 1.0em;
 }
 
-ol, p {
+p {
   margin: revert;
 }
 
 ol {
+  margin: revert;
   margin-left: 20px;
 }
 
