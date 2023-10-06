@@ -57,7 +57,7 @@ p {
   margin: revert;
 }
 
-ol {
+ol, ul {
   margin: revert;
   margin-left: 20px;
 }
