@@ -20,13 +20,9 @@ this website isn't perfect
  
 Many things to fix...:
 
-1. content is scrollable, rather than fitting within the width of a mobile device.
+1. content is ultra-scrollable horizontally (yeek), rather than fitting within the width of a mobile device.
 2. Weirdly, the footer is further away from left edge than the content itself
 3. There is still an overlap issue with the footer and content at the bottom
-4. The text size of the content is humongous when you click on a post from the home page.
-5. Speaking of which, the home page lacking a front cover, 
-   hopefully eventually animated, or something incredibly minimalistic and a bit game-like.
-6. I know, this page needs an about page.
 
 Working on it!
 
