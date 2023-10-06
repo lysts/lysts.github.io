@@ -6,5 +6,8 @@ CV
 :status: published
 :lang: en
 
-.. image:: images/cv.png
+.. image:: images/cvp1.png
+   :scale: 80%
+
+.. image:: images/cvp2.png
    :scale: 80%
