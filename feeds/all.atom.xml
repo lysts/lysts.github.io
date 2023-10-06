@@ -430,20 +430,20 @@ if any k ops take =&amp;lt; k*T(n) time
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#iterm2-my-cli-command-line-interface" id="toc-entry-1"&gt;iTerm2, my CLI (command-line interface)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#iterm2-my-cli" id="toc-entry-1"&gt;iTerm2, my CLI&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#more-key-software" id="toc-entry-2"&gt;More Key Software&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#vim-vi-improved-my-text-editor" id="toc-entry-3"&gt;vim (Vi IMproved), my text-editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#vim-my-text-editor" id="toc-entry-3"&gt;vim, my text-editor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#ranger-my-file-navigator" id="toc-entry-4"&gt;ranger, my file navigator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#extra-tip" id="toc-entry-5"&gt;extra tip!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;Tools I use and how I've configured them to provide simplicity to my reductive
 workflow.&lt;/p&gt;
-&lt;div class="section" id="iterm2-my-cli-command-line-interface"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;iTerm2, my CLI (command-line interface)&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;CLIs&lt;/strong&gt; allow users to give text-based inputs (command lines) to interact with a computer's
+&lt;div class="section" id="iterm2-my-cli"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;iTerm2, my CLI&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CLIs&lt;/strong&gt; (command-line interfaces) allow users to give text-based inputs (command lines) to interact with a computer's
 operating system and perform operations or automate processes.&lt;/p&gt;
 &lt;p&gt;With a simple command such as &lt;tt class="docutils literal"&gt;mkdir (filename)&lt;/tt&gt;, you're able to create
 files (example: &lt;tt class="docutils literal"&gt;mkdir&lt;/tt&gt;), rather than clicking through folders
@@ -474,9 +474,9 @@ Which brings me to the next section, where I detail how I manage my additional s
 &lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;More Key Software&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="section" id="vim-vi-improved-my-text-editor"&gt;
-&lt;span id="vim"&gt;&lt;/span&gt;&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;vim (Vi IMproved), my text-editor&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;tt class="docutils literal"&gt;Vim&lt;/tt&gt; is a lifesaving screen-based text editor program —&amp;nbsp;free and open-source as
+&lt;div class="section" id="vim-my-text-editor"&gt;
+&lt;span id="vim"&gt;&lt;/span&gt;&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;vim, my text-editor&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;Vim&lt;/tt&gt; (Vi IMproved) is a lifesaving screen-based text editor program —&amp;nbsp;free and open-source as
 usual. Built-in tutorial, &lt;tt class="docutils literal"&gt;vimtutor&lt;/tt&gt; helps you pick up all the key bindings
 and shortcuts that allow you to edit code at lightning speed. It goes beyond
 editing, it also allows navigation between different files, and &lt;tt class="docutils literal"&gt;:help&lt;/tt&gt; is
