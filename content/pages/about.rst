@@ -28,8 +28,8 @@ Writing this made me realise how easily two decades of life can be summed up in 
 8. I believe that food should be consumed from a collection of small bowls, if not hand-holdable. My favourite utensils are small spoons or wooden chopsticks. There's nothing more satisfying than getting seconds and having a variety of food at the table. Being an avid food lover, it encourages me to eat slowly and mindfully, and avoid food comas.
 |
 9. I have a special place in my heart for insects and fungi. My childhood hobby was to: 
-   - create an ant farm between two pieces of glass to watch the innerworkings of ant colonies and feed them honey nut cheerios. 100s of them later escaped and wreaked havoc in the house, which is probably I never attempted it again. 
-   - care for a series of larvae, of butterflies, Japanese rhinoceros beetles, and cicadas, my favourite parts being feeding them dead leaves, lemon leaves, and fruit jelly, and watching them metamorphosise at every stage, even the chrysalis.
+   * create an ant farm between two pieces of glass to watch the innerworkings of ant colonies and feed them honey nut cheerios. 100s of them later escaped and wreaked havoc in the house, which is probably I never attempted it again. 
+   * care for a series of larvae, of butterflies, Japanese rhinoceros beetles, and cicadas, my favourite parts being feeding them dead leaves, lemon leaves, and fruit jelly, and watching them metamorphosise at every stage, even the chrysalis.
 |
 10. My favourite travel destination may be Santa Sabina in Rome, Italy. It is surrounded by an orange orchard and an incredible view of the city. Often adorned with live music by the locals, it's also a very quiet space for reflective thought and getting a good dose of sunlight. I wouldn't dare gatekeep this place or the piece which led me to it.
 |
