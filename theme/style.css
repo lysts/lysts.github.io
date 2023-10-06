@@ -54,7 +54,11 @@ h4 {
 }
 
 ol, p {
-  margin: 0;
+  margin: revert;
+}
+
+ol {
+  margin-left: 20px;
 }
 
 ::selection {
