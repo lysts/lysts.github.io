@@ -7,8 +7,8 @@ PATH = 'content'
 
 #PAGE_PATHS = ['pages']
 #ARTICLE_URL = '{slug}.html'
-PAGE_URL = 'pages/{slug}/'
-PAGE_SAVE_AS = 'pages/{slug}/archives.html'
+PAGE_URL = 'pages/{slug}.html'
+PAGE_SAVE_AS = 'pages/{slug}.html'
 
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
@@ -20,8 +20,8 @@ INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 
 
 MENUITEMS = (
-     ('about', 'pages/about-me.html'),
-     ('CV', 'pages/cv.html')
+     ('about', 'pages/{slug}.html'),
+     ('CV', 'pages/{slug}.html')
     )
 
 MENUXTRA = (
