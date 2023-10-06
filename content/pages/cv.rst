@@ -6,6 +6,8 @@ CV
 :status: published
 :lang: en
 
+currently updating!
+
 .. image:: images/cvp1.png
    :scale: 80%
 
