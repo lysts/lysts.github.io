@@ -2,7 +2,7 @@
 CV
 ==
 
-:slugs: cv
+:slug: cv
 :status: published
 :lang: en
 

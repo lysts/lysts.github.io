@@ -5,9 +5,9 @@ SITEURL = 'https://lysts.xyz'
 THEME = 'theme'
 PATH = 'content'
 
-
-ARTICLE_URL = '{slug}.html'
-PAGE_URL = '/{slug}/'
+#PAGE_PATHS = ['pages']
+#ARTICLE_URL = '{slug}.html'
+PAGE_URL = 'pages/{slug}/'
 
 
 TIMEZONE = 'Europe/London'
@@ -20,8 +20,8 @@ INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 
 
 MENUITEMS = (
-     ('about', 'about-me.html'),
-     ('CV', 'cv.html')
+     ('about', 'pages/about-me.html'),
+     ('CV', 'pages/cv.html')
     )
 
 MENUXTRA = (

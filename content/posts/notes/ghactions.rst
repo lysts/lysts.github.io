@@ -4,7 +4,7 @@ setting up github actions for pelican
 
 :date: 2023-07-08 11:00
 :tags: github
-:slugs: github-actions-pelican
+:slug: github-actions-pelican
 :summary: web-building with github actions and pelican
 :lang: en
 :status: published

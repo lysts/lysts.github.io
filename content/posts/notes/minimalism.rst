@@ -5,7 +5,7 @@ Exploring Minimalism
 :date: 2023-09-11 16:30
 :tags: lifestyle, minimalism
 :category: lifestyle
-:slugs: exploring-minimalism
+:slug: exploring-minimalism
 :summary: an ex-hoarder's journey with practicing minimalism 
 :lang: en
 :status: published

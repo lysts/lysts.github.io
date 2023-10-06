@@ -4,7 +4,7 @@ Newb to Code, Newb to Climbing
 
 :date: 2023-07-30 19:01
 :tags: health, mind, sport
-:slugs: keeping-active
+:slug: keeping-active
 :summary: keeping active, challenging a new sport, how it plays into my journey
           with programming
 :lang: en
