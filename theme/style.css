@@ -238,17 +238,19 @@ ol td {
   padding-bottom: 20%;
 }--*/
 
-.logo-container {
-    width: 200px;
-    height: 200px;
-    transition: transform 0.3s ease-in-out;
+.gif-container {
+    width: 900px;
+    height: 900px;
+    overflow: hidden
 }
 
-.logo-container:hover {
+.gif-container:hover {
     transform: scale(1.2); /* Increase the size on hover */
 }
 
-.logo {
+.gif {
     width: 100%;
     height: 100%;
-}
+    transition: transform 0.3s ease-in-out;
+
+
