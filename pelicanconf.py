@@ -8,7 +8,7 @@ PATH = 'content'
 #PAGE_PATHS = ['pages']
 #ARTICLE_URL = '{slug}.html'
 PAGE_URL = 'pages/{slug}.html'
-#PAGE_SAVE_AS = 'pages/{slug}.html'
+PAGE_SAVE_AS = 'pages/{slug}.html'
 
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
