@@ -1,6 +1,6 @@
 AUTHOR = 'lysts'
 SITENAME = 'lysts'
-SITEURL = 'https://lysts.xyz'
+# SITEURL = 'https://lysts.xyz'
 
 THEME = 'theme'
 PATH = 'content'
@@ -15,18 +15,18 @@ DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%b %d %Y'
 INTRASITE_LINK_REGEX = '[{|](?P<what>.*?)[|}]'
 
-# SITEURL = 'http://localhost:8000'
-# RELATIVE_URLS = True
+SITEURL = 'http://localhost:8000'
+RELATIVE_URLS = True
 
 
 MENUITEMS = (
      ('about', '/pages/about-me.html'),
-     ('CV', '/pages/cv.html')
+     ('CV', '/pages/cv.html'),
+     ('github', 'https://github.com/lysts'),
     )
 
 MENUXTRA = (
-    ('github', 'https://github.com/lysts'),
-    )
+       )
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False

@@ -2,16 +2,14 @@
 {% block content %}
 <section id="content">
 
-<ul class="post-list">
+<ol class="post-list">
     <table>
-        <thead>
-            <tr style="font-weight: bold; color: #373737">
-                <th><b>date</b></th>
-                <th><b>phished chips</b></th>
-                <th><b>flavour</b></th>
-            </tr>
-        </thead>
         <tbody>
+            <tr style="font-weight: bold; color: #373737">
+                <td><b>date</b></td>
+                <td><b>phished chips</b></td>
+                <td><b>flavour</b></td>
+            </tr>
         {% for article in articles %}
             <tr><article class="hentry">
                     <td class="post-info"><time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></td><!-- /.post-info -->
@@ -22,19 +20,7 @@
         {% endfor %}
         </tbody>
     </table>
-</ul><!-- /#posts-list (permalink to { { article.title|striptags }}") -->
-</section>
+</ol><!-- /#posts-list (permalink to { { article.title|striptags }}") -->
 
-<section id="contact-form">
-    <h4>welcome, digital nomad. Tell me, what shall I call you?</h4>
-    <form method="POST" action="people.php">
-        <input  name="name" placeholder="Name? Alias?" class="guest" /><br />
-        <input name="age" placeholder="years of age" class="guest" /><br />
-        <input name="comment" placeholder="what's on your mind?" class="guest" /><br />
-
-    </form>
-</section>
-
+</section><!-- /#content -->
 {% endblock content %}
-
-

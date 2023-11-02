@@ -3,61 +3,106 @@
 }
 
 * {
-  margin: 0 auto;
   max-width: 900px;
   background: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
 }
 
-header > * {
+header {
+  display: flex;
+}
+
+#navigation {
   display: inline-flex;
 }
 
-header h1 {
-  font-size: 1.2em;
-  padding: 0 0 0 0.5em;
+#menu a {
+  padding: 0 0.5em 0 0.3em;
 }
 
-#big_pages ul {
-  list-style: none
-}
-
-#big_pages ul li::before { 
-  content: "/";
-  padding-right: 0.3em;
-}
-
-#big_pages li {
-  display: inline-block;
-  padding-right: 0.5em;
-  align-items: center;
+td.push {
+  margin-left: auto;
 }
 
 body {
+  margin: 0px auto;
   padding: 0px 24px;
   margin-top: 1.5em;
 }
 
 /*--background-color: linear-gradient(135deg, #ededed, #e59167);}--*/
 
-/*--h1 color: #e06011;--*/
+img, h1 {
+  font-size: 1.3em;
+  vertical-align: baseline;
+  display: inline-block;
+  color: #e06011;
+  margin: 0;
+}
 
+h2 {
+  font-size: 1.2em;
+}
 
-/*-- div.entry-content ol, ul {
+h3 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 1.0em;
+}
+
+p {
+  
+}
+
+div.entry-content ol, ul {
   margin: revert;
   margin-left: 20px;
-} --*/
+}
 
-table > tr {
+::selection {
+  background: #e06011;
+  color: #e0e0ff;
+}
+
+#welcome {
+  position: relative;
+  left: 550px;
+  text-align: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  width: 100%;
+  max-width: 150px;
+  line-height: 27px;
+  font-family: monospace;
+  font-size: 1em;
+  cursor: pointer;
+  border-left: 1px solid #e06011;
+}
+
+}
+nav.a {
+  display: inline-block;
+  padding: 0 0.4em;
+  margin: 0;
+  flex-wrap: nowrap;
+  align-items: center;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+nav::before { 
+  content: "/";
+}
+
+table > tbody > tr > {
   vertical-align: top;
   border-collapse: collapse;
   display: inline-block;
   white-space: normal;
-}
-
-ul td {
-  padding: 0em 1.5em 0em 0em;
 }
 
 #branches tr:hover td,
@@ -91,11 +136,6 @@ a:hover {
   color: #e06011;
 }
 
-::selection {
-  background: #e06011;
-  color: #e0e0ff;
-}
-
 /*--a:active { color: #5751ab; }--*/
 
 hr {
@@ -111,6 +151,14 @@ footer {
   height: 2em;
   padding: 0px auto;
 } 
+
+ol table {
+  table-layout: fixed;
+}
+
+ol td {
+  padding: 0em 1.5em 0em 0em;
+}
 
 
 .gif-container:hover {
