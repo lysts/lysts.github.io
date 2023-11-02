@@ -23,17 +23,18 @@
     </header>
       <!--<p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="https://lysts.xyz/archives.html">posts</a></p>-->
     <section>
+      <p title="take a look around!">welcome, friend.</p><br />
+      <p>blog (fueled by one too many chai lattes).<br />for play and life-long learning.</p>
       <nav id="big_pages">
           <ul><li><a href="/pages/about-me.html">about</a></li><li><a href="/pages/cv.html">CV</a></li><li><a href="https://github.com/lysts">github</a></li></ul>
       </nav>
-      <p title="take a look around!">welcome, friend.</p><br />
-      <p>blog (fueled by one too many chai lattes).<br />for play and life-long learning.</p> 
     </section>
-    <hr>
-    <section id="post-list">
+    <hr />
+    <section id="post-list"><br />
+
+
 
 <section id="content">
-
 <ul class="post-list">
     <table>
         <thead>
@@ -71,22 +72,40 @@
         </tbody>
     </table>
 </ul><!-- /#posts-list (permalink to { { article.title|striptags }}") -->
-</section>
+</section><br />
+
+<hr /><br />
 
 <section id="contact-form">
-    <h4>welcome, digital nomad. Tell me, what shall I call you?</h4>
+    <h4>hey, digital nomad.<br />what shall I call you?</h4><br />
     <form method="POST" action="people.php">
-        <input  name="name" placeholder="Name? Alias?" class="guest" /><br />
+        <label for="species-select">choose your species:</label><br />
+        <select name="species" id="species-select">
+            <option value=""><option?>
+            <option value="alien">martian</option?>
+            <option value="artist">artist</option?>
+            <option value="math">mathematician</option?>
+            <option value="chef">chef (i'll cook for you)</option?>
+            <option value="historian">historian</option?>
+            <option value="programmer">programming addict</option?>
+            <option value="academic">academic</option?>
+            <option value="other">other...</option?>
+            <option value="human">just human :)</option?>
+        </select><br />
+        <input name="name" placeholder="name? alias?" class="guest" /><br />
         <input name="age" placeholder="years of age" class="guest" /><br />
-        <input name="comment" placeholder="what's on your mind?" class="guest" /><br />
-
+        <input name="comment" placeholder="hhhwat's on your mind?" class="guest" /><br /><br />
+        <button type="submit">nice to meet you.</button>
     </form>
-</section>
+</section><br />
 
 <!--post list-->
     </section>
-    <hr>
-    <footer><p>© 2023 L, yours truly lysts</p></footer>
+    
+    <footer>
+        <hr />
+        <p>© 2023 L, yours truly lysts</p>
+    </footer>
 
 </body>
 </html>
