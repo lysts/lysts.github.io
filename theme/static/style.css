@@ -47,6 +47,10 @@ body {
 
 /*--h1 color: #e06011;--*/
 
+#post-list {
+  display: inline-block;
+}
+
 table > tr {
   vertical-align: top;
   border-collapse: collapse;
@@ -124,7 +128,6 @@ footer {
   font-size: 0.95em;
   width: 100%;
 } 
-
 
 
 .gif-container:hover {
