@@ -25,22 +25,25 @@
     </header>
       <!--<p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="https://lysts.xyz/archives.html">posts</a></p>-->
     <section>
+      <p title="take a look around!">welcome, friend.</p><br />
+      <p>blog (fueled by one too many chai lattes).<br />for play and life-long learning.</p>
       <nav id="big_pages">
           <ul>{% for title, link in MENUITEMS %}<li><a href="{{ link }}">{{ title }}</a></li>{% endfor %}</ul>
       </nav>
-      <p title="take a look around!">welcome, friend.</p><br />
-      <p>blog (fueled by one too many chai lattes).<br />for play and life-long learning.</p> 
             {#% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %} <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li> {% endfor %}{% endif %}
             {% if DISPLAY_CATEGORIES_ON_MENU %}{% for cat, null in categories
             %} <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li> {% endfor %}{% endif %#}
     </section>
-    <hr>
-    <section id="post-list">
+    <hr />
+    <section id="post-list"><br />
 
     {% block content %}{% endblock %}<!--post list-->
     </section>
-    <hr>
-    <footer><p>© 2023 L, yours truly {{ SITENAME }}</p></footer>
+    
+    <footer>
+        <hr />
+        <p>© 2023 L, yours truly {{ SITENAME }}</p>
+    </footer>
 
 </body>
 </html>
