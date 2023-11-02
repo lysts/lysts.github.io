@@ -1,5 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/all.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-09-11T16:30:00+01:00</updated><entry><title>exploring minimalism</title><link href="https://lysts.xyz/exploring-minimalism.html" rel="alternate"></link><published>2023-09-11T16:30:00+01:00</published><updated>2023-09-11T16:30:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-11:/exploring-minimalism.html</id><summary type="html">&lt;p class="first last"&gt;an ex-hoarder's journey with practicing minimalism&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/all.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-10-15T18:42:00+01:00</updated><entry><title>becoming a software engineer</title><link href="https://lysts.xyz/my-career-journey.html" rel="alternate"></link><published>2023-10-15T18:42:00+01:00</published><updated>2023-10-15T18:42:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-10-15:/my-career-journey.html</id><summary type="html">&lt;p class="first last"&gt;how I went from knowing nothing to just enough and more&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#my-journey-so-far" id="toc-entry-1"&gt;my journey so far&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#re-working-my-workflow" id="toc-entry-2"&gt;re-working my workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#i-built-my-website" id="toc-entry-3"&gt;I built my website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#job-hunting" id="toc-entry-4"&gt;Job hunting?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#pursuing-software-development" id="toc-entry-5"&gt;Pursuing software development&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#the-process" id="toc-entry-6"&gt;The process&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="my-journey-so-far"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;my journey so far&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I wrote a lot of R during my degree for data science projects, specifically for statistical analysis and data visualisation. Due to Python and MATLAB being the primary languages the lab I worked for used in their research, I quickly learned just enough Python to help me write scripts for my project and the neuronal data analysis pipelin we used. My workflow, though performed entirely in terminal, was reliant on lunarvim and oh my zsh, which were both immensely useful but wasn't well optimised and took up lots of storage. Installing everything at once also meant that I wasn't able to fully understand useful vim editing shortcuts, as well as the dependencies, plugins, and additional features.&lt;/p&gt;
+&lt;p&gt;Thus, it never really felt like I knew how to &lt;em&gt;program&lt;/em&gt;. Everything  I required a LOT more learning, such as algorithms and important concepts that I would otherwise be fed via a computer science degree. My problem solving skils were limited to the needs of data science and the lab itself, so when addressing any question, any task I wanted to accomplish through code, I lacked the skillset to carry it out, even if I was able to come up with a solution.&lt;/p&gt;
+&lt;div class="section" id="re-working-my-workflow"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;re-working my workflow&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I uninstalled oh my zsh and decided to customise my terminal from scratch, going through zshrc config documentation. I set up ranger as my file navigation system and vim as my text editor alomg with its native plugin manager to manage the essential plugins. This helped me learn how files are stored, as well as properly re-learn the shortcuts and commands I need.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="i-built-my-website"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;I built my website&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Though Notion served me well for note-taking and keeping track of my progress, I needed a place to keep track of anything programming and life-related so I decided to build my own website... From scratch. This took me a while, reading and reading through documentation for GitHub pages, Pelican, and html and css — resources that allows me to build everything from my terminal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="job-hunting"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;Job hunting?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I tried to look for paid opportunities where I would be able to learn more programming on the job. I thought I knew what I wanted to do and learn, but later realised that my scope was too broad; I was originally searching for both data science and software engineering. Data science, being something I'm more familiar with, I easily felt more competent and comfortable with the idea of pursuing programming in that field. I did pass a number of successful interview stages, but towards the end of each process, realised that the jobs weren't the right fit for me.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pursuing-software-development"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;Pursuing software development&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is when I started to focus more on software, learning about job specialities, what I enjoy, and what I want to learn. I found roadmaps to help me see the general picture of what these jobs entail and what I need to focus on. This brings me to the present as I write this.&lt;/p&gt;
+&lt;p&gt;I wanted to deeply learn Python but also pick up Javascript and Typescript as I have an interest in front-end. I finished a Javascript fundamentals course, and began another to help me use what I've learned in a more practical setting. I still need to establish a good Python practice, and also began a full-stack project where my goal is to develop a desktop app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-process"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;The process&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Steps:
+1. focus on learning programming languages, deeply
+2. learn fundamental concepts and practice problem solving
+3. practice is where it all starts; test your learning
+4. work on a project to aid your learning
+4. use tools that will improve your workflow
+5. get feedback, ideally mentorship
+6. apply for jobs that have a suitable learning environment&lt;/p&gt;
+&lt;p&gt;It's important to remember to:
+- keep a consistent and productive routine
+- review your curriculum and your goals before each session
+- productive also means that you're taking adequate and frequent breaks&lt;/p&gt;
+&lt;p&gt;Funnily enough, I ticked some of these steps off, like learning terminal workflow and such, beginning a project, and beginning more detailed skill building with Javascript and bursts of practice with Python, although this all occurred in quite a peculiar order of events. The goal is to refine what I'm already doing, incorporate what I need to get even more on track, and persevere.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="notes"></category><category term="career"></category><category term="software"></category><category term="programming"></category></entry><entry><title>good software architect practices</title><link href="https://lysts.xyz/software-architect.html" rel="alternate"></link><published>2023-10-09T11:49:00+01:00</published><updated>2023-10-09T11:49:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-10-09:/software-architect.html</id><summary type="html">&lt;p class="first last"&gt;notes on software architecture, based on roadmap.sh&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#software-architecture-practices" id="toc-entry-1"&gt;software architecture practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#levels-of-architecture" id="toc-entry-2"&gt;levels of architecture&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#krucheten-s-4-1-model" id="toc-entry-3"&gt;Krucheten's 4+1 Model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#unified-modeling-language" id="toc-entry-4"&gt;Unified Modeling Language&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#component-diagrams" id="toc-entry-5"&gt;Component Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#class-diagrams" id="toc-entry-6"&gt;Class Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#activity-diagrams" id="toc-entry-7"&gt;Activity Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#deployment-diagrams" id="toc-entry-8"&gt;Deployment Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#use-case-diagram" id="toc-entry-9"&gt;Use Case Diagram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#software-architecture-patterns" id="toc-entry-10"&gt;Software Architecture Patterns&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#event-driven-architecture" id="toc-entry-11"&gt;Event-driven architecture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#programming" id="toc-entry-12"&gt;Programming&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#skills" id="toc-entry-13"&gt;Skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#documentation" id="toc-entry-14"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;Software architects&lt;/tt&gt; design software solutions with high-level decisions from ground up, concerning the tools, platforms, etc that are used, leading engineers in creating the final product (like with full-stack development).&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;Software architecture&lt;/tt&gt; is concerned with context:
+1. functional requirements (what should the system do?)
+2. non-functional requirements (functionality, reliability, usability, efficiency, maintainability, scalability)
+3. restrictions (legal requirements, standards, cost, time-to-market, talent hiring)&lt;/p&gt;
+&lt;p&gt;Mapping software architecture out allows you to identify potential problem areas ahead of time, but also means that it's vital and a risk to the trajectory of a project.&lt;/p&gt;
+&lt;div class="section" id="software-architecture-practices"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;software architecture practices&lt;/a&gt;&lt;/h2&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;keeping documentation of all aspects of architectural design and their interrelationships with other aspects of the projects (including their expected goals/functions)&lt;/li&gt;
+&lt;li&gt;regular checkup system to re-evaluate architecture, whether they achieve purpose, and whether the system itself conforms to the intended architecture type&lt;/li&gt;
+&lt;li&gt;extra systems at every stage of the architecture to maintain quality assurance of the system's tasks, goals, and outputs&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="levels-of-architecture"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;levels of architecture&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;application level = detailed and lowest level design, focused on one single application, communication within one dev team&lt;/li&gt;
+&lt;li&gt;solution level = some high but mainly low-level design. Focus on one/more application(s) that fulfill business needs, with communication between multiple dev teams&lt;/li&gt;
+&lt;li&gt;enterprise level = highest level of architecture, focused on multiple solutions. High level design requiring application architects, with communication across organisation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="krucheten-s-4-1-model"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;Krucheten's 4+1 Model&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;describes architecture of software-based systems, allows us to describe system from perspective of different stakeholders. The development (programmer's perspective, focused on software management and domain UML diagrams), logical (functionality provided to end users and system behaviours), physical (topology/distribution of software effects on physical layer and their interconnectivity), and process (communication/control flow concurrency/data flow across system processes) views, with the plus one scenarios (use cases to start off system testing, verify that system meets stakeholder requirements).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="unified-modeling-language"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;Unified Modeling Language&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;UML&lt;/tt&gt; is commonly used standardised modeling language used to provide visually representation notation of software system design and structure. It describes the static system structure through object attributes and relationships as well as diagrams that show object collaboration and state changes which illustrate the dynamic behaviour of the system. A subset of behaviour diagrams are interaction diagrams which focuses on the flow of control and data as sequence or communication diagrams. (to create UMLs, &lt;tt class="docutils literal"&gt;Lucidchart&lt;/tt&gt; recommended)&lt;/p&gt;
+&lt;div class="section" id="component-diagrams"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;Component Diagrams&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;component = module of classes that serve a common purpose, giving bird's eye view of system components and how they relate/what purpose they serve. Circle components provide the interface for 2 components to interact, with arrows (with/without arrowheads) specify relationships.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="class-diagrams"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;Class Diagrams&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;structural diagram modelling classes in a system showing relationships between each class object which is filled with data, split into 3 sections: their name, attributes, and operations. Bidirectional relationships are indicated by arrowhead-less lines. Levels of multiplicity between classes are indicated by numbers (example: one/multiple bookings vs max one customer). Class inheritance is shown by a special arrowhead (empty arrowheads).
+- plus signs indicate public attribute operations
+- minuses indicate private (access modifier)
+- hash symbols indicates that the attribute/operation is protected
+- underline shows that it is static&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="activity-diagrams"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-7"&gt;Activity Diagrams&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;describes dynamic behaviour modelling control flow between activities:
+1. start node = starting point of activity
+2. state object in which behaviour of object represented described
+3. certain condition satisfaction decides decision node with multiple possible control laws
+4. end node
+Horizontal fork/join represents concurrent control laws (one in, many out). Synchronisation object would have multiple slows coming in and one/more control systems going out.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="deployment-diagrams"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-8"&gt;Deployment Diagrams&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;models physical deployment of software artifacts, showing hardware components, what software runs on each node, and how they are interconnected. Each node can represent a hardware/software object (connected by lines without arrowheads), act as containers to hold other node objects. Component objects represent element of software on client machine. Interfaces shown for communication between application and business layers. Dependencies between components and software artifacts (ex application layer linked to data access layer) shown using dashed line and arrowhead for direction.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="use-case-diagram"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-9"&gt;Use Case Diagram&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;models users of system (actors), and their interaction with the system, helping to define functional requirements. Use cases are defined by oval object, described inside.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="software-architecture-patterns"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-10"&gt;Software Architecture Patterns&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are a variety of software architecture structures example:
+Layered pattern architecture
+''''''''''''''''''''''''''''
+Or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;Multi-Tiered&lt;/span&gt; Architecture&lt;/tt&gt; is a database-driven architecture where data begins at the top layer and works its way down until it reaches the infrastructure layer, typically a database.&lt;/p&gt;
+&lt;div class="section" id="event-driven-architecture"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-11"&gt;Event-driven architecture&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;sometimes programs wait till event occurs; sometimes data will need to be processed and sometimes not. Central unit (event service bus) processes data before delegating to relevant modules) — super useful in complex environments but can be difficult when error handling if modules handling same events.&lt;/p&gt;
+&lt;p&gt;Apart from knowing patterns, knowing quality measures, understanding and using different tech stacks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="programming"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;Programming&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Recommended books for programming knowledge:
+- Experience &amp;amp; Knowledge Management in Software Engineering by Kurt Schneider.
+- Clean Code by Robert C. Martin
+Also, Technology Radar from thoughtworks provides categorised insight on tools, techniques, platforms, languages, frameworks.&lt;/p&gt;
+&lt;div class="section" id="skills"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-13"&gt;Skills&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;understanding of web applications, cybersecurity, open source technologies&lt;/li&gt;
+&lt;li&gt;experience with database platforms, analysing code for issues/errors, operations &amp;amp; DevOps skills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="documentation"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;Documentation&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Generate documentation where possible, but as much as necessary, as little as possible.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="notes"></category><category term="software"></category></entry><entry><title>exploring minimalism</title><link href="https://lysts.xyz/exploring-minimalism.html" rel="alternate"></link><published>2023-09-11T16:30:00+01:00</published><updated>2023-09-11T16:30:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-11:/exploring-minimalism.html</id><summary type="html">&lt;p class="first last"&gt;an ex-hoarder's journey with practicing minimalism&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;

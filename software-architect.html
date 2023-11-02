@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>lysts / good software architect practices</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="https://lysts.xyz/theme/style.css" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge"; charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="lysts' blog and portfolio" />
+        <meta name="keywords" content="blog, lysts, github, website, static web" />
+        <link rel="icon" type="image/png" href="https://lysts.xyz/theme/lysts.png" /> 
+        <style>
+        @import
+            url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Montserrat&display=swap');
+        </style> 
+
+
+
+
+    <meta name="tags" content="software" />
+
+</head>
+
+
+<body><!--header-->
+    <header>
+      <a href="https://lysts.xyz/"/><img src="/theme/lysts.png" width="40" height="40" alt="lysts logo"/>
+      <h1><a href="https://lysts.xyz">lysts</a></h1>
+    </header>
+      <!--<p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="https://lysts.xyz/archives.html">posts</a></p>-->
+    <section>
+      <nav id="big_pages">
+          <ul><li><a href="/pages/about-me.html">about</a></li><li><a href="/pages/cv.html">CV</a></li><li><a href="https://github.com/lysts">github</a></li></ul>
+      </nav>
+      <p title="take a look around!">welcome, friend.</p><br />
+      <p>blog (fueled by one too many chai lattes).<br />for play and life-long learning.</p> 
+    </section>
+    <hr>
+    <section id="post-list">
+
+<section id="content" class="body" style="margin: 10px 5px 60px 25px">
+    <thead>
+    <h2 class="entry-title">
+      <a href="https://lysts.xyz/software-architect.html" rel="bookmark"
+         title="hop on to good software architect practices">good software architect practices</a></h2>
+ 
+    </thead>
+    <tbody>
+    <p class="post-info">
+    <time class="published" datetime="2023-10-09T11:49:00+01:00">
+      Oct 09 2023
+    </time>
+   
+
+    <div class="category">
+        category: <a href="https://lysts.xyz/category/notes.html">notes</a>
+    </div>
+
+    <div class="tags">
+        tags:
+            <a href="https://lysts.xyz/tag/software.html">software</a>
+    </div>
+
+  </tbody><!-- /.post-info -->
+  <div class="entry-content">
+    <div class="contents topic" id="table-of-contents">
+<p class="topic-title">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#software-architecture-practices" id="toc-entry-1">software architecture practices</a></li>
+<li><a class="reference internal" href="#levels-of-architecture" id="toc-entry-2">levels of architecture</a><ul>
+<li><a class="reference internal" href="#krucheten-s-4-1-model" id="toc-entry-3">Krucheten's 4+1 Model</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#unified-modeling-language" id="toc-entry-4">Unified Modeling Language</a><ul>
+<li><a class="reference internal" href="#component-diagrams" id="toc-entry-5">Component Diagrams</a></li>
+<li><a class="reference internal" href="#class-diagrams" id="toc-entry-6">Class Diagrams</a></li>
+<li><a class="reference internal" href="#activity-diagrams" id="toc-entry-7">Activity Diagrams</a></li>
+<li><a class="reference internal" href="#deployment-diagrams" id="toc-entry-8">Deployment Diagrams</a></li>
+<li><a class="reference internal" href="#use-case-diagram" id="toc-entry-9">Use Case Diagram</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#software-architecture-patterns" id="toc-entry-10">Software Architecture Patterns</a><ul>
+<li><a class="reference internal" href="#event-driven-architecture" id="toc-entry-11">Event-driven architecture</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#programming" id="toc-entry-12">Programming</a><ul>
+<li><a class="reference internal" href="#skills" id="toc-entry-13">Skills</a></li>
+<li><a class="reference internal" href="#documentation" id="toc-entry-14">Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><tt class="docutils literal">Software architects</tt> design software solutions with high-level decisions from ground up, concerning the tools, platforms, etc that are used, leading engineers in creating the final product (like with full-stack development).</p>
+<p><tt class="docutils literal">Software architecture</tt> is concerned with context:
+1. functional requirements (what should the system do?)
+2. non-functional requirements (functionality, reliability, usability, efficiency, maintainability, scalability)
+3. restrictions (legal requirements, standards, cost, time-to-market, talent hiring)</p>
+<p>Mapping software architecture out allows you to identify potential problem areas ahead of time, but also means that it's vital and a risk to the trajectory of a project.</p>
+<div class="section" id="software-architecture-practices">
+<h2><a class="toc-backref" href="#toc-entry-1">software architecture practices</a></h2>
+<ol class="arabic simple">
+<li>keeping documentation of all aspects of architectural design and their interrelationships with other aspects of the projects (including their expected goals/functions)</li>
+<li>regular checkup system to re-evaluate architecture, whether they achieve purpose, and whether the system itself conforms to the intended architecture type</li>
+<li>extra systems at every stage of the architecture to maintain quality assurance of the system's tasks, goals, and outputs</li>
+</ol>
+</div>
+<div class="section" id="levels-of-architecture">
+<h2><a class="toc-backref" href="#toc-entry-2">levels of architecture</a></h2>
+<ul class="simple">
+<li>application level = detailed and lowest level design, focused on one single application, communication within one dev team</li>
+<li>solution level = some high but mainly low-level design. Focus on one/more application(s) that fulfill business needs, with communication between multiple dev teams</li>
+<li>enterprise level = highest level of architecture, focused on multiple solutions. High level design requiring application architects, with communication across organisation</li>
+</ul>
+<div class="section" id="krucheten-s-4-1-model">
+<h3><a class="toc-backref" href="#toc-entry-3">Krucheten's 4+1 Model</a></h3>
+<p>describes architecture of software-based systems, allows us to describe system from perspective of different stakeholders. The development (programmer's perspective, focused on software management and domain UML diagrams), logical (functionality provided to end users and system behaviours), physical (topology/distribution of software effects on physical layer and their interconnectivity), and process (communication/control flow concurrency/data flow across system processes) views, with the plus one scenarios (use cases to start off system testing, verify that system meets stakeholder requirements).</p>
+</div>
+</div>
+<div class="section" id="unified-modeling-language">
+<h2><a class="toc-backref" href="#toc-entry-4">Unified Modeling Language</a></h2>
+<p><tt class="docutils literal">UML</tt> is commonly used standardised modeling language used to provide visually representation notation of software system design and structure. It describes the static system structure through object attributes and relationships as well as diagrams that show object collaboration and state changes which illustrate the dynamic behaviour of the system. A subset of behaviour diagrams are interaction diagrams which focuses on the flow of control and data as sequence or communication diagrams. (to create UMLs, <tt class="docutils literal">Lucidchart</tt> recommended)</p>
+<div class="section" id="component-diagrams">
+<h3><a class="toc-backref" href="#toc-entry-5">Component Diagrams</a></h3>
+<p>component = module of classes that serve a common purpose, giving bird's eye view of system components and how they relate/what purpose they serve. Circle components provide the interface for 2 components to interact, with arrows (with/without arrowheads) specify relationships.</p>
+</div>
+<div class="section" id="class-diagrams">
+<h3><a class="toc-backref" href="#toc-entry-6">Class Diagrams</a></h3>
+<p>structural diagram modelling classes in a system showing relationships between each class object which is filled with data, split into 3 sections: their name, attributes, and operations. Bidirectional relationships are indicated by arrowhead-less lines. Levels of multiplicity between classes are indicated by numbers (example: one/multiple bookings vs max one customer). Class inheritance is shown by a special arrowhead (empty arrowheads).
+- plus signs indicate public attribute operations
+- minuses indicate private (access modifier)
+- hash symbols indicates that the attribute/operation is protected
+- underline shows that it is static</p>
+</div>
+<div class="section" id="activity-diagrams">
+<h3><a class="toc-backref" href="#toc-entry-7">Activity Diagrams</a></h3>
+<p>describes dynamic behaviour modelling control flow between activities:
+1. start node = starting point of activity
+2. state object in which behaviour of object represented described
+3. certain condition satisfaction decides decision node with multiple possible control laws
+4. end node
+Horizontal fork/join represents concurrent control laws (one in, many out). Synchronisation object would have multiple slows coming in and one/more control systems going out.</p>
+</div>
+<div class="section" id="deployment-diagrams">
+<h3><a class="toc-backref" href="#toc-entry-8">Deployment Diagrams</a></h3>
+<p>models physical deployment of software artifacts, showing hardware components, what software runs on each node, and how they are interconnected. Each node can represent a hardware/software object (connected by lines without arrowheads), act as containers to hold other node objects. Component objects represent element of software on client machine. Interfaces shown for communication between application and business layers. Dependencies between components and software artifacts (ex application layer linked to data access layer) shown using dashed line and arrowhead for direction.</p>
+</div>
+<div class="section" id="use-case-diagram">
+<h3><a class="toc-backref" href="#toc-entry-9">Use Case Diagram</a></h3>
+<p>models users of system (actors), and their interaction with the system, helping to define functional requirements. Use cases are defined by oval object, described inside.</p>
+</div>
+</div>
+<div class="section" id="software-architecture-patterns">
+<h2><a class="toc-backref" href="#toc-entry-10">Software Architecture Patterns</a></h2>
+<p>There are a variety of software architecture structures example:
+Layered pattern architecture
+''''''''''''''''''''''''''''
+Or <tt class="docutils literal"><span class="pre">Multi-Tiered</span> Architecture</tt> is a database-driven architecture where data begins at the top layer and works its way down until it reaches the infrastructure layer, typically a database.</p>
+<div class="section" id="event-driven-architecture">
+<h3><a class="toc-backref" href="#toc-entry-11">Event-driven architecture</a></h3>
+<p>sometimes programs wait till event occurs; sometimes data will need to be processed and sometimes not. Central unit (event service bus) processes data before delegating to relevant modules) — super useful in complex environments but can be difficult when error handling if modules handling same events.</p>
+<p>Apart from knowing patterns, knowing quality measures, understanding and using different tech stacks.</p>
+</div>
+</div>
+<div class="section" id="programming">
+<h2><a class="toc-backref" href="#toc-entry-12">Programming</a></h2>
+<p>Recommended books for programming knowledge:
+- Experience &amp; Knowledge Management in Software Engineering by Kurt Schneider.
+- Clean Code by Robert C. Martin
+Also, Technology Radar from thoughtworks provides categorised insight on tools, techniques, platforms, languages, frameworks.</p>
+<div class="section" id="skills">
+<h3><a class="toc-backref" href="#toc-entry-13">Skills</a></h3>
+<ul class="simple">
+<li>understanding of web applications, cybersecurity, open source technologies</li>
+<li>experience with database platforms, analysing code for issues/errors, operations &amp; DevOps skills</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3><a class="toc-backref" href="#toc-entry-14">Documentation</a></h3>
+<p>Generate documentation where possible, but as much as necessary, as little as possible.</p>
+</div>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+<!--post list-->
+    </section>
+    <hr>
+    <footer><p>© 2023 L, yours truly lysts</p></footer>
+
+</body>
+</html>

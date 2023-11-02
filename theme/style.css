@@ -1,183 +1,63 @@
 @viewport{
   width: device-width;
-  zoom: 1.0;
 }
 
-html * {
+* {
+  margin: 0 auto;
   max-width: 900px;
-  padding: 0;
   background: #FFFFFF;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.99em;
-  line-height: 1.3em;
+  font-size: 1em;
 }
 
-div.headers {
-  display: flex;
+header > * {
+  display: inline-flex;
 }
 
-td.push {
-  margin-left: auto;
+header h1 {
+  font-size: 1.2em;
+  padding: 0 0 0 0.5em;
+}
+
+#big_pages ul {
+  list-style: none
+}
+
+#big_pages ul li::before { 
+  content: "/";
+  padding-right: 0.3em;
+}
+
+#big_pages li {
+  display: inline-block;
+  padding-right: 0.5em;
+  align-items: center;
 }
 
 body {
-  /*--margin-left: 1em;
-  margin-bottom; 3em;
-  margin-right; 1em;
-  flex-grow: 1;--*/
-  width: 900px;
-  margin: 0px auto;
   padding: 0px 24px;
   margin-top: 1.5em;
 }
 
 /*--background-color: linear-gradient(135deg, #ededed, #e59167);}--*/
 
-img, h1 {
-  font-size: 1.3em;
-  vertical-align: baseline;
-  display: inline-block;
-  color: #e06011;
-  margin: 0;
-}
+/*--h1 color: #e06011;--*/
 
-h2 {
-  font-size: 1.2em;
-}
 
-h3 {
-  font-size: 1.1em;
-}
-
-h4 {
-  font-size: 1.0em;
-}
-
-p {
-  margin: revert;
-}
-
-div.entry-content ol, ul {
+/*-- div.entry-content ol, ul {
   margin: revert;
   margin-left: 20px;
-}
+} --*/
 
-::selection {
-  background: #e06011;
-  color: #e0e0ff;
-}
-
-.button {
-  position: relative;
-  left: 550px;
-  text-align: center;
-  margin-right: 1em;
-  margin-left: 1em;
-  margin-top: 1em;
-  width: 100%;
-  max-width: 150px;
-  line-height: 27px;
-  font-family: monospace;
-  font-size: 1em;
-  color: #000;
-  cursor: pointer;
-  border-left: 1px solid #e06011;
-}
-.button span {
-  position: relative;
-  transition: all 200ms ease-in-out;
-  /* horizontal */
-  /* horizontal - small */
-}
-.button span.line-1 {
-  top: 0;
-  left: 0;
-  width: 158px;
-  height: 1px;
-  background: #e06011;
-  transform: translateX(-48px);
-}
-.button span.line-2 {
-  bottom: 0;
-  right: 0;
-  width: 130px;
-  height: 1px;
-  background: #e06011;
-  transform: translateX(-25px);
-}
-.button span.line-3 {
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 1px;
-  background: #e06011;
-  transform: translateX(20px);
-}
-.button span.line-4 {
-  bottom: 0;
-  right: 0;
-  width: 100px;
-  height: 1px;
-  background: #e06011;
-  transform: translateX(95px);
-}
-.button span.line-5 {
-  bottom: 0;
-  right: 0;
-  width: 1px;
-  height: 50px;
-  background: #e06011;
-  transform: translateY(0px);
-}
-.button span.line-6 {
-  top: 0;
-  right: 0;
-  width: 1px;
-  height: 8px;
-  background:#e06011;
-  transform: translateY(-48px);
-}
-.button:hover .line-1 {
-  transform: translateX(0px);
-}
-.button:hover .line-2 {
-  transform: translateX(-65px);
-}
-.button:hover .line-3 {
-  transform: translateX(60px);
-}
-.button:hover .line-4 {
-  transform: translateX(55px);
-}
-.button:hover .line-5 {
-  transform: translateY(44px);
-}
-.button:hover .line-6 {
-  transform: translateY(-2px);
-}
-/****/
-
-nav.a {
-  display: inline-block;
-  padding: 0 0.4em;
-  margin: 0;
-  flex-wrap: nowrap;
-  align-items: center;
-  list-style: none;
-  font-size: 1.3em;
-}
-
-nav::before { 
-  content: "/";
-}
-
-/*--nav.breadcrumb [aria-current="page"] {color: #e6e6fa;}--*/
-
-table > tbody > tr > {
+table > tr {
   vertical-align: top;
   border-collapse: collapse;
   display: inline-block;
   white-space: normal;
+}
+
+ul td {
+  padding: 0em 1.5em 0em 0em;
 }
 
 #branches tr:hover td,
@@ -211,48 +91,27 @@ a:hover {
   color: #e06011;
 }
 
+::selection {
+  background: #e06011;
+  color: #e0e0ff;
+}
+
 /*--a:active { color: #5751ab; }--*/
 
 hr {
-  border: 0;
-  border-top: 1px solid #e06011;
+  background-color: #e06011;
   height: 1px;
+  border: 0;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
 footer {
-  position: fixed;
   bottom: 0;
-  height: 7%;
-  width: 900px;
-  margin: 0px auto;
+  height: 2em;
   padding: 0px auto;
-  font-size: 0.9em !important;
 } 
 
-ol table {
-  table-layout: fixed;
-}
-
-ol td {
-  padding: 0em 1.5em 0em 0em;
-}
-
-/*--#content {
-  padding-bottom: 20%;
-}--*/
-
-
-/*-- .gif-container {
-/*--   display: flex;
-/*--   justify-content: center; /* Center horizontally */
-/*--   align-items: center; /* Center vertically */
-/*--   height: 100vh; /* Make the container cover the full viewport height */
-/*--   width: 50px;
-/*--   height: 50px;
-/*--   overflow: hidden;
-*/
 
 .gif-container:hover {
     transform: scale(1.1); /* Increase the size on hover */
