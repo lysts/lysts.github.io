@@ -1,0 +1,82 @@
+
+* {
+    /*font-family: 'Lora', serif;
+    font-family: 'Quattrocento Sans', sans-serif;*/
+    font-family: 'Bodoni Moda', serif;
+}
+
+
+.body {
+    background-color: #181818;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #d9d9d0;
+}
+
+hr {
+    border-color: rgba(57, 57, 57, 0.501);
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+header {
+    background-image: url(../assets/lystsim/whiteshadows.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+#lysts {
+    padding: 1.5rem 2rem;
+    color: #d9d9d0;
+    letter-spacing: 0.5rem;
+}
+
+.homepage-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 2rem 2rem;
+}
+
+a:link {
+    color: #d9d9d0;
+    font-family: 'Lora', sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.05rem;
+}
+
+a:hover {
+    color: #2a6c58;
+ 
+}
+
+a:active {
+    color: #2a6c58;
+}
+
+a:visited {
+    color: #d9d9d0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+
+.footer p {
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+    color: rgb(182, 182, 182)
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1rem;
+}
