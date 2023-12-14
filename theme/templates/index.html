@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="post-list">
+<ul>
+    <table>
+        <thead>
+            <tr style="font-weight: bold; color: #373737">
+                <th><b>date</b></th>
+                <th><b>phished chips</b></th>
+                <th><b>flavour</b></th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for article in articles %}
+            <tr><article class="hentry">
+                    <td class="post-info"><time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></td><!-- /.post-info -->
+                    <td class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="take a peak?">{{ article.title }}</a></td>
+                    <td class="category"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}<a/></td>
+                </article>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</ul><!-- /#posts-list (permalink to { { article.title|striptags }}") -->
+</section><br />
+
+<hr /><br />
+
+<section id="contact-form">
+    <h4>hey, digital nomad.<br />what shall I call you?</h4><br />
+    <form method="POST" action="people.php">
+        <label for="species-select">choose your species:</label><br />
+        <select name="species" id="species-select">
+            <option value=""><option?>
+            <option value="alien">martian</option?>
+            <option value="artist">artist</option?>
+            <option value="math">mathematician</option?>
+            <option value="chef">chef (i'll cook for you)</option?>
+            <option value="historian">historian</option?>
+            <option value="programmer">programming addict</option?>
+            <option value="academic">academic</option?>
+            <option value="other">other...</option?>
+            <option value="human">just human :)</option?>
+        </select><br />
+        <input name="name" placeholder="name? alias?" class="guest" /><br />
+        <input name="age" placeholder="years of age" class="guest" /><br />
+        <input name="comment" placeholder="hhhwat's on your mind?" class="guest" /><br /><br />
+        <button type="submit" id="submit-button">nice to meet you.</button>
+    </form>
+</section><br />
+
+{% endblock content %}
+
+

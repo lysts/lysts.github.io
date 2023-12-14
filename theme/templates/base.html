@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/style.css" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge"; charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="lysts' blog and portfolio" />
+        <meta name="keywords" content="blog, lysts, github, website, static web" />
+        <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/lysts.png" /> 
+<!--        <style>
+        @import
+            url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Montserrat&display=swap');
+</style> --> 
+        {% endblock head %}
+</head>
+
+
+<body><!--header-->
+    <header>
+      <a href="https://lysts.xyz/"/><img src="/theme/lysts.png" width="40" height="40" alt="lysts logo"/>
+      <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+    </header>
+      <!--<p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="https://lysts.xyz/archives.html">posts</a></p>-->
+    <section>
+      <p title="take a look around!">welcome, friend.</p><br />
+      <p>blog (fueled by one too many chai lattes).<br />for play and life-long learning.</p>
+      <nav id="big_pages">
+          <ul>{% for title, link in MENUITEMS %}<li><a href="{{ link }}">{{ title }}</a></li>{% endfor %}</ul>
+      </nav>
+            {#% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %} <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li> {% endfor %}{% endif %}
+            {% if DISPLAY_CATEGORIES_ON_MENU %}{% for cat, null in categories
+            %} <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li> {% endfor %}{% endif %#}
+    </section>
+    <hr />
+    <br />
+    {% block content %}{% endblock %}<!--post list-->
+    </section>
+    
+    <footer>
+        <hr />
+        <p>© 2023 L, yours truly {{ SITENAME }}</p>
+    </footer>
+
+</body>
+</html>
