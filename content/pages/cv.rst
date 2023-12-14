@@ -2,7 +2,8 @@
 CV
 ==
 
-:slug: cv
+:template: resume.html
+:slug: resume
 :status: hidden
 :lang: en
 
