@@ -24,7 +24,7 @@ hr {
 }
 
 header {
-    background-image: url(theme/whiteshadows.JPG);
+    background-image: url(whiteshadows.JPG);
     height: 80vh;
     background-size: cover;
 }
