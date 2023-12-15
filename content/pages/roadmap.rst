@@ -2,7 +2,7 @@
 my roadmap
 ==========
 
-:template: roadmap.html
+:template: roadmap
 :slug: roadmap
 :status: published
 :lang: en

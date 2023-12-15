@@ -2,7 +2,7 @@
 CV
 ==
 
-:template: resume.html
+:template: resume
 :slug: resume
 :status: hidden
 :lang: en

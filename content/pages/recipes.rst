@@ -2,7 +2,7 @@
 nom-noms
 ========
 
-:template: recipes.html
+:template: recipes
 :slug: nom-noms
 :status: published
 :lang: en

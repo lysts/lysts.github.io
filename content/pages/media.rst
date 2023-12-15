@@ -2,7 +2,7 @@
 media i like
 ============
 
-:template: media.html
+:template: media
 :slug: media
 :status: published
 :lang: en

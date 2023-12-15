@@ -2,7 +2,7 @@
 post list
 =========
 
-:template: thoughts.html
+:template: thoughts
 :slug: thoughts
 :status: published
 :lang: en

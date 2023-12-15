@@ -24,7 +24,7 @@ hr {
 }
 
 header {
-    background-image: url(../assets/lystsim/whiteshadows.jpg);
+    background-image: url(/Users/student/webdev/lysts.github.io/theme/static/whiteshadows.JPG);
     height: 80vh;
     background-size: cover;
 }
