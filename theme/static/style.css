@@ -24,7 +24,7 @@ hr {
 }
 
 header {
-    background-image: url(/Users/student/webdev/lysts.github.io/theme/static/whiteshadows.JPG);
+    background-image: url(theme/whiteshadows.JPG);
     height: 80vh;
     background-size: cover;
 }
