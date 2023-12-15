@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>lysts / mind </title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="https://lysts.xyz/theme/style.css" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge"; charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="lysts' blog and portfolio" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge"; charset="UTF-8" />
+        <meta name="description" content="lysts blog and portfolio" />
         <meta name="keywords" content="blog, lysts, github, website, static web" />
-        <link rel="icon" type="image/png" href="https://lysts.xyz/theme/lysts.png" /> 
-<!--        <style>
-        @import
-            url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Montserrat&display=swap');
-</style> --> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,700;1,6..96,700&family=Lora:ital@0;1&family=Quattrocento+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+        <link rel="icon" type="image/png" href="https://lysts.xyz/theme/logo.png" />
+        <link rel="stylesheet" type="text/css" href="https://lysts.xyz/theme/style.css" />
+        <title>lysts / mind </title>
 </head>
 
 
-<body><!--header-->
+<body class="body">
     <header>
-      <a href="https://lysts.xyz/"/><img src="/theme/lysts.png" width="40" height="40" alt="lysts logo"/>
-      <h1><a href="https://lysts.xyz">lysts</a></h1>
+        <img class="logo" href="https://lysts.xyz/" src="../static/logo.png" alt="logo" />
     </header>
-      <!--<p style="font-size: 1.1em; padding: 0 0.4em;">/<a style="padding-left: 0.4em;" href="https://lysts.xyz/archives.html">posts</a></p>-->
-    <section>
-      <p title="take a look around!">welcome, friend.</p><br />
-      <p>blog (fueled by one too many chai lattes).<br />for play and life-long learning.</p>
-      <nav id="big_pages">
-          <ul><li><a href="/pages/about-me.html">about</a></li><li><a href="/pages/cv.html">CV</a></li><li><a href="https://github.com/lysts">github</a></li></ul>
-      </nav>
-    </section>
-    <hr />
-    <br />
+
+    <h2 id="lysts"><a href="https://lysts.xyz">lysts</a></h2>
+    <div class="homepage-nav">
+        <nav class="main-nav">
+            <div><a href="./about.html">meta</a></div>
+            <div><a href="./resume.html">my roadmap</a></div>
+            <div><a href="./thoughts.html">thoughts</a></div>
+            <div><a href="./recipes.html">nom-noms</a></div>
+            <div><a href="./films.html">media</a></div> 
+        </nav>
+    </div>
+
 
 <section id="post-list">
 <ul>
@@ -80,12 +82,15 @@
 </section><br />
 
 <!--post list-->
-    </section>
+
+    <hr />
     
-    <footer>
-        <hr />
-        <p>© 2023 L, yours truly lysts</p>
-    </footer>
+    <footer class="footer">
+        <p>lysts &#169; 2023</p>
+        <div class="footer-nav">
+            <a class="e-nav-items" href="#"><img src="../static/github-mark-white.png" height="30px" width="30px" alt="GitHub"></a> 
+        </div>
+    </footer> 
 
 </body>
 </html>

@@ -1,142 +1,82 @@
-@viewport{
-  width: device-width;
-}
 
 * {
-  margin: 0 auto;
-  max-width: 900px;
-  background: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
+    /*font-family: 'Lora', serif;
+    font-family: 'Quattrocento Sans', sans-serif;*/
+    font-family: 'Bodoni Moda', serif;
 }
 
-header > * {
-  display: inline-flex;
+
+.body {
+    background-color: #181818;
 }
 
-header h1 {
-  font-size: 1.2em;
-  padding: 0 0 0 0.5em;
-}
-
-header {
-  padding: 0 0 1em 0;
-}
-
-#big_pages ul {
-  list-style: none;
-  padding: 1em 0 1em 0;
-}
-
-#big_pages li::before { 
-  content: "/";
-  padding-right: 0.3em;
-}
-
-#big_pages li {
-  display: inline-block;
-  padding-right: 0.5em;
-  align-items: center;
-}
-
-body {
-  margin-top: 1.5em;
-}
-
-/*--background-color: linear-gradient(135deg, #ededed, #e59167);}--*/
-
-/*--h1 color: #e06011;--*/
-
-#post-list {
-  display: inline-block;
-}
-
-table > tr {
-  vertical-align: top;
-  border-collapse: collapse;
-  display: inline-block;
-  white-space: normal;
-}
-
-.hentry td {
-  padding: 0 1em;
-}
-
-table > thead {
-  text-align: left;
-}
-
-#branches tr:hover td,
-#tags tr:hover td,
-#index tr:hover td,
-#log tr:hover td,
-#files tr:hover td {
-  background-color: #dad4e5;
-}
-
-/*---links--*/
-a:link {
-  color: #5052c7;
-  text-decoration: underline;
-  cursor: auto;
-}
-
-a:visited {
-  color: #6060b5;
-  text-decoration: underline;
-  cursor: auto;
-}
-
-a:link:active, a:visited:active {
-  color: #e06011;
-}
-
-a:hover {
-    /*--font-weight:bold;--*/
-  text-decoration: underline;
-  color: #e06011;
-}
-
-::selection {
-  background: #e06011;
-  color: #e0e0ff;
-}
-
-/*--a:active { color: #5751ab; }--*/
-
-#contact-form {
-  color: gray;
-  font-size: 0.90em;
-}
-
-button {
-  color: #6060b5;
+h1, h2, h3, h4, h5, h6, p {
+    color: #d9d9d0;
 }
 
 hr {
-  background-color: #e06011;
-  height: 1px;
-  border: 0;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+    border-color: rgba(57, 57, 57, 0.501);
 }
 
-footer {
-  bottom: 0;
-  min-height: 3em;
-  padding: 1em auto;
-  font-size: 0.95em;
-  width: 100%;
-} 
-
-
-.gif-container:hover {
-    transform: scale(1.1); /* Increase the size on hover */
+.logo {
+    width: 10rem;
+    height: 10rem;
 }
 
-.gif {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
+header {
+    background-image: url(/Users/student/webdev/lysts.github.io/theme/static/whiteshadows.JPG);
+    height: 80vh;
+    background-size: cover;
+}
+
+#lysts {
+    padding: 1.5rem 2rem;
+    color: #d9d9d0;
+    letter-spacing: 0.5rem;
+}
+
+.homepage-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 2rem 2rem;
+}
+
+a:link {
+    color: #d9d9d0;
+    font-family: 'Lora', sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.05rem;
+}
+
+a:hover {
+    color: #2a6c58;
+ 
+}
+
+a:active {
+    color: #2a6c58;
+}
+
+a:visited {
+    color: #d9d9d0;
+}
 
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+
+.footer p {
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    color: rgb(182, 182, 182)
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1rem;
+}
