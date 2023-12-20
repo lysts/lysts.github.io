@@ -1,27 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
 
-<section id="post-list">
-    <table>
-        <thead>
-            <tr>
-                <th><b>date</b></th>
-                <th><b>phished chips</b></th>
-                <th><b>flavour</b></th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for article in articles %}
-            <tr><article class="hentry">
-                    <td class="post-info"><time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></td><!-- /.post-info -->
-                    <td class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="take a peak?">{{ article.title }}</a></td>
-                    <td class="category"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}<a/></td>
-                </article>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-</section><br />
+
+<table class="post-list">
+    <thead>
+        <tr style="color: rgb(74, 74, 74)">
+            <th>date</th>
+            <th>phished chips</th>
+            <th>flavour</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for article in articles %}
+        <tr><article class="hentry">
+                <td class="post-info"><time style="color: gray" class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></td><!-- /.post-info -->
+                <td class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="take a peak?">{{ article.title }}</a></td>
+                <td class="category"><a style="color: gray" href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}<a/></td>
+            </article>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
 
 {% endblock content %}
 

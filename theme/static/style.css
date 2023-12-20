@@ -26,6 +26,22 @@ h1, h2, h3, h4, h5, h6, p {
   color: #d9d9d0;
 }
 
+.post-list {
+  color:#d9d9d0 
+}
+
+.post-list th, td {
+  padding: 0.5rem;
+  font-family: 'Lora', serif;
+}
+
+.post-list th {
+  letter-spacing: 0.05rem;
+  text-align: left;
+}
+
+
+
 hr {
   border-color: rgba(57, 57, 57, 0.501);
 }
@@ -81,7 +97,7 @@ a:hover {
 .footer p {
   font-size: 0.8rem;
   letter-spacing: 0.05rem;
-  color: rgb(182, 182, 182)
+  color: rgb(182, 182, 182);
 }
 
 .footer-nav {
