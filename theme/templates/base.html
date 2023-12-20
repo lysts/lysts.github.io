@@ -23,8 +23,9 @@
     <header>
         <img class="logo" href="https://lysts.xyz/" src="https://lysts.xyz/theme/logo.png" alt="logo" />
     </header>
-
     <h2 class="font2" id="lysts"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h2>
+    
+    {% block nav %}
     <div class="homepage-nav">
         <nav class="main-nav font2">
             <div><a href="{{SITEURL}}/pages/about.html">meta</a></div>
@@ -34,6 +35,7 @@
             <div><a href="{{SITEURL}}/pages/media.html">media</a></div> 
         </nav>
     </div>
+    {% endblock %}
     <div class="text-body">
     {% block content %}{% endblock %}
     </div>
