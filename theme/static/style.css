@@ -1,10 +1,11 @@
 
-* {
   /*font-family: 'Lora', serif;
-  font-family: 'Quattrocento Sans', sans-serif;*/
-  font-family: 'Bodoni Moda', serif;
-}
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Bodoni Moda', serif;*/
 
+.font1 {font-family: 'Bodoni Moda', serif}
+.font2 {font-family: 'Lora', serif}
+.font3 {font-family: 'Quattrocento Sans', sans-serif}
 
 .body {
   background-color: #181818;
@@ -12,6 +13,13 @@
 
 .text-body {
   padding: 2rem 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  /* Apply styles when the screen width is equal to or greater than 1024px (laptop screen or more) */
+  .text {
+      width: 70%;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -47,25 +55,21 @@ header {
 
 a:link {
   color: #d9d9d0;
-  font-family: 'Lora', sans-serif;
   text-decoration: none;
   letter-spacing: 0.05rem;
 }
 
-a:hover {
-  color: #2a6c58;
-
-}
-
 a:active {
-  color: #2a6c58;
+  color: rgb(201, 100, 32);
 }
 
 a:visited {
   color: #d9d9d0;
+
 }
-
-
+a:hover {
+  color: #2a6c58;
+}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -85,15 +89,12 @@ a:visited {
   gap: 1rem;
 }
 
-/* roadmap */
+/* roadmap, sourced from https://codepen.io/z-/pen/bwPBjY and https://www.sliderrevolution.com/resources/bootstrap-timeline/ */
 .roadmap-body {
 background-color: #1D1D1D;
 min-height: 100%;
-margin: 0;
-font-family: 'Droid Sans', sans-serif;
-width: calc(100% - 80px); /* Adjust the width */
 width: 100%;
-margin: auto;
+margin: 2rem 0;
 position: relative;
 left: -5px;
 display: inline-flex;
@@ -108,6 +109,7 @@ bottom: 0px;
 transform: translateX(-50%);
 width: 4px;
 background-color: #fff;
+color: lightgray;
 }
 
 .r-entries {
