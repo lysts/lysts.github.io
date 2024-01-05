@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6, p {
   color: #d9d9d0;
 }
 
+.text-body ol, ul {
+  color: #d9d9d0;
+}
+
 .post-list {
   color:#d9d9d0 
 }
