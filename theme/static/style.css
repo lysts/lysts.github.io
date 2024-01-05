@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, p {
   color: #d9d9d0;
 }
 
+#content div {
+  color: #d9d9d0;
+}
+
 .post-list {
   color:#d9d9d0 
 }
@@ -39,7 +43,6 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.05rem;
   text-align: left;
 }
-
 
 
 hr {
@@ -173,6 +176,7 @@ left:-5px;
       line-height:1.4em;
     }
   }
+
   &:nth-child(2n) {
     text-align:left;
     float:right;
