@@ -17,7 +17,7 @@ nom-noms
 
 
 Preserved Lemons
-################
+================
 
 This one, is an absolute gem to have in your fridge.
 Grab as many lemons as you can, washed, with a sterilised preservation jug and its lid.
@@ -48,7 +48,7 @@ Some of my favourite ways to use preserved lemon is by...
 * alternatively, asian noodles with clear broth! and many more.
 
 Earl Grey Chiffon Cake
-######################
+======================
 
 Drier than pound cake and less sweet than sponge cake, its flavours are subtle and not at all overpowering. It invites you to add a dollop of freshly whipped cream (dairy or oat), and listen to flavours other than sweetness that seems to speak quite loudly despite its porous, light texture.
 The earl grey flavour is perfect for this, with its bergamot oil notes accompanying the deeper flavours of the tanned skin of the cake.
