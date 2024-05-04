@@ -1,5 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - notes</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/notes.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2024-05-04T15:58:00+01:00</updated><entry><title>nom-noms</title><link href="https://lysts.xyz/nom-noms.html" rel="alternate"></link><published>2024-05-04T15:58:00+01:00</published><updated>2024-05-04T15:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2024-05-04:/nom-noms.html</id><summary type="html">&lt;p class="first last"&gt;a list of homemade foods that have sparked joy in my life.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - notes</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/notes.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2024-05-04T17:04:00+01:00</updated><entry><title>notable multimedia</title><link href="https://lysts.xyz/media.html" rel="alternate"></link><published>2024-05-04T17:04:00+01:00</published><updated>2024-05-04T17:04:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2024-05-04:/media.html</id><summary type="html">&lt;p class="first last"&gt;thought-provoking multimedia&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#art" id="toc-entry-1"&gt;Art&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#objects" id="toc-entry-2"&gt;Objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#modern-composers" id="toc-entry-3"&gt;Modern Composers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#albums-that-ascend" id="toc-entry-4"&gt;Albums that Ascend!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#films" id="toc-entry-5"&gt;Films&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="art"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;Art&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;John Singer Sargant - &amp;quot;Carnation, Lily, Lily, Rose&amp;quot; 1887&lt;/li&gt;
+&lt;li&gt;Joseph Mallord William Turner - &amp;quot;Rain, Steam, and Speed&amp;quot; 1844, Interior of Tintern Abbey Monmouthshire 1794&lt;/li&gt;
+&lt;li&gt;Owen Gent - Icarus (Based on song, Icarus, written by Anne Lister, performed by Nic Jones) 2017&lt;/li&gt;
+&lt;li&gt;Andrea Serio - colour pencil illustrations&lt;/li&gt;
+&lt;li&gt;Jef Bourgeau - 1950 landscapes&lt;/li&gt;
+&lt;li&gt;Tony Meeuwissen - playing cards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="objects"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;Objects&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Kinto water bottles: texture feels like climbing holds, satisfying to grasp with a uniform, simplistic interesting outer design. Lightweight and holds hot and cold beverages.&lt;/li&gt;
+&lt;li&gt;supatto bags: conveniently folded like origami into compact shape but durable and holds heavy groceries or clothes when unravelled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="modern-composers"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;Modern Composers&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Caroline Shaw - string quartet and room of teeth works&lt;/li&gt;
+&lt;li&gt;Ben Nobuto - multi-instrumentalist, composer, and performer&lt;/li&gt;
+&lt;li&gt;Steve Reich - contemporary classical&lt;/li&gt;
+&lt;li&gt;Colin Stetson - saxophonist&lt;/li&gt;
+&lt;li&gt;Tigram Hamasyan - Armenian jazz fusion composer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="albums-that-ascend"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;Albums that Ascend!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;(artist - albumn name)
+* Avalanches - Since I Left You
+* Steve Reich - Electric Counterpoint
+* Caroline Shaw - Orange
+* Fabio Caramuru - Ecomusica: Conversas de um Piano Com a Fauna Brasileira
+* Three Trapped Tigers - Numbers: 1-13
+* Tigran Hamasyan - For Gyumri
+* Paranoid Void - Literary Math
+* Il Giardino Armonico - The Collected Recordings of Il Giardino Armonico
+* Snarky Puppy - We Like it Here
+* Hiatus Kaiyote - Tawk Tomohawk
+* Yussef Dayes - The Yussef Dayes Experience Live from Malibu
+* Sweet Trip - Velocity: Design: Comfort.
+* Linkin Park - Reanimation
+* And So I Watch You from Afar - The Endless Shimmering
+* VOCES8 - Lux
+* Danish String Quartet - Last Leaf
+* Bon Iver - i,i
+* Keith Jarrett - The Melody At Night, With You
+* Fleet Foxes - Fleet Foxes
+* Hilary Hahn - Silfra
+* Bulgarian Voices Angelite - Legend
+* CAPSULE - NEXUS-2060&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="films"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;Films&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Poor Things&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;encapsulates the beauty of being unapologetically oneself, as well as conventional societal &amp;quot;norms&amp;quot; and how they affect our behaviour.&lt;/li&gt;
+&lt;li&gt;watched early 2024&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Pig&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;poetic, quiet in dialogue but beautifully shot and emotionally gripping.&lt;/li&gt;
+&lt;li&gt;watch as Nicholas Cage desperately tries to reunite with his truffle pig.&lt;/li&gt;
+&lt;li&gt;watched summer 2022.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;12 Angry Men&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;a powerful film about social justice&lt;/li&gt;
+&lt;li&gt;90% of this film, was set in one room&lt;/li&gt;
+&lt;li&gt;black and white film that truly captures the dangers of human bias, discrimmination, and lack of critical thinking in something as life-changing as imprisonment.&lt;/li&gt;
+&lt;li&gt;one man questions the truth, against 11 men&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Women Talking&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;as an AFAB human, I resonated with the pain and anger the women in the film experienced, albeit their society being more heavily burdened by mysoginistic men and the expectations, rules, and restrictions that they have imposed on their lifestyle and life choices.&lt;/li&gt;
+&lt;li&gt;set mostly in a barn where women and children of a small community in the USA, open up about the atrocities they have experienced throughout their lifetimes as they are left with little time and space to decide whether or not to part with their home for freedom.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="notes"></category><category term="movies"></category><category term="books"></category><category term="music"></category><category term="art"></category><category term="objects"></category></entry><entry><title>nom-noms</title><link href="https://lysts.xyz/nom-noms.html" rel="alternate"></link><published>2024-05-04T15:58:00+01:00</published><updated>2024-05-04T15:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2024-05-04:/nom-noms.html</id><summary type="html">&lt;p class="first last"&gt;a list of homemade foods that have sparked joy in my life.&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
