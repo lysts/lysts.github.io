@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - notes</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/notes.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-10-15T18:42:00+01:00</updated><entry><title>becoming a software engineer</title><link href="https://lysts.xyz/my-career-journey.html" rel="alternate"></link><published>2023-10-15T18:42:00+01:00</published><updated>2023-10-15T18:42:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-10-15:/my-career-journey.html</id><summary type="html">&lt;p class="first last"&gt;how I went from knowing nothing to just enough and more&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - notes</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/notes.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2024-05-04T15:58:00+01:00</updated><entry><title>nom-noms</title><link href="https://lysts.xyz/nom-noms.html" rel="alternate"></link><published>2024-05-04T15:58:00+01:00</published><updated>2024-05-04T15:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2024-05-04:/nom-noms.html</id><summary type="html">&lt;p class="first last"&gt;a list of homemade foods that have sparked joy in my life.&lt;/p&gt;
+</summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#preserved-lemons" id="toc-entry-1"&gt;Preserved Lemons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#earl-grey-chiffon-cake" id="toc-entry-2"&gt;Earl Grey Chiffon Cake&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="preserved-lemons"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;Preserved Lemons&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This one, is an absolute gem to have in your fridge.
+Grab as many lemons as you can, washed, with a sterilised preservation jug and its lid.
+Preparation:
+------------
+1. Cut the lemon from the end with the remains of style, towards the pedicel, about 3/4 of the way, dividing the lemon into quarters.
+2. Shove salt generously between these lemon petals, making sure you get over teaspoons worth of salt wedged into each lemon.
+3. Stuff each lemon as you repeat this process, into the preservation jug with layers of salt. Press down vigorouly as you go.
+4. Good job. Once you wedged these lemons in nice and tight, we want this lemon orgy to be submerged within its own juices. Press!
+5. Lid this jug (you may require a beaded weight in a glass cup or miniature jar to keep the lemons submerged and lid on).
+6. Wait for a month, or until the skin is easily tearable and edible, with a deep citrus flavour and the saltiness of the sea.
+How to use:
+-----------
+Some of my favourite ways to use preserved lemon is by...
+* adding it to a heavy pasta, example: smoked salmon and spinach cream pasta, to add a tangy shot of freshness that cuts through the cream
+* similarly, adding it to sweet vegetable dishes. My absolute favourite was when my dear friend Felix made this excellent side dish with &lt;strong&gt;steamed golden beetroot&lt;/strong&gt;, topped with greek yoghurt, dill, and chopped preserved lemon. I have recreated this dish numerous times and found that creating an aleppo chilli sauce by Ottolenghi works quite well with this dish.
+* alternatively, asian noodles with clear broth! and many more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="earl-grey-chiffon-cake"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;Earl Grey Chiffon Cake&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Drier than pound cake and less sweet than sponge cake, its flavours are subtle and not at all overpowering. It invites you to add a dollop of freshly whipped cream (dairy or oat), and listen to flavours other than sweetness that seems to speak quite loudly despite its porous, light texture.
+The earl grey flavour is perfect for this, with its bergamot oil notes accompanying the deeper flavours of the tanned skin of the cake.
+Similarly, I would recommend having earl grey flavours in biscuits, with lemon zest icing (I know, I have been quite obsessed with lemon recently).&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="notes"></category><category term="health"></category><category term="food"></category></entry><entry><title>becoming a software engineer</title><link href="https://lysts.xyz/my-career-journey.html" rel="alternate"></link><published>2023-10-15T18:42:00+01:00</published><updated>2023-10-15T18:42:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-10-15:/my-career-journey.html</id><summary type="html">&lt;p class="first last"&gt;how I went from knowing nothing to just enough and more&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
