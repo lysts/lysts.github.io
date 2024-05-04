@@ -1,9 +1,9 @@
-===================================
-12 (Banal) Facts About My Existence
-===================================
+========
+Identity
+========
 
-:template: aboutme
-:slug: about-me
+:template: identity
+:slug: identity
 :status: published
 :lang: en
 
