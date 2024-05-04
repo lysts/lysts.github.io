@@ -41,8 +41,8 @@ Preparation
 
 6. Wait for a month, or until the skin is easily tearable and edible, with a deep citrus flavour and the saltiness of the sea.
 
-How to use
-----------
+Recommended Usage
+-----------------
 
 Some of my favourite ways to use preserved lemon is by...
 * adding it to a heavy pasta, |ex| smoked salmon and spinach cream pasta, to add a tangy shot of freshness that cuts through the cream
