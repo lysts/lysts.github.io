@@ -43,7 +43,7 @@ I wanted to deeply learn Python but also pick up Javascript and Typescript as I 
 The process
 ===========
 Steps:
-1. focus on learning programming languages, deeply
+1. focus on learning programming languages
 2. learn fundamental concepts and practice problem solving
 3. practice is where it all starts; test your learning
 4. work on a project to aid your learning

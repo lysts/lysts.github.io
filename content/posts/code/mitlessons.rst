@@ -18,8 +18,6 @@ introduction to algorithms
 
 
 
-
-
 Algorithms & Computation
 ========================
 communicating computational problem solving, its efficiency and correctness

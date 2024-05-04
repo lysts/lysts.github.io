@@ -25,17 +25,17 @@ To be spent and to be protected
 ===============================
 Health. It's pretty easy to fall into the habit of taking our health for granted
 (guilty as charged)... Getting into healthy habits takes time and we
-often put it off pointing out that single piece of pizza, losing heat at the
+often put it off pointing out that lonely piece of pizza, losing heat at the
 intersection of four relatively hungry friends. 
 
-Though blatantly obvious, it's sometimes difficult to remind ourselves of how
-that beautifully refreshing and invigorating exercise euphoria feels. Not only
+Though blatantly obvious, it's sometimes difficult to remind ourselves of the 
+beautifully refreshing and invigorating euphoria feels exercise grants us. Not only
 that, but improved physical and mental strength, like when you climb up a
-flight of stairs and realise that that core strengthening exercise really paid
+flight of stairs and realise that core strengthening exercises are really paying
 off.
 
-Albeit this blog serving as a reminder laundry bag to myself, take or leave as many tokens as
-you'd like; here are some of my mobility habits:
+How much exercise is too much? How much is sustainable? How much do we actually need? What ruins us and what doesn't?
+Here are my tokens from testing a few different habits:
 
 Mobility habits of choice
 '''''''''''''''''''''''''
