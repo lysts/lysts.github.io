@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - compsci, workflow</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/compsci-workflow.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-07-11T18:06:00+01:00</updated><entry><title>my current set-up, for a reductive workflow</title><link href="https://lysts.xyz/terminal-centric-setup.html" rel="alternate"></link><published>2023-07-11T18:06:00+01:00</published><updated>2023-07-11T18:06:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/terminal-centric-setup.html</id><summary type="html">&lt;p class="first last"&gt;tools revolving around terminal for reductive workflow&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#iterm2-my-cli" id="toc-entry-1"&gt;iTerm2, my CLI&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#more-key-software" id="toc-entry-2"&gt;More Key Software&lt;/a&gt;&lt;/li&gt;

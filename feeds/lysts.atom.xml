@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>lysts - lysts</title><link href="https://lysts.xyz/" rel="alternate"></link><link href="https://lysts.xyz/feeds/lysts.atom.xml" rel="self"></link><id>https://lysts.xyz/</id><updated>2023-10-15T18:42:00+01:00</updated><entry><title>becoming a software engineer</title><link href="https://lysts.xyz/my-career-journey.html" rel="alternate"></link><published>2023-10-15T18:42:00+01:00</published><updated>2023-10-15T18:42:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-10-15:/my-career-journey.html</id><summary type="html">&lt;p class="first last"&gt;how I went from knowing nothing to just enough and more&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#my-journey-so-far" id="toc-entry-1"&gt;my journey so far&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#re-working-my-workflow" id="toc-entry-2"&gt;re-working my workflow&lt;/a&gt;&lt;/li&gt;
@@ -38,7 +38,7 @@
 &lt;div class="section" id="the-process"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;The process&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Steps:
-1. focus on learning programming languages, deeply
+1. focus on learning programming languages
 2. learn fundamental concepts and practice problem solving
 3. practice is where it all starts; test your learning
 4. work on a project to aid your learning
@@ -53,7 +53,7 @@
 &lt;/div&gt;
 </content><category term="notes"></category><category term="career"></category><category term="software"></category><category term="programming"></category></entry><entry><title>good software architect practices</title><link href="https://lysts.xyz/software-architect.html" rel="alternate"></link><published>2023-10-09T11:49:00+01:00</published><updated>2023-10-09T11:49:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-10-09:/software-architect.html</id><summary type="html">&lt;p class="first last"&gt;notes on software architecture, based on roadmap.sh&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#software-architecture-practices" id="toc-entry-1"&gt;software architecture practices&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#levels-of-architecture" id="toc-entry-2"&gt;levels of architecture&lt;/a&gt;&lt;ul&gt;
@@ -170,7 +170,7 @@ Also, Technology Radar from thoughtworks provides categorised insight on tools, 
 &lt;/div&gt;
 </content><category term="notes"></category><category term="software"></category></entry><entry><title>exploring minimalism</title><link href="https://lysts.xyz/exploring-minimalism.html" rel="alternate"></link><published>2023-09-11T16:30:00+01:00</published><updated>2023-09-11T16:30:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-09-11:/exploring-minimalism.html</id><summary type="html">&lt;p class="first last"&gt;an ex-hoarder's journey with practicing minimalism&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#rules" id="toc-entry-1"&gt;Rules&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -233,7 +233,7 @@ intuitive css-specific design. Caveat.. Javascript - would bulk page:(&lt;/p&gt;
 </content><category term="webdev"></category><category term="css"></category><category term="html"></category><category term="github"></category></entry><entry><title>newb to code... and to climbing</title><link href="https://lysts.xyz/keeping-active.html" rel="alternate"></link><published>2023-07-30T19:01:00+01:00</published><updated>2023-07-30T19:01:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-30:/keeping-active.html</id><summary type="html">&lt;p class="first last"&gt;keeping active, challenging a new sport, how it plays into my journey
 with programming&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#to-be-spent-and-to-be-protected" id="toc-entry-1"&gt;To be spent and to be protected&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#mobility-habits-of-choice" id="toc-entry-2"&gt;Mobility habits of choice&lt;/a&gt;&lt;/li&gt;
@@ -247,15 +247,15 @@ with programming&lt;/p&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;To be spent and to be protected&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Health. It's pretty easy to fall into the habit of taking our health for granted
 (guilty as charged)... Getting into healthy habits takes time and we
-often put it off pointing out that single piece of pizza, losing heat at the
+often put it off pointing out that lonely piece of pizza, losing heat at the
 intersection of four relatively hungry friends.&lt;/p&gt;
-&lt;p&gt;Though blatantly obvious, it's sometimes difficult to remind ourselves of how
-that beautifully refreshing and invigorating exercise euphoria feels. Not only
+&lt;p&gt;Though blatantly obvious, it's sometimes difficult to remind ourselves of the
+beautifully refreshing and invigorating euphoria feels exercise grants us. Not only
 that, but improved physical and mental strength, like when you climb up a
-flight of stairs and realise that that core strengthening exercise really paid
+flight of stairs and realise that core strengthening exercises are really paying
 off.&lt;/p&gt;
-&lt;p&gt;Albeit this blog serving as a reminder laundry bag to myself, take or leave as many tokens as
-you'd like; here are some of my mobility habits:&lt;/p&gt;
+&lt;p&gt;How much exercise is too much? How much is sustainable? How much do we actually need? What ruins us and what doesn't?
+Here are my tokens from testing a few different habits:&lt;/p&gt;
 &lt;div class="section" id="mobility-habits-of-choice"&gt;
 &lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;Mobility habits of choice&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;1. Yoga
@@ -367,7 +367,7 @@ mental block to simply do things and get things done.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="notes"></category><category term="health"></category><category term="mind"></category><category term="sport"></category></entry><entry><title>introduction to algorithms</title><link href="https://lysts.xyz/intro-to-algorithms.html" rel="alternate"></link><published>2023-07-25T11:11:00+01:00</published><updated>2023-07-25T11:11:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-25:/intro-to-algorithms.html</id><summary type="html">&lt;p class="first last"&gt;notes on recorded introductory compsci lectures (1/2) available at MIT OpenCourseWare&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#algorithms-computation" id="toc-entry-1"&gt;Algorithms &amp;amp; Computation&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#what-is-a-computational-problem" id="toc-entry-2"&gt;what is a computational problem?&lt;/a&gt;&lt;/li&gt;
@@ -597,7 +597,7 @@ if any k ops take =&amp;lt; k*T(n) time
 &lt;/div&gt;
 </content><category term="code"></category><category term="algorithms"></category><category term="compsci"></category></entry><entry><title>my current set-up, for a reductive workflow</title><link href="https://lysts.xyz/terminal-centric-setup.html" rel="alternate"></link><published>2023-07-11T18:06:00+01:00</published><updated>2023-07-11T18:06:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-07-11:/terminal-centric-setup.html</id><summary type="html">&lt;p class="first last"&gt;tools revolving around terminal for reductive workflow&lt;/p&gt;
 </summary><content type="html">&lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#iterm2-my-cli" id="toc-entry-1"&gt;iTerm2, my CLI&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#more-key-software" id="toc-entry-2"&gt;More Key Software&lt;/a&gt;&lt;/li&gt;
@@ -677,7 +677,7 @@ file management, with a directory tree view, allowing file previews, operations 
 </content><category term="notes"></category><category term="github"></category></entry><entry><title>building this website — a series of firsts</title><link href="https://lysts.xyz/building-this-website.html" rel="alternate"></link><published>2023-06-30T04:58:00+01:00</published><updated>2023-06-30T04:58:00+01:00</updated><author><name>lysts</name></author><id>tag:lysts.xyz,2023-06-30:/building-this-website.html</id><summary type="html">&lt;p class="first last"&gt;web-building with pelican, css, and html&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;This is my first webdev project.&lt;/p&gt;
 &lt;div class="contents topic" id="table-of-contents"&gt;
-&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;p class="topic-title"&gt;&lt;a class="reference internal" href="#top"&gt;Table of Contents&lt;/a&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#birthing-this-love-child" id="toc-entry-1"&gt;birthing this love child&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#setting-up-my-reductive-workflow" id="toc-entry-2"&gt;setting up my reductive workflow&lt;/a&gt;&lt;/li&gt;
