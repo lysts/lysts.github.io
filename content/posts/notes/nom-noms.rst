@@ -25,7 +25,11 @@ Grab as many lemons as you can, washed, with a sterilised preservation jug and i
 Preparation
 -----------
 
-1. Cut the lemon from the end with the remains of style, towards the pedicel, about 3/4 of the way, dividing the lemon into quarters.
+.. image:: images/lemonparts.png
+   :width: 300
+   :alt: parts of a lemon
+
+1. Cut the lemon from the end with the remains of style, towards the pedicel, about 3/4 of the way, dividing the lemon into quarters. Image above, to help you navigate the complicated anatomy of a lemon.
 
 2. Shove salt generously between these lemon petals, making sure you get over teaspoons worth of salt wedged into each lemon.
 
