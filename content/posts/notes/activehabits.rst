@@ -74,8 +74,7 @@ some struggles I've had and leave some pointers:
 
 Make sure you give yourself rest days! I cannot emphasize this enough. You will thank me later.
 
-4. Tennis & Football:
-
+4. Tennis & Football
 - stress relieving
 - satisfying to smash/kick a ball
 - game element, strategy
