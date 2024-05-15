@@ -14,48 +14,43 @@ newb to code... and to climbing
 .. |ex| replace:: example:
 
 
-
-
 .. contents:: Table of Contents
     :depth: 2
     :backlinks: entry
 
 
+
 To be spent and to be protected
 ===============================
-Health. It's pretty easy to fall into the habit of taking our health for granted
-(guilty as charged)... Getting into healthy habits takes time and we
-often put it off pointing out that lonely piece of pizza, losing heat at the
-intersection of four relatively hungry friends. 
+Health. It's pretty easy to take good health for granted (guilty as charged)... 
+Getting into healthy habits takes time and we often put it off.
 
-Though blatantly obvious, it's sometimes difficult to remind ourselves of the 
-beautifully refreshing and invigorating euphoria feels exercise grants us. Not only
-that, but improved physical and mental strength, like when you climb up a
-flight of stairs and realise that core strengthening exercises are really paying
-off.
+Sometimes, it's worth a bit of sweat to feel that beautifully refreshing and invigorating euphoria after a workout or a run in the wild. 
+Say hello to both improved physical and mental strength! And that moment when you climb a flight of stairs and 
+realise that core strengthening exercises are really paying off.
 
-How much exercise is too much? How much is sustainable? How much do we actually need? What ruins us and what doesn't?
-Here are my tokens from testing a few different habits:
+How much exercise is too much? How much is sustainable? How much do we actually need? 
+Here are my few tokens of advise for those who are in search of a new active habit:
 
 Mobility habits of choice
 '''''''''''''''''''''''''
 1. Yoga
-This has been a constant hell yes in my repertoire. What I love about it:
+This has been a constant hell yes in my repertoire. 
+What I love about it:
 
-- requires just a mat, some space, and you of course
+- requires just a single mat, some space, and you of course
 - take it outdoors or indoors
 - make it solo or social
 - plethora of moves, flows, variations
 - decompresses, twists, challenges and relaxes the body
 
-Thus, you can identify your needs, chop up a sequence, stich em up together by choice 
-and there you go, your perfect regimen.
+There is so much breadth and depth to yoga. You can identify your needs and compose your own 
+sequence of moves for a perfect regimen.
 
-Ease into building mind-to-muscle connections with intention. A simple flow can
-help you stretch and awaken muscles throughout your entire body in your
-mornings. A more intense session can make you sweat, really engage your
-core, build muscle anywhere you desire, and improve your flexiibility,
-simultaneously. 
+Ease into building mind-to-muscle connections with intentional practise. A simple flow can
+help you stretch and awaken muscles throughout your entire body in the mornings.
+A more intense session can make you sweat, really engage your
+core, build muscle anywhere you desire, and simultaneously improve your flexibility.
 
 2. Pilates
 I see this as an extension of yoga, where you...:
@@ -70,13 +65,14 @@ I see this as an extension of yoga, where you...:
     your limbs are placed, movements, and your posture
 
 3. Running
-This is perhaps more commercial so I won't delve but I suppose I'll touch on
-some struggles I've had to leave some pointers: 
+This is more commercial so I won't delve but I suppose I'll touch on
+some struggles I've had and leave some pointers: 
 
-- not pacing myself properly —› start small, even if it feels easy
+- not pacing myself properly —› start small, even if it feels easy on day 1, you have plenty of days ahead of you to push your limits
 - long-term consistency —› timeblock in your schedule, find a friend to run with
 - post-exercise coughing —› keep walking outside whilst you cool down (avoid sitting straight down in a badly ventilated indoor space)
 
+Make sure you give yourself rest days! I cannot emphasize this enough. You will thank me later.
 
 4. Tennis & Football:
 
@@ -90,8 +86,8 @@ of the week on weekends. It can be rewarding to practice precision, the types of
 pre-determined trajectory or tactic. It really works your arms and legs and
 reflexiveness. 
 
-The recent addition!
-''''''''''''''''''''
+Some of my favourites!
+''''''''''''''''''''''
 5. Climbing (bouldering)
 So far, each time I've climbed, I've gone with an experienced climber. Each time,
 I have noticed that they move with smoothness and reduced inefficient movement
@@ -129,7 +125,7 @@ But learning that...:
 has honestly led to immense self-growth in a short amount of time:)::
 
     Just yesterday, I went climbing, and felt proud of myself when I managed to clear 
-    a path I thought I wouldn't manage. I felt stuck 80% of the way up and had to rest 
+    a route I thought I wouldn't manage. I felt stuck 80% of the way up and had to rest 
     about 3-4 meters above ground due to muscle fatigue. 
     But after giving myself a moment, I pushed myself up to the last grip. And boy,
     was it undeniably satisfying.
